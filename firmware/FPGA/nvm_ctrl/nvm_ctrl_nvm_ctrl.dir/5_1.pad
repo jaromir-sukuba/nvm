@@ -1,0 +1,263 @@
+PAD Specification File
+***************************
+
+PART TYPE:        LCMXO2-1200HC
+Performance Grade:      5
+PACKAGE:          TQFP100
+Package Status:                     Final          Version 1.42
+
+Sun May  8 22:04:09 2022
+
+Pinout by Port Name:
++-----------+----------+--------------+-------+-----------+-----------+--------------------------------------+
+| Port Name | Pin/Bank | Buffer Type  | Site  | PG Enable | BC Enable | Properties                           |
++-----------+----------+--------------+-------+-----------+-----------+--------------------------------------+
+| AD_ACLK   | 40/2     | LVCMOS25_OUT | PB15A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| AD_ACS    | 42/2     | LVCMOS25_OUT | PB18A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| AD_ADO    | 41/2     | LVCMOS25_IN  | PB15B |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| AZ_SW     | 18/3     | LVCMOS25_OUT | PL8C  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| CLK_32M   | 88/0     | LVCMOS25_IN  | PT12A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| CLK_OUT   | 31/2     | LVCMOS25_OUT | PB6C  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| COMP_IN   | 51/1     | LVCMOS25_IN  | PR10D |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| CON_START | 36/2     | LVCMOS25_IN  | PB11C |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| DEBUG_TP1 | 27/2     | LVCMOS25_OUT | PB4C  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| DEBUG_TP2 | 28/2     | LVCMOS25_OUT | PB4D  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| DEBUG_TP3 | 29/2     | LVCMOS25_OUT | PB6A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| FEN_A     | 59/1     | LVCMOS25_OUT | PR8D  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| FEN_B     | 57/1     | LVCMOS25_OUT | PR9B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| FEN_C     | 58/1     | LVCMOS25_OUT | PR9A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| JA_C1     | 67/1     | LVCMOS25_OUT | PR4C  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| JA_C2     | 65/1     | LVCMOS25_OUT | PR5A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| JA_C3     | 63/1     | LVCMOS25_OUT | PR5C  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| JA_CS     | 61/1     | LVCMOS25_OUT | PR8A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| JA_DIN    | 64/1     | LVCMOS25_OUT | PR5B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| JA_SCK    | 60/1     | LVCMOS25_OUT | PR8C  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| LED       | 12/3     | LVCMOS25_OUT | PL5A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| LED2      | 13/3     | LVCMOS25_OUT | PL5B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| MAG1      | 75/1     | LVCMOS25_OUT | PR2A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| MAG10     | 71/1     | LVCMOS25_OUT | PR3A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| MAG100    | 69/1     | LVCMOS25_OUT | PR4A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| MS_A0     | 68/1     | LVCMOS25_OUT | PR4B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| MS_A1     | 70/1     | LVCMOS25_OUT | PR3B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| MS_A2     | 74/1     | LVCMOS25_OUT | PR2B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| PW1       | 19/3     | LVCMOS25_OUT | PL8D  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| PW2       | 20/3     | LVCMOS25_OUT | PL9A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| RE1A      | 3/3      | LVCMOS25_OUT | PL3A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| RE1B      | 8/3      | LVCMOS25_OUT | PL3D  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| RE2A      | 9/3      | LVCMOS25_OUT | PL4A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| RE2B      | 10/3     | LVCMOS25_OUT | PL4B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| RE3       | 1/3      | LVCMOS25_OUT | PL2C  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| RE4       | 2/3      | LVCMOS25_OUT | PL2D  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| RESET     | 39/2     | LVCMOS25_IN  | PB11B |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| SU_A      | 16/3     | LVCMOS25_OUT | PL8A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| SU_B      | 17/3     | LVCMOS25_OUT | PL8B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| SW_IN     | 53/1     | LVCMOS25_OUT | PR9D  |           |           | DRIVE:8mA PULL:DOWN SLEW:FAST        |
+| SW_N      | 52/1     | LVCMOS25_OUT | PR10C |           |           | DRIVE:4mA PULL:DOWN SLEW:FAST        |
+| SW_P      | 54/1     | LVCMOS25_OUT | PR9C  |           |           | DRIVE:4mA PULL:DOWN SLEW:FAST        |
+| UART_RX   | 37/2     | LVCMOS25_IN  | PB11D |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| UART_TX   | 38/2     | LVCMOS25_OUT | PB11A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
++-----------+----------+--------------+-------+-----------+-----------+--------------------------------------+
+
+Vccio by Bank:
++------+-------+
+| Bank | Vccio |
++------+-------+
+| 0    | 2.5V  |
+| 1    | 2.5V  |
+| 2    | 2.5V  |
+| 3    | 2.5V  |
++------+-------+
+
+Vref by Bank:
++------+-----+-----------------+---------+
+| Vref | Pin | Bank # / Vref # | Load(s) |
++------+-----+-----------------+---------+
++------+-----+-----------------+---------+
+
+Pinout by Pin Number:
++----------+-----------------------+------------+--------------+-------+---------------+-----------+-----------+
+| Pin/Bank | Pin Info              | Preference | Buffer Type  | Site  | Dual Function | PG Enable | BC Enable |
++----------+-----------------------+------------+--------------+-------+---------------+-----------+-----------+
+| 1/3      | RE3                   | LOCATED    | LVCMOS25_OUT | PL2C  | L_GPLLT_IN    |           |           |
+| 2/3      | RE4                   | LOCATED    | LVCMOS25_OUT | PL2D  | L_GPLLC_IN    |           |           |
+| 3/3      | RE1A                  | LOCATED    | LVCMOS25_OUT | PL3A  | PCLKT3_2      |           |           |
+| 4/3      |     unused, PULL:DOWN |            |              | PL3B  | PCLKC3_2      |           |           |
+| 7/3      |     unused, PULL:DOWN |            |              | PL3C  |               |           |           |
+| 8/3      | RE1B                  | LOCATED    | LVCMOS25_OUT | PL3D  |               |           |           |
+| 9/3      | RE2A                  | LOCATED    | LVCMOS25_OUT | PL4A  |               |           |           |
+| 10/3     | RE2B                  | LOCATED    | LVCMOS25_OUT | PL4B  |               |           |           |
+| 12/3     | LED                   | LOCATED    | LVCMOS25_OUT | PL5A  | PCLKT3_1      |           |           |
+| 13/3     | LED2                  | LOCATED    | LVCMOS25_OUT | PL5B  | PCLKC3_1      |           |           |
+| 14/3     |     unused, PULL:DOWN |            |              | PL5C  |               |           |           |
+| 15/3     |     unused, PULL:DOWN |            |              | PL5D  |               |           |           |
+| 16/3     | SU_A                  | LOCATED    | LVCMOS25_OUT | PL8A  |               |           |           |
+| 17/3     | SU_B                  | LOCATED    | LVCMOS25_OUT | PL8B  |               |           |           |
+| 18/3     | AZ_SW                 | LOCATED    | LVCMOS25_OUT | PL8C  |               |           |           |
+| 19/3     | PW1                   | LOCATED    | LVCMOS25_OUT | PL8D  |               |           |           |
+| 20/3     | PW2                   | LOCATED    | LVCMOS25_OUT | PL9A  | PCLKT3_0      |           |           |
+| 21/3     |     unused, PULL:DOWN |            |              | PL9B  | PCLKC3_0      |           |           |
+| 24/3     |     unused, PULL:DOWN |            |              | PL10C |               |           |           |
+| 25/3     |     unused, PULL:DOWN |            |              | PL10D |               |           |           |
+| 27/2     | DEBUG_TP1             | LOCATED    | LVCMOS25_OUT | PB4C  | CSSPIN        |           |           |
+| 28/2     | DEBUG_TP2             | LOCATED    | LVCMOS25_OUT | PB4D  |               |           |           |
+| 29/2     | DEBUG_TP3             | LOCATED    | LVCMOS25_OUT | PB6A  |               |           |           |
+| 30/2     |     unused, PULL:DOWN |            |              | PB6B  |               |           |           |
+| 31/2     | CLK_OUT               | LOCATED    | LVCMOS25_OUT | PB6C  | MCLK/CCLK     |           |           |
+| 32/2     |     unused, PULL:DOWN |            |              | PB6D  | SO/SPISO      |           |           |
+| 34/2     |     unused, PULL:DOWN |            |              | PB9A  | PCLKT2_0      |           |           |
+| 35/2     |     unused, PULL:DOWN |            |              | PB9B  | PCLKC2_0      |           |           |
+| 36/2     | CON_START             | LOCATED    | LVCMOS25_IN  | PB11C |               |           |           |
+| 37/2     | UART_RX               | LOCATED    | LVCMOS25_IN  | PB11D |               |           |           |
+| 38/2     | UART_TX               | LOCATED    | LVCMOS25_OUT | PB11A | PCLKT2_1      |           |           |
+| 39/2     | RESET                 |            | LVCMOS25_IN  | PB11B | PCLKC2_1      |           |           |
+| 40/2     | AD_ACLK               | LOCATED    | LVCMOS25_OUT | PB15A |               |           |           |
+| 41/2     | AD_ADO                | LOCATED    | LVCMOS25_IN  | PB15B |               |           |           |
+| 42/2     | AD_ACS                | LOCATED    | LVCMOS25_OUT | PB18A |               |           |           |
+| 43/2     |     unused, PULL:DOWN |            |              | PB18B |               |           |           |
+| 45/2     |     unused, PULL:DOWN |            |              | PB18C |               |           |           |
+| 47/2     |     unused, PULL:DOWN |            |              | PB18D |               |           |           |
+| 48/2     |     unused, PULL:DOWN |            |              | PB20C | SN            |           |           |
+| 49/2     |     unused, PULL:DOWN |            |              | PB20D | SI/SISPI      |           |           |
+| 51/1     | COMP_IN               | LOCATED    | LVCMOS25_IN  | PR10D | DQ1           |           |           |
+| 52/1     | SW_N                  | LOCATED    | LVCMOS25_OUT | PR10C | DQ1           |           |           |
+| 53/1     | SW_IN                 | LOCATED    | LVCMOS25_OUT | PR9D  | DQ1           |           |           |
+| 54/1     | SW_P                  | LOCATED    | LVCMOS25_OUT | PR9C  | DQ1           |           |           |
+| 57/1     | FEN_B                 | LOCATED    | LVCMOS25_OUT | PR9B  | DQ1           |           |           |
+| 58/1     | FEN_C                 | LOCATED    | LVCMOS25_OUT | PR9A  | DQ1           |           |           |
+| 59/1     | FEN_A                 | LOCATED    | LVCMOS25_OUT | PR8D  | DQ1           |           |           |
+| 60/1     | JA_SCK                | LOCATED    | LVCMOS25_OUT | PR8C  | DQ1           |           |           |
+| 61/1     | JA_CS                 | LOCATED    | LVCMOS25_OUT | PR8A  | DQS1          |           |           |
+| 62/1     |     unused, PULL:DOWN |            |              | PR5D  | PCLKC1_0/DQ0  |           |           |
+| 63/1     | JA_C3                 | LOCATED    | LVCMOS25_OUT | PR5C  | PCLKT1_0/DQ0  |           |           |
+| 64/1     | JA_DIN                | LOCATED    | LVCMOS25_OUT | PR5B  | DQS0N         |           |           |
+| 65/1     | JA_C2                 | LOCATED    | LVCMOS25_OUT | PR5A  | DQS0          |           |           |
+| 66/1     |     unused, PULL:DOWN |            |              | PR4D  | DQ0           |           |           |
+| 67/1     | JA_C1                 | LOCATED    | LVCMOS25_OUT | PR4C  | DQ0           |           |           |
+| 68/1     | MS_A0                 | LOCATED    | LVCMOS25_OUT | PR4B  | DQ0           |           |           |
+| 69/1     | MAG100                | LOCATED    | LVCMOS25_OUT | PR4A  | DQ0           |           |           |
+| 70/1     | MS_A1                 | LOCATED    | LVCMOS25_OUT | PR3B  | DQ0           |           |           |
+| 71/1     | MAG10                 | LOCATED    | LVCMOS25_OUT | PR3A  | DQ0           |           |           |
+| 74/1     | MS_A2                 | LOCATED    | LVCMOS25_OUT | PR2B  | DQ0           |           |           |
+| 75/1     | MAG1                  | LOCATED    | LVCMOS25_OUT | PR2A  | DQ0           |           |           |
+| 76/0     |     unused, PULL:DOWN |            |              | PT17D | DONE          |           |           |
+| 77/0     |     unused, PULL:DOWN |            |              | PT17C | INITN         |           |           |
+| 78/0     |     unused, PULL:DOWN |            |              | PT16C |               |           |           |
+| 81/0     |     unused, PULL:DOWN |            |              | PT15D | PROGRAMN      |           |           |
+| 82/0     |     unused, PULL:DOWN |            |              | PT15C | JTAGENB       |           |           |
+| 83/0     |     unused, PULL:DOWN |            |              | PT15B |               |           |           |
+| 84/0     |     unused, PULL:DOWN |            |              | PT15A |               |           |           |
+| 85/0     |     unused, PULL:DOWN |            |              | PT12D | SDA/PCLKC0_0  |           |           |
+| 86/0     |     unused, PULL:DOWN |            |              | PT12C | SCL/PCLKT0_0  |           |           |
+| 87/0     |     unused, PULL:DOWN |            |              | PT12B | PCLKC0_1      |           |           |
+| 88/0     | CLK_32M               | LOCATED    | LVCMOS25_IN  | PT12A | PCLKT0_1      |           |           |
+| 90/0     | Reserved: sysCONFIG   |            |              | PT11D | TMS           |           |           |
+| 91/0     | Reserved: sysCONFIG   |            |              | PT11C | TCK           |           |           |
+| 94/0     | Reserved: sysCONFIG   |            |              | PT10D | TDI           |           |           |
+| 95/0     | Reserved: sysCONFIG   |            |              | PT10C | TDO           |           |           |
+| 96/0     |     unused, PULL:DOWN |            |              | PT10B |               |           |           |
+| 97/0     |     unused, PULL:DOWN |            |              | PT10A |               |           |           |
+| 98/0     |     unused, PULL:DOWN |            |              | PT9B  |               |           |           |
+| 99/0     |     unused, PULL:DOWN |            |              | PT9A  |               |           |           |
+| PB4A/2   |     unused, PULL:DOWN |            |              | PB4A  |               |           |           |
+| PB4B/2   |     unused, PULL:DOWN |            |              | PB4B  |               |           |           |
+| PB9C/2   |     unused, PULL:DOWN |            |              | PB9C  |               |           |           |
+| PB9D/2   |     unused, PULL:DOWN |            |              | PB9D  |               |           |           |
+| PB15C/2  |     unused, PULL:DOWN |            |              | PB15C |               |           |           |
+| PB15D/2  |     unused, PULL:DOWN |            |              | PB15D |               |           |           |
+| PB20A/2  |     unused, PULL:DOWN |            |              | PB20A |               |           |           |
+| PB20B/2  |     unused, PULL:DOWN |            |              | PB20B |               |           |           |
+| PL2A/3   |     unused, PULL:DOWN |            |              | PL2A  | L_GPLLT_FB    |           |           |
+| PL2B/3   |     unused, PULL:DOWN |            |              | PL2B  | L_GPLLC_FB    |           |           |
+| PL4C/3   |     unused, PULL:DOWN |            |              | PL4C  |               |           |           |
+| PL4D/3   |     unused, PULL:DOWN |            |              | PL4D  |               |           |           |
+| PL10A/3  |     unused, PULL:DOWN |            |              | PL10A |               |           |           |
+| PL10B/3  |     unused, PULL:DOWN |            |              | PL10B |               |           |           |
+| PR2C/1   |     unused, PULL:DOWN |            |              | PR2C  | DQ0           |           |           |
+| PR2D/1   |     unused, PULL:DOWN |            |              | PR2D  | DQ0           |           |           |
+| PR8B/1   |     unused, PULL:DOWN |            |              | PR8B  | DQS1N         |           |           |
+| PR10A/1  |     unused, PULL:DOWN |            |              | PR10A | DQ1           |           |           |
+| PR10B/1  |     unused, PULL:DOWN |            |              | PR10B | DQ1           |           |           |
+| PT9C/0   |     unused, PULL:DOWN |            |              | PT9C  |               |           |           |
+| PT9D/0   |     unused, PULL:DOWN |            |              | PT9D  |               |           |           |
+| PT11A/0  |     unused, PULL:DOWN |            |              | PT11A |               |           |           |
+| PT11B/0  |     unused, PULL:DOWN |            |              | PT11B |               |           |           |
+| PT16A/0  |     unused, PULL:DOWN |            |              | PT16A |               |           |           |
+| PT16B/0  |     unused, PULL:DOWN |            |              | PT16B |               |           |           |
+| PT16D/0  |     unused, PULL:DOWN |            |              | PT16D |               |           |           |
+| PT17A/0  |     unused, PULL:DOWN |            |              | PT17A |               |           |           |
+| PT17B/0  |     unused, PULL:DOWN |            |              | PT17B |               |           |           |
++----------+-----------------------+------------+--------------+-------+---------------+-----------+-----------+
+
+sysCONFIG Pins:
++----------+--------------------+--------------------+----------+-------------+-------------------+
+| Pad Name | sysCONFIG Pin Name | sysCONFIG Settings | Pin/Bank | Buffer Type | Config Pull Mode  |
++----------+--------------------+--------------------+----------+-------------+-------------------+
+| PT11D    | TMS                | JTAG_PORT=ENABLE   | 90/0     |             | PULLUP            |
+| PT11C    | TCK/TEST_CLK       | JTAG_PORT=ENABLE   | 91/0     |             | NO pull up/down   |
+| PT10D    | TDI/MD7            | JTAG_PORT=ENABLE   | 94/0     |             | PULLUP            |
+| PT10C    | TDO                | JTAG_PORT=ENABLE   | 95/0     |             | PULLUP            |
++----------+--------------------+--------------------+----------+-------------+-------------------+
+
+Dedicated sysCONFIG Pins:
+
+
+List of All Pins' Locate Preferences Based on Final Placement After PAR 
+to Help Users Lock Down ALL the Pins Easily (by Simply Copy & Paste): 
+
+LOCATE  COMP  "AD_ACLK"  SITE  "40";
+LOCATE  COMP  "AD_ACS"  SITE  "42";
+LOCATE  COMP  "AD_ADO"  SITE  "41";
+LOCATE  COMP  "AZ_SW"  SITE  "18";
+LOCATE  COMP  "CLK_32M"  SITE  "88";
+LOCATE  COMP  "CLK_OUT"  SITE  "31";
+LOCATE  COMP  "COMP_IN"  SITE  "51";
+LOCATE  COMP  "CON_START"  SITE  "36";
+LOCATE  COMP  "DEBUG_TP1"  SITE  "27";
+LOCATE  COMP  "DEBUG_TP2"  SITE  "28";
+LOCATE  COMP  "DEBUG_TP3"  SITE  "29";
+LOCATE  COMP  "FEN_A"  SITE  "59";
+LOCATE  COMP  "FEN_B"  SITE  "57";
+LOCATE  COMP  "FEN_C"  SITE  "58";
+LOCATE  COMP  "JA_C1"  SITE  "67";
+LOCATE  COMP  "JA_C2"  SITE  "65";
+LOCATE  COMP  "JA_C3"  SITE  "63";
+LOCATE  COMP  "JA_CS"  SITE  "61";
+LOCATE  COMP  "JA_DIN"  SITE  "64";
+LOCATE  COMP  "JA_SCK"  SITE  "60";
+LOCATE  COMP  "LED"  SITE  "12";
+LOCATE  COMP  "LED2"  SITE  "13";
+LOCATE  COMP  "MAG1"  SITE  "75";
+LOCATE  COMP  "MAG10"  SITE  "71";
+LOCATE  COMP  "MAG100"  SITE  "69";
+LOCATE  COMP  "MS_A0"  SITE  "68";
+LOCATE  COMP  "MS_A1"  SITE  "70";
+LOCATE  COMP  "MS_A2"  SITE  "74";
+LOCATE  COMP  "PW1"  SITE  "19";
+LOCATE  COMP  "PW2"  SITE  "20";
+LOCATE  COMP  "RE1A"  SITE  "3";
+LOCATE  COMP  "RE1B"  SITE  "8";
+LOCATE  COMP  "RE2A"  SITE  "9";
+LOCATE  COMP  "RE2B"  SITE  "10";
+LOCATE  COMP  "RE3"  SITE  "1";
+LOCATE  COMP  "RE4"  SITE  "2";
+LOCATE  COMP  "RESET"  SITE  "39";
+LOCATE  COMP  "SU_A"  SITE  "16";
+LOCATE  COMP  "SU_B"  SITE  "17";
+LOCATE  COMP  "SW_IN"  SITE  "53";
+LOCATE  COMP  "SW_N"  SITE  "52";
+LOCATE  COMP  "SW_P"  SITE  "54";
+LOCATE  COMP  "UART_RX"  SITE  "37";
+LOCATE  COMP  "UART_TX"  SITE  "38";
+
+
+
+
+
+PAR: Place And Route Diamond (64-bit) 3.12.0.240.2.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Sun May  8 22:04:09 2022
+

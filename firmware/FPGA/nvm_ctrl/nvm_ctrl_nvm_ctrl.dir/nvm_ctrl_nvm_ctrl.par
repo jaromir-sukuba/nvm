@@ -1,0 +1,27 @@
+PAR: Place And Route Diamond (64-bit) 3.12.0.240.2.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Sun May  8 22:04:06 2022
+
+/usr/local/diamond/3.12/ispfpga/bin/lin64/par -f nvm_ctrl_nvm_ctrl.p2t
+nvm_ctrl_nvm_ctrl_map.ncd nvm_ctrl_nvm_ctrl.dir nvm_ctrl_nvm_ctrl.prf -gui
+-msgset /home/jarin/storage/main/backup_mg/works/nvm/fpga/2/promote.xml
+
+
+Preference file: nvm_ctrl_nvm_ctrl.prf.
+
+Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
+Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
+----------   --------     -----        ------       -----------  -----------  ----         ------
+5_1   *      0            -            -            -            -            04           Completed
+
+* : Design saved.
+
+Total (real) run time for 1-seed: 4 secs 
+
+par done!
+
+Note: user must run 'Trace' for timing closure signoff.

@@ -1,0 +1,878 @@
+
+synthesis -f "nvm_ctrl_nvm_ctrl_lattice.synproj"
+synthesis:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Sun May  8 22:04:04 2022
+
+
+Command Line:  synthesis -f nvm_ctrl_nvm_ctrl_lattice.synproj -gui -msgset /home/jarin/storage/main/backup_mg/works/nvm/fpga/2/promote.xml 
+
+    <postMsg mid="35002000" type="Info"    dynamic="0" navigation="0"  />
+Synthesis options:
+The -a option is MachXO2.
+The -s option is 5.
+The -t option is TQFP100.
+The -d option is LCMXO2-1200HC.
+Using package TQFP100.
+Using performance grade 5.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO2
+
+### Device  : LCMXO2-1200HC
+
+### Package : TQFP100
+
+### Speed   : 5
+
+##########################################################
+
+                                                          
+
+    <postMsg mid="35001781" type="Info"    dynamic="0" navigation="0"  />
+Optimization goal = Balanced
+The -top option is not used.
+Target frequency = 200.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p /home/jarin/storage/main/backup_mg/works/nvm/fpga/2 (searchpath added)
+-p /usr/local/diamond/3.12/ispfpga/xo2c00/data (searchpath added)
+-p /home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl (searchpath added)
+-p /home/jarin/storage/main/backup_mg/works/nvm/fpga/2 (searchpath added)
+Verilog design file = /home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_tx.v
+Verilog design file = /home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v
+Verilog design file = /home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_rx.v
+NGD file = nvm_ctrl_nvm_ctrl.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+    <postMsg mid="35001200" type="Warning" dynamic="1" navigation="0" arg0="nvm_ctrl"  />
+Technology check ok...
+
+Analyzing Verilog file /usr/local/diamond/3.12/ispfpga/userware/unix/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file /home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_tx.v. VERI-1482
+Analyzing Verilog file /home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v. VERI-1482
+    <postMsg mid="35901116" type="Warning" dynamic="2" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(101): " arg1="uart_rx_state" arg2="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg3="101"  />
+    <postMsg mid="35901329" type="Warning" dynamic="2" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(101): " arg1="uart_rx_state" arg2="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg3="101"  />
+    <postMsg mid="35901310" type="Info"    dynamic="2" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(88): " arg1="uart_rx_state" arg2="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg3="88"  />
+Analyzing Verilog file /home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_rx.v. VERI-1482
+Analyzing Verilog file /usr/local/diamond/3.12/ispfpga/userware/unix/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Top module name (Verilog): nvm_ctrl
+    <postMsg mid="35901018" type="Info"    dynamic="2" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(3): " arg1="nvm_ctrl" arg2="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg3="3"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(193): " arg1="32" arg2="3" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg4="193"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(243): " arg1="32" arg2="8" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg4="243"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(248): " arg1="32" arg2="16" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg4="248"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(254): " arg1="32" arg2="16" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg4="254"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(270): " arg1="32" arg2="21" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg4="270"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(271): " arg1="32" arg2="6" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg4="271"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(288): " arg1="32" arg2="6" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg4="288"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(331): " arg1="32" arg2="7" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg4="331"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(334): " arg1="21" arg2="16" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg4="334"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(335): " arg1="21" arg2="16" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg4="335"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(441): " arg1="32" arg2="5" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg4="441"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(444): " arg1="32" arg2="5" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg4="444"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(460): " arg1="32" arg2="21" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg4="460"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(466): " arg1="32" arg2="21" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg4="466"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(476): " arg1="32" arg2="21" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg4="476"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(478): " arg1="32" arg2="11" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg4="478"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(606): " arg1="32" arg2="4" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg4="606"  />
+    <postMsg mid="35901018" type="Info"    dynamic="2" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_tx.v(2): " arg1="uart_tx" arg2="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_tx.v" arg3="2"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_tx.v(35): " arg1="32" arg2="3" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_tx.v" arg4="35"  />
+    <postMsg mid="35901018" type="Info"    dynamic="2" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_rx.v(4): " arg1="uart_rx" arg2="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_rx.v" arg3="4"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_rx.v(35): " arg1="32" arg2="5" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_rx.v" arg4="35"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_rx.v(53): " arg1="32" arg2="5" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_rx.v" arg4="53"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_rx.v(56): " arg1="32" arg2="5" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_rx.v" arg4="56"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_rx.v(72): " arg1="32" arg2="5" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_rx.v" arg4="72"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_rx.v(84): " arg1="32" arg2="5" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_rx.v" arg4="84"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_rx.v(87): " arg1="32" arg2="5" arg3="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/uart_rx.v" arg4="87"  />
+Last elaborated design is nvm_ctrl()
+Loading NGL library '/usr/local/diamond/3.12/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library '/usr/local/diamond/3.12/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library '/usr/local/diamond/3.12/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library '/usr/local/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo2c1200.nph' in environment: /usr/local/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.42.
+Top-level module name = nvm_ctrl.
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="JA_DOUT"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="JA_COMP"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="JA_C1"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="JA_C2"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="JA_C3"  />
+######## Missing driver on net JA_C1. Patching with GND.
+######## Missing driver on net JA_C2. Patching with GND.
+######## Missing driver on net JA_C3. Patching with GND.
+
+
+
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="0" arg1="cnt_ic_set"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="1" arg1="cnt_ic_set"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="2" arg1="cnt_ic_set"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="3" arg1="cnt_ic_set"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="4" arg1="cnt_ic_set"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="10" arg1="cnt_ic_set"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="0" arg1="uart_frame_r"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="1" arg1="uart_frame_r"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="JA_DOUT"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="JA_COMP"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(259): " arg1="dac_word_i0" arg2="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg3="259"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(614): " arg1="uart_frame_state_i2" arg2="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg3="614"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v(497): " arg1="main_state_i4" arg2="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.v" arg3="497"  />
+GSR will not be inferred because no asynchronous signal was found in the netlist.
+Applying 200.000000 MHz constraint to all clocks
+
+    <postMsg mid="35001611" type="Warning" dynamic="0" navigation="0"  />
+Results of NGD DRC are available in nvm_ctrl_drc.log.
+Loading NGL library '/usr/local/diamond/3.12/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library '/usr/local/diamond/3.12/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library '/usr/local/diamond/3.12/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library '/usr/local/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="JA_DOUT" arg2="JA_DOUT"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="JA_DOUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="JA_COMP" arg2="JA_COMP"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="JA_COMP"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="4"  />
+
+Design Results:
+    902 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file nvm_ctrl_nvm_ctrl.ngd.
+
+################### Begin Area Report (nvm_ctrl)######################
+Number of register bits => 421 of 1520 (27 % )
+CCU2D => 88
+FD1P3AX => 213
+FD1P3IX => 158
+FD1P3JX => 5
+FD1S3AX => 11
+FD1S3IX => 34
+GSR => 1
+IB => 6
+L6MUX21 => 1
+LUT4 => 333
+OB => 38
+PFUMX => 11
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+TSALL => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 3
+  Net : CLK_32M_c, loads : 311
+  Net : uart_tx_bit_clock, loads : 73
+  Net : uart_rx_bit_clock, loads : 39
+Clock Enable Nets
+Number of Clock Enables: 61
+Top 10 highest fanout Clock Enables:
+  Net : CLK_32M_c_enable_265, loads : 66
+  Net : uart_tx_bit_clock_enable_66, loads : 50
+  Net : CLK_32M_c_enable_93, loads : 33
+  Net : CLK_32M_c_enable_50, loads : 21
+  Net : CLK_32M_c_enable_264, loads : 17
+  Net : CLK_32M_c_enable_256, loads : 17
+  Net : CLK_32M_c_enable_241, loads : 16
+  Net : CLK_32M_c_enable_25, loads : 14
+  Net : CLK_32M_c_enable_229, loads : 13
+  Net : CLK_32M_c_enable_54, loads : 11
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : CLK_32M_c_enable_265, loads : 66
+  Net : uart_tx_bit_clock_enable_66, loads : 50
+  Net : startup_cnt_32__N_436, loads : 33
+  Net : CLK_32M_c_enable_93, loads : 33
+  Net : CLK_32M_c_enable_55, loads : 22
+  Net : uart_frame_cnt_0, loads : 21
+  Net : CLK_32M_c_enable_50, loads : 21
+  Net : n4387, loads : 21
+  Net : n3921, loads : 21
+  Net : uart_frame_cnt_2, loads : 20
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk2 [get_nets uart_tx_bit_clock]       |  200.000 MHz|  151.263 MHz|     4 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk1 [get_nets CLK_32M_c]               |  200.000 MHz|   63.824 MHz|    11 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets uart_rx_bit_clock]       |  200.000 MHz|  114.129 MHz|     5 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+3 constraints not met.
+
+
+Peak Memory Usage: 186.320  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 1.429  secs
+--------------------------------------------------------------
+
+map -a "MachXO2" -p LCMXO2-1200HC -t TQFP100 -s 5 -oc Commercial   "nvm_ctrl_nvm_ctrl.ngd" -o "nvm_ctrl_nvm_ctrl_map.ncd" -pr "nvm_ctrl_nvm_ctrl.prf" -mp "nvm_ctrl_nvm_ctrl.mrp" -lpf "/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl/nvm_ctrl_nvm_ctrl.lpf" -lpf "/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.lpf"  -c 0           
+map:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: nvm_ctrl_nvm_ctrl.ngd
+   Picdevice="LCMXO2-1200HC"
+
+   Pictype="TQFP100"
+
+   Picspeed=5
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LCMXO2-1200HCTQFP100, Performance used: 5.
+
+Loading device for application map from file 'xo2c1200.nph' in environment: /usr/local/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.42.
+
+Running general design DRC...
+
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="JA_DOUT"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="JA_COMP"  />
+Removing unused logic...
+
+Optimizing...
+
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="JA_DOUT"  />
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="JA_COMP"  />
+
+
+
+Design Summary:
+   Number of registers:    421 out of  1520 (28%)
+      PFU registers:          421 out of  1280 (33%)
+      PIO registers:            0 out of   240 (0%)
+   Number of SLICEs:       266 out of   640 (42%)
+      SLICEs as Logic/ROM:    266 out of   640 (42%)
+      SLICEs as RAM:            0 out of   480 (0%)
+      SLICEs as Carry:         88 out of   640 (14%)
+   Number of LUT4s:        514 out of  1280 (40%)
+      Number used as logic LUTs:        338
+      Number used as distributed RAM:     0
+      Number used as ripple logic:      176
+      Number used as shift registers:     0
+   Number of PIO sites used: 44 + 4(JTAG) out of 80 (60%)
+   Number of block RAMs:  0 out of 7 (0%)
+   Number of GSRs:        0 out of 1 (0%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : No
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 4 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 1 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+   Number of clocks:  3
+     Net uart_tx_bit_clock: 43 loads, 43 rising, 0 falling (Driver: uart_divider_1157_1247__i3 )
+     Net CLK_32M_c: 179 loads, 179 rising, 0 falling (Driver: PIO CLK_32M )
+     Net uart_rx_bit_clock: 27 loads, 27 rising, 0 falling (Driver: uart_divider_1157_1247__i0 )
+   Number of Clock Enables:  61
+     Net uart_tx_bit_clock_enable_68: 2 loads, 2 LSLICEs
+     Net uart_tx_a/uart_tx_bit_clock_enable_11: 2 loads, 2 LSLICEs
+     Net uart_tx_a/uart_tx_bit_clock_enable_69: 1 loads, 1 LSLICEs
+     Net uart_tx_a/uart_tx_busy_N_976: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_60: 3 loads, 3 LSLICEs
+     Net CLK_32M_c_enable_233: 2 loads, 2 LSLICEs
+     Net CLK_32M_c_enable_264: 9 loads, 9 LSLICEs
+     Net uart_rx_state_2_N_470_1: 1 loads, 1 LSLICEs
+     Net uart_rx_rst: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_4: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_265: 34 loads, 34 LSLICEs
+     Net CLK_32M_c_enable_155: 2 loads, 2 LSLICEs
+     Net uart_tx_bit_clock_enable_66: 24 loads, 24 LSLICEs
+     Net uart_tx_bit_clock_enable_19: 8 loads, 8 LSLICEs
+     Net uart_tx_bit_clock_enable_12: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_53: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_152: 4 loads, 4 LSLICEs
+     Net CLK_32M_c_enable_55: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_93: 17 loads, 17 LSLICEs
+     Net CLK_32M_c_enable_25: 7 loads, 7 LSLICEs
+     Net CLK_32M_c_enable_50: 11 loads, 11 LSLICEs
+     Net CLK_32M_c_enable_256: 9 loads, 9 LSLICEs
+     Net CLK_32M_c_enable_43: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_51: 1 loads, 1 LSLICEs
+     Net uart_frame_start: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_243: 3 loads, 3 LSLICEs
+     Net CLK_32M_c_enable_54: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_56: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_57: 1 loads, 1 LSLICEs
+     Net reset_in_r: 2 loads, 2 LSLICEs
+     Net CLK_32M_c_enable_112: 5 loads, 5 LSLICEs
+     Net CLK_32M_c_enable_153: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_241: 9 loads, 9 LSLICEs
+     Net CLK_32M_c_enable_258: 1 loads, 1 LSLICEs
+     Net uart_tx_bit_clock_enable_10: 2 loads, 2 LSLICEs
+     Net CLK_32M_c_enable_238: 3 loads, 3 LSLICEs
+     Net CLK_32M_c_enable_104: 1 loads, 1 LSLICEs
+     Net dac_update: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_129: 4 loads, 4 LSLICEs
+     Net CLK_32M_c_enable_137: 4 loads, 4 LSLICEs
+     Net CLK_32M_c_enable_145: 4 loads, 4 LSLICEs
+     Net CLK_32M_c_enable_203: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_229: 7 loads, 7 LSLICEs
+     Net CLK_32M_c_enable_248: 2 loads, 2 LSLICEs
+     Net CLK_32M_c_enable_260: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_1: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_26: 4 loads, 4 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_3: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_4: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_34: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_12: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_10: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_33: 3 loads, 3 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_6: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_7: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_8: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_9: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_11: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_13: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_30: 3 loads, 3 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_35: 3 loads, 3 LSLICEs
+   Number of LSRs:  31
+     Net uart_tx_a/uart_tx_state_2__N_961: 3 loads, 3 LSLICEs
+     Net uart_tx_a/n7367: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_60: 4 loads, 4 LSLICEs
+     Net n5651: 9 loads, 9 LSLICEs
+     Net n3844: 2 loads, 2 LSLICEs
+     Net uart_tx_bit_clock_enable_66: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_55: 4 loads, 4 LSLICEs
+     Net n4387: 11 loads, 11 LSLICEs
+     Net n5679: 9 loads, 9 LSLICEs
+     Net n4377: 1 loads, 1 LSLICEs
+     Net reset_in_r: 17 loads, 17 LSLICEs
+     Net n5699: 5 loads, 5 LSLICEs
+     Net n4760: 1 loads, 1 LSLICEs
+     Net n7827: 1 loads, 1 LSLICEs
+     Net n3921: 11 loads, 11 LSLICEs
+     Net n5638: 9 loads, 9 LSLICEs
+     Net n5698: 2 loads, 2 LSLICEs
+     Net n6493: 3 loads, 3 LSLICEs
+     Net n6180: 1 loads, 1 LSLICEs
+     Net n5722: 4 loads, 4 LSLICEs
+     Net n7842: 1 loads, 1 LSLICEs
+     Net n5636: 1 loads, 1 LSLICEs
+     Net n5643: 2 loads, 2 LSLICEs
+     Net n5727: 1 loads, 1 LSLICEs
+     Net n5725: 1 loads, 1 LSLICEs
+     Net n7760: 1 loads, 1 LSLICEs
+     Net uart_rx_a/n5696: 3 loads, 3 LSLICEs
+     Net uart_rx_a/n5688: 3 loads, 3 LSLICEs
+     Net uart_rx_a/n7864: 1 loads, 1 LSLICEs
+     Net uart_rx_a/n5640: 3 loads, 3 LSLICEs
+     Net uart_rx_a/n7383: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net CLK_32M_c_enable_265: 37 loads
+     Net uart_tx_bit_clock_enable_66: 26 loads
+     Net uart_frame_cnt_0: 21 loads
+     Net n7816: 20 loads
+     Net reset_in_r: 20 loads
+     Net uart_frame_cnt_2: 20 loads
+     Net JA_SCK_N_904: 19 loads
+     Net n7843: 19 loads
+     Net CLK_32M_c_enable_93: 17 loads
+     Net dac_state_1: 16 loads
+ 
+
+   Number of warnings:  4
+   Number of errors:    0
+
+
+
+Total CPU Time: 0 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 163 MB
+
+Dumping design to file nvm_ctrl_nvm_ctrl_map.ncd.
+
+ncd2vdb "nvm_ctrl_nvm_ctrl_map.ncd" ".vdbs/nvm_ctrl_nvm_ctrl_map.vdb"
+
+Loading device for application ncd2vdb from file 'xo2c1200.nph' in environment: /usr/local/diamond/3.12/ispfpga.
+
+mpartrce -p "nvm_ctrl_nvm_ctrl.p2t" -f "nvm_ctrl_nvm_ctrl.p3t" -tf "nvm_ctrl_nvm_ctrl.pt" "nvm_ctrl_nvm_ctrl_map.ncd" "nvm_ctrl_nvm_ctrl.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "nvm_ctrl_nvm_ctrl_map.ncd"
+Sun May  8 22:04:06 2022
+
+PAR: Place And Route Diamond (64-bit) 3.12.0.240.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset /home/jarin/storage/main/backup_mg/works/nvm/fpga/2/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF:parASE=1 nvm_ctrl_nvm_ctrl_map.ncd nvm_ctrl_nvm_ctrl.dir/5_1.ncd nvm_ctrl_nvm_ctrl.prf
+Preference file: nvm_ctrl_nvm_ctrl.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file nvm_ctrl_nvm_ctrl_map.ncd.
+Design name: nvm_ctrl
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-1200HC
+Package:     TQFP100
+Performance: 5
+Loading device for application par from file 'xo2c1200.nph' in environment: /usr/local/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.42.
+Performance Hardware Data Status:   Final          Version 34.4.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   44+4(JTAG)/108     44% used
+                  44+4(JTAG)/80      60% bonded
+
+   SLICE            266/640          41% used
+
+
+
+Number of Signals: 983
+Number of Connections: 2448
+
+Pin Constraint Summary:
+   43 out of 44 pins locked (97% locked).
+
+The following 3 signals are selected to use the primary clock routing resources:
+    CLK_32M_c (driver: CLK_32M, clk load #: 179)
+    uart_tx_bit_clock (driver: SLICE_37, clk load #: 43)
+    uart_rx_bit_clock (driver: SLICE_39, clk load #: 27)
+
+
+The following 7 signals are selected to use the secondary clock routing resources:
+    CLK_32M_c_enable_265 (driver: SLICE_296, clk load #: 0, sr load #: 0, ce load #: 34)
+    uart_tx_bit_clock_enable_66 (driver: SLICE_291, clk load #: 0, sr load #: 1, ce load #: 24)
+    reset_in_r (driver: SLICE_325, clk load #: 0, sr load #: 17, ce load #: 2)
+    CLK_32M_c_enable_93 (driver: SLICE_313, clk load #: 0, sr load #: 0, ce load #: 17)
+    CLK_32M_c_enable_50 (driver: SLICE_305, clk load #: 0, sr load #: 0, ce load #: 11)
+    n4387 (driver: SLICE_303, clk load #: 0, sr load #: 11, ce load #: 0)
+    n3921 (driver: SLICE_300, clk load #: 0, sr load #: 11, ce load #: 0)
+
+No signal is selected as Global Set/Reset.
+.
+Starting Placer Phase 0.
+...........
+Finished Placer Phase 0.  REAL time: 0 secs 
+
+Starting Placer Phase 1.
+...................
+Placer score = 245901.
+Finished Placer Phase 1.  REAL time: 3 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  244205
+Finished Placer Phase 2.  REAL time: 3 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 1 out of 8 (12%)
+  PLL        : 0 out of 1 (0%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Global Clocks:
+  PRIMARY "CLK_32M_c" from comp "CLK_32M" on CLK_PIN site "88 (PT12A)", clk load = 179
+  PRIMARY "uart_tx_bit_clock" from Q0 on comp "SLICE_37" on site "R4C7C", clk load = 43
+  PRIMARY "uart_rx_bit_clock" from Q1 on comp "SLICE_39" on site "R4C7A", clk load = 27
+  SECONDARY "CLK_32M_c_enable_265" from F1 on comp "SLICE_296" on site "R7C14D", clk load = 0, ce load = 34, sr load = 0
+  SECONDARY "uart_tx_bit_clock_enable_66" from F1 on comp "SLICE_291" on site "R7C12C", clk load = 0, ce load = 24, sr load = 1
+  SECONDARY "reset_in_r" from Q1 on comp "SLICE_325" on site "R7C14A", clk load = 0, ce load = 2, sr load = 17
+  SECONDARY "CLK_32M_c_enable_93" from F0 on comp "SLICE_313" on site "R7C12B", clk load = 0, ce load = 17, sr load = 0
+  SECONDARY "CLK_32M_c_enable_50" from F1 on comp "SLICE_305" on site "R7C12A", clk load = 0, ce load = 11, sr load = 0
+  SECONDARY "n4387" from F0 on comp "SLICE_303" on site "R7C12D", clk load = 0, ce load = 0, sr load = 11
+  SECONDARY "n3921" from F1 on comp "SLICE_300" on site "R7C14B", clk load = 0, ce load = 0, sr load = 11
+
+  PRIMARY  : 3 out of 8 (37%)
+  SECONDARY: 7 out of 8 (87%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   44 + 4(JTAG) out of 108 (44.4%) PIO sites used.
+   44 + 4(JTAG) out of 80 (60.0%) bonded PIO sites used.
+   Number of PIO comps: 44; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 1 / 19 (  5%)  | 2.5V       | -         |
+| 1        | 19 / 21 ( 90%) | 2.5V       | -         |
+| 2        | 11 / 20 ( 55%) | 2.5V       | -         |
+| 3        | 13 / 20 ( 65%) | 2.5V       | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 2 secs 
+
+Dumping design to file nvm_ctrl_nvm_ctrl.dir/5_1.ncd.
+
+
+-----------------------------------------------------------------
+INFO - par: ASE feature is off due to non timing-driven settings.  
+-----------------------------------------------------------------
+
+0 connections routed; 2448 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 3 secs 
+
+Start NBR router at Sun May 08 22:04:09 CEST 2022
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at Sun May 08 22:04:09 CEST 2022
+
+Start NBR section for initial routing at Sun May 08 22:04:09 CEST 2022
+Level 4, iteration 1
+93(0.11%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 4 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at Sun May 08 22:04:10 CEST 2022
+Level 4, iteration 1
+44(0.05%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 4 secs 
+Level 4, iteration 2
+16(0.02%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 4 secs 
+Level 4, iteration 3
+3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 4 secs 
+Level 4, iteration 4
+3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 4 secs 
+Level 4, iteration 5
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 4 secs 
+Level 4, iteration 6
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 4 secs 
+Level 4, iteration 7
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 4 secs 
+
+Start NBR section for re-routing at Sun May 08 22:04:10 CEST 2022
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 4 secs 
+
+Start NBR section for post-routing at Sun May 08 22:04:10 CEST 2022
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : <n/a>
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 3 secs 
+Total REAL time: 4 secs 
+Completely routed.
+End of route.  2448 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file nvm_ctrl_nvm_ctrl.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = Completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = <n/a>
+PAR_SUMMARY::Timing score<setup/<ns>> = <n/a>
+PAR_SUMMARY::Worst  slack<hold /<ns>> = <n/a>
+PAR_SUMMARY::Timing score<hold /<ns>> = <n/a>
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 4 secs 
+Total REAL time to completion: 4 secs 
+
+par done!
+
+Note: user must run 'Trace' for timing closure signoff.
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+trce -f "nvm_ctrl_nvm_ctrl.pt" -o "nvm_ctrl_nvm_ctrl.twr" "nvm_ctrl_nvm_ctrl.ncd" "nvm_ctrl_nvm_ctrl.prf"
+trce:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading design for application trce from file nvm_ctrl_nvm_ctrl.ncd.
+Design name: nvm_ctrl
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-1200HC
+Package:     TQFP100
+Performance: 5
+Loading device for application trce from file 'xo2c1200.nph' in environment: /usr/local/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.42.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.0.240.2
+Sun May  8 22:04:12 2022
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 5 -sphld m -o nvm_ctrl_nvm_ctrl.twr -gui -msgset /home/jarin/storage/main/backup_mg/works/nvm/fpga/2/promote.xml nvm_ctrl_nvm_ctrl.ncd nvm_ctrl_nvm_ctrl.prf 
+Design file:     nvm_ctrl_nvm_ctrl.ncd
+Preference file: nvm_ctrl_nvm_ctrl.prf
+Device,speed:    LCMXO2-1200HC,5
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+Report Type:     based on TRACE automatically generated preferences
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 5185  Score: 34529616
+Cumulative negative slack: 34529616
+
+Constraints cover 15405 paths, 9 nets, and 2406 connections (98.28% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.0.240.2
+Sun May  8 22:04:12 2022
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 5 -sphld m -o nvm_ctrl_nvm_ctrl.twr -gui -msgset /home/jarin/storage/main/backup_mg/works/nvm/fpga/2/promote.xml nvm_ctrl_nvm_ctrl.ncd nvm_ctrl_nvm_ctrl.prf 
+Design file:     nvm_ctrl_nvm_ctrl.ncd
+Preference file: nvm_ctrl_nvm_ctrl.prf
+Device,speed:    LCMXO2-1200HC,m
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 86  Score: 60528
+Cumulative negative slack: 60528
+
+Constraints cover 15405 paths, 9 nets, and 2406 connections (98.28% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 5185 (setup), 86 (hold)
+Score: 34529616 (setup), 60528 (hold)
+Cumulative negative slack: 34590144 (34529616+60528)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Total CPU Time: 0 secs 
+Total REAL Time: 0 secs 
+Peak Memory Usage: 130 MB
+
+
+tmcheck -par "nvm_ctrl_nvm_ctrl.par" 
+
+bitgen -f "nvm_ctrl_nvm_ctrl.t2b" -w "nvm_ctrl_nvm_ctrl.ncd"  -jedec "nvm_ctrl_nvm_ctrl.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.12.0.240.2
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file nvm_ctrl_nvm_ctrl.ncd.
+Design name: nvm_ctrl
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-1200HC
+Package:     TQFP100
+Performance: 5
+Loading device for application Bitgen from file 'xo2c1200.nph' in environment: /usr/local/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.42.
+Performance Hardware Data Status:   Final          Version 34.4.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from nvm_ctrl_nvm_ctrl.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                         2.08**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                      JTAG_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                       SDM_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                       I2C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|        MUX_CONFIGURATION_PORTS  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  CONFIGURATION  |                          CFG**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 ENABLE_TRANSFR  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  SHAREDEBRINIT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.95.
+ 
+Saving bit stream in "nvm_ctrl_nvm_ctrl.jed".
+ 
+===========
+UFM Summary.
+===========
+UFM Size:        511 Pages (128*511 Bits).
+UFM Utilization: General Purpose Flash Memory.
+ 
+Available General Purpose Flash Memory:  511 Pages (Page 0 to Page 510).
+Initialized UFM Pages:                     0 Page.
+ 
+Total CPU Time: 2 secs 
+Total REAL Time: 2 secs 
+Peak Memory Usage: 374 MB

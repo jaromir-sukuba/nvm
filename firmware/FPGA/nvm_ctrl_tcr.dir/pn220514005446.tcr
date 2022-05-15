@@ -1,0 +1,4 @@
+#Start recording tcl command: 5/13/2022 22:35:50
+#Project Location: /home/jarin/storage/main/backup_mg/works/nvm/fpga/2; Project name: nvm_ctrl
+prj_project open "/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.ldf"
+#Stop recording: 5/14/2022 00:54:46

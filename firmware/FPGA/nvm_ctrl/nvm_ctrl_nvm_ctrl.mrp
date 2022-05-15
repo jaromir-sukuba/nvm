@@ -1,0 +1,468 @@
+
+           Lattice Mapping Report File for Design Module 'nvm_ctrl'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-1200HC -t TQFP100 -s 5 -oc Commercial
+     nvm_ctrl_nvm_ctrl.ngd -o nvm_ctrl_nvm_ctrl_map.ncd -pr
+     nvm_ctrl_nvm_ctrl.prf -mp nvm_ctrl_nvm_ctrl.mrp -lpf /home/jarin/storage/ma
+     in/backup_mg/works/nvm/fpga/2/nvm_ctrl/nvm_ctrl_nvm_ctrl.lpf -lpf
+     /home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.lpf -c 0 -gui
+     -msgset /home/jarin/storage/main/backup_mg/works/nvm/fpga/2/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-1200HCTQFP100
+Target Performance:   5
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.12.0.240.2
+Mapped on:  05/08/22  22:04:05
+
+Design Summary
+--------------
+
+   Number of registers:    421 out of  1520 (28%)
+      PFU registers:          421 out of  1280 (33%)
+      PIO registers:            0 out of   240 (0%)
+   Number of SLICEs:       266 out of   640 (42%)
+      SLICEs as Logic/ROM:    266 out of   640 (42%)
+      SLICEs as RAM:            0 out of   480 (0%)
+      SLICEs as Carry:         88 out of   640 (14%)
+   Number of LUT4s:        514 out of  1280 (40%)
+      Number used as logic LUTs:        338
+      Number used as distributed RAM:     0
+      Number used as ripple logic:      176
+      Number used as shift registers:     0
+   Number of PIO sites used: 44 + 4(JTAG) out of 80 (60%)
+   Number of block RAMs:  0 out of 7 (0%)
+   Number of GSRs:        0 out of 1 (0%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : No
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 4 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 1 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  3
+     Net uart_tx_bit_clock: 43 loads, 43 rising, 0 falling (Driver:
+     uart_divider_1157_1247__i3 )
+
+                                    Page 1
+
+
+
+
+Design:  nvm_ctrl                                      Date:  05/08/22  22:04:05
+
+Design Summary (cont)
+---------------------
+     Net CLK_32M_c: 179 loads, 179 rising, 0 falling (Driver: PIO CLK_32M )
+     Net uart_rx_bit_clock: 27 loads, 27 rising, 0 falling (Driver:
+     uart_divider_1157_1247__i0 )
+   Number of Clock Enables:  61
+     Net uart_tx_bit_clock_enable_68: 2 loads, 2 LSLICEs
+     Net uart_tx_a/uart_tx_bit_clock_enable_11: 2 loads, 2 LSLICEs
+     Net uart_tx_a/uart_tx_bit_clock_enable_69: 1 loads, 1 LSLICEs
+     Net uart_tx_a/uart_tx_busy_N_976: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_60: 3 loads, 3 LSLICEs
+     Net CLK_32M_c_enable_233: 2 loads, 2 LSLICEs
+     Net CLK_32M_c_enable_264: 9 loads, 9 LSLICEs
+     Net uart_rx_state_2_N_470_1: 1 loads, 1 LSLICEs
+     Net uart_rx_rst: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_4: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_265: 34 loads, 34 LSLICEs
+     Net CLK_32M_c_enable_155: 2 loads, 2 LSLICEs
+     Net uart_tx_bit_clock_enable_66: 24 loads, 24 LSLICEs
+     Net uart_tx_bit_clock_enable_19: 8 loads, 8 LSLICEs
+     Net uart_tx_bit_clock_enable_12: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_53: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_152: 4 loads, 4 LSLICEs
+     Net CLK_32M_c_enable_55: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_93: 17 loads, 17 LSLICEs
+     Net CLK_32M_c_enable_25: 7 loads, 7 LSLICEs
+     Net CLK_32M_c_enable_50: 11 loads, 11 LSLICEs
+     Net CLK_32M_c_enable_256: 9 loads, 9 LSLICEs
+     Net CLK_32M_c_enable_43: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_51: 1 loads, 1 LSLICEs
+     Net uart_frame_start: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_243: 3 loads, 3 LSLICEs
+     Net CLK_32M_c_enable_54: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_56: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_57: 1 loads, 1 LSLICEs
+     Net reset_in_r: 2 loads, 2 LSLICEs
+     Net CLK_32M_c_enable_112: 5 loads, 5 LSLICEs
+     Net CLK_32M_c_enable_153: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_241: 9 loads, 9 LSLICEs
+     Net CLK_32M_c_enable_258: 1 loads, 1 LSLICEs
+     Net uart_tx_bit_clock_enable_10: 2 loads, 2 LSLICEs
+     Net CLK_32M_c_enable_238: 3 loads, 3 LSLICEs
+     Net CLK_32M_c_enable_104: 1 loads, 1 LSLICEs
+     Net dac_update: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_129: 4 loads, 4 LSLICEs
+     Net CLK_32M_c_enable_137: 4 loads, 4 LSLICEs
+     Net CLK_32M_c_enable_145: 4 loads, 4 LSLICEs
+     Net CLK_32M_c_enable_203: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_229: 7 loads, 7 LSLICEs
+     Net CLK_32M_c_enable_248: 2 loads, 2 LSLICEs
+     Net CLK_32M_c_enable_260: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_1: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_26: 4 loads, 4 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_3: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_4: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_34: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_12: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_10: 1 loads, 1 LSLICEs
+
+                                    Page 2
+
+
+
+
+Design:  nvm_ctrl                                      Date:  05/08/22  22:04:05
+
+Design Summary (cont)
+---------------------
+     Net uart_rx_a/uart_rx_bit_clock_enable_33: 3 loads, 3 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_6: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_7: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_8: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_9: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_11: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_13: 1 loads, 1 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_30: 3 loads, 3 LSLICEs
+     Net uart_rx_a/uart_rx_bit_clock_enable_35: 3 loads, 3 LSLICEs
+   Number of LSRs:  31
+     Net uart_tx_a/uart_tx_state_2__N_961: 3 loads, 3 LSLICEs
+     Net uart_tx_a/n7367: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_60: 4 loads, 4 LSLICEs
+     Net n5651: 9 loads, 9 LSLICEs
+     Net n3844: 2 loads, 2 LSLICEs
+     Net uart_tx_bit_clock_enable_66: 1 loads, 1 LSLICEs
+     Net CLK_32M_c_enable_55: 4 loads, 4 LSLICEs
+     Net n4387: 11 loads, 11 LSLICEs
+     Net n5679: 9 loads, 9 LSLICEs
+     Net n4377: 1 loads, 1 LSLICEs
+     Net reset_in_r: 17 loads, 17 LSLICEs
+     Net n5699: 5 loads, 5 LSLICEs
+     Net n4760: 1 loads, 1 LSLICEs
+     Net n7827: 1 loads, 1 LSLICEs
+     Net n3921: 11 loads, 11 LSLICEs
+     Net n5638: 9 loads, 9 LSLICEs
+     Net n5698: 2 loads, 2 LSLICEs
+     Net n6493: 3 loads, 3 LSLICEs
+     Net n6180: 1 loads, 1 LSLICEs
+     Net n5722: 4 loads, 4 LSLICEs
+     Net n7842: 1 loads, 1 LSLICEs
+     Net n5636: 1 loads, 1 LSLICEs
+     Net n5643: 2 loads, 2 LSLICEs
+     Net n5727: 1 loads, 1 LSLICEs
+     Net n5725: 1 loads, 1 LSLICEs
+     Net n7760: 1 loads, 1 LSLICEs
+     Net uart_rx_a/n5696: 3 loads, 3 LSLICEs
+     Net uart_rx_a/n5688: 3 loads, 3 LSLICEs
+     Net uart_rx_a/n7864: 1 loads, 1 LSLICEs
+     Net uart_rx_a/n5640: 3 loads, 3 LSLICEs
+     Net uart_rx_a/n7383: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net CLK_32M_c_enable_265: 37 loads
+     Net uart_tx_bit_clock_enable_66: 26 loads
+     Net uart_frame_cnt_0: 21 loads
+     Net n7816: 20 loads
+     Net reset_in_r: 20 loads
+     Net uart_frame_cnt_2: 20 loads
+     Net JA_SCK_N_904: 19 loads
+     Net n7843: 19 loads
+     Net CLK_32M_c_enable_93: 17 loads
+     Net dac_state_1: 16 loads
+
+
+
+
+                                    Page 3
+
+
+
+
+Design:  nvm_ctrl                                      Date:  05/08/22  22:04:05
+
+
+
+
+   Number of warnings:  4
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: input pad net 'JA_DOUT' has no legal load.
+WARNING - map: input pad net 'JA_COMP' has no legal load.
+WARNING - map: IO buffer missing for top level port JA_DOUT...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port JA_COMP...logic will be
+     discarded.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| RE3                 | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| CLK_OUT             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| RE4                 | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| UART_TX             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| AD_ACLK             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| AD_ACS              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SW_IN               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SW_N                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SW_P                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DEBUG_TP3           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DEBUG_TP2           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| DEBUG_TP1           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LED2                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LED                 | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| RE1A                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| RE1B                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| RE2A                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 4
+
+
+
+
+Design:  nvm_ctrl                                      Date:  05/08/22  22:04:05
+
+IO (PIO) Attributes (cont)
+--------------------------
+| RE2B                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| MAG1                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| MAG10               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| MAG100              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| MS_A0               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| MS_A1               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| MS_A2               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| FEN_A               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| FEN_B               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| FEN_C               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| JA_DIN              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| JA_C1               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| JA_C2               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| JA_C3               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| JA_SCK              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| JA_CS               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| AZ_SW               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| PW1                 | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| PW2                 | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SU_A                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SU_B                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| CLK_32M             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| RESET               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| AD_ADO              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| COMP_IN             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| UART_RX             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| CON_START           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+                                    Page 5
+
+
+
+
+Design:  nvm_ctrl                                      Date:  05/08/22  22:04:05
+
+Removed logic
+-------------
+
+Block i2 undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Signal startup_cnt_32__N_436 was merged into signal reset_in_r
+Signal VCC_net undriven or does not drive anything - clipped.
+Signal add_7_33/CO undriven or does not drive anything - clipped.
+Signal uart_prediv_1156_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal uart_prediv_1156_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal uart_prediv_1156_add_4_7/S1 undriven or does not drive anything -
+     clipped.
+Signal uart_prediv_1156_add_4_7/CO undriven or does not drive anything -
+     clipped.
+Signal dac_div_1155_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal dac_div_1155_add_4_1/CI undriven or does not drive anything - clipped.
+Signal dac_div_1155_add_4_17/S1 undriven or does not drive anything - clipped.
+Signal dac_div_1155_add_4_17/CO undriven or does not drive anything - clipped.
+Signal add_546_1/S0 undriven or does not drive anything - clipped.
+Signal add_546_1/CI undriven or does not drive anything - clipped.
+Signal cnt_ic_20__I_0_17/S1 undriven or does not drive anything - clipped.
+Signal cnt_ic_20__I_0_17/S0 undriven or does not drive anything - clipped.
+Signal add_546_21/CO undriven or does not drive anything - clipped.
+Signal spi_cnt_1170_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal spi_cnt_1170_add_4_1/CI undriven or does not drive anything - clipped.
+Signal spi_cnt_1170_add_4_7/CO undriven or does not drive anything - clipped.
+Signal cnt_ic_neg_1159_add_4_1/S0 undriven or does not drive anything - clipped.
+     
+Signal cnt_ic_neg_1159_add_4_1/CI undriven or does not drive anything - clipped.
+     
+Signal cnt_ic_neg_1159_add_4_17/CO undriven or does not drive anything -
+     clipped.
+Signal uart_divider_1157_1247_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal uart_divider_1157_1247_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal uart_divider_1157_1247_add_4_5/S1 undriven or does not drive anything -
+     clipped.
+Signal uart_divider_1157_1247_add_4_5/CO undriven or does not drive anything -
+     clipped.
+Signal cnt_ic_pos_1160_add_4_1/S0 undriven or does not drive anything - clipped.
+     
+Signal cnt_ic_pos_1160_add_4_1/CI undriven or does not drive anything - clipped.
+     
+Signal add_7_1/S0 undriven or does not drive anything - clipped.
+Signal add_7_1/CI undriven or does not drive anything - clipped.
+Signal cnt_ic_pos_1160_add_4_17/CO undriven or does not drive anything -
+     clipped.
+Signal cnt_msm_1153_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal cnt_msm_1153_add_4_1/CI undriven or does not drive anything - clipped.
+Signal cnt_msm_1153_add_4_21/CO undriven or does not drive anything - clipped.
+Signal dac_cnt_1152_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal dac_cnt_1152_add_4_1/CI undriven or does not drive anything - clipped.
+Signal dac_cnt_1152_add_4_9/S1 undriven or does not drive anything - clipped.
+Signal dac_cnt_1152_add_4_9/CO undriven or does not drive anything - clipped.
+Signal cnt_ic_20__I_0_19/S1 undriven or does not drive anything - clipped.
+
+                                    Page 6
+
+
+
+
+Design:  nvm_ctrl                                      Date:  05/08/22  22:04:05
+
+Removed logic (cont)
+--------------------
+Signal cnt_ic_20__I_0_19/S0 undriven or does not drive anything - clipped.
+Signal cnt_ic_20__I_0_21_3452/S1 undriven or does not drive anything - clipped.
+Signal cnt_ic_20__I_0_21_3452/S0 undriven or does not drive anything - clipped.
+Signal cnt_ic_20__I_0_0/S1 undriven or does not drive anything - clipped.
+Signal cnt_ic_20__I_0_0/S0 undriven or does not drive anything - clipped.
+Signal cnt_ic_20__I_0_0/CI undriven or does not drive anything - clipped.
+Signal cnt_ic_20__I_0_21/S1 undriven or does not drive anything - clipped.
+Signal cnt_ic_20__I_0_21/CO undriven or does not drive anything - clipped.
+Signal cnt_ic_20__I_0_15/S1 undriven or does not drive anything - clipped.
+Signal cnt_ic_20__I_0_15/S0 undriven or does not drive anything - clipped.
+Block i1013_1_lut was optimized away.
+
+     
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 163 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 7
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights
+     reserved.

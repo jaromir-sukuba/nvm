@@ -1,0 +1,52 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Sun May  8 22:04:15 2022 *
+NOTE DESIGN NAME: nvm_ctrl *
+NOTE DEVICE NAME: LCMXO2-1200HC-5TQFP100 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS RE3 : 1 : out *
+NOTE PINS CLK_OUT : 31 : out *
+NOTE PINS RE4 : 2 : out *
+NOTE PINS UART_TX : 38 : out *
+NOTE PINS AD_ACLK : 40 : out *
+NOTE PINS AD_ACS : 42 : out *
+NOTE PINS SW_IN : 53 : out *
+NOTE PINS SW_N : 52 : out *
+NOTE PINS SW_P : 54 : out *
+NOTE PINS DEBUG_TP3 : 29 : out *
+NOTE PINS DEBUG_TP2 : 28 : out *
+NOTE PINS DEBUG_TP1 : 27 : out *
+NOTE PINS LED2 : 13 : out *
+NOTE PINS LED : 12 : out *
+NOTE PINS RE1A : 3 : out *
+NOTE PINS RE1B : 8 : out *
+NOTE PINS RE2A : 9 : out *
+NOTE PINS RE2B : 10 : out *
+NOTE PINS MAG1 : 75 : out *
+NOTE PINS MAG10 : 71 : out *
+NOTE PINS MAG100 : 69 : out *
+NOTE PINS MS_A0 : 68 : out *
+NOTE PINS MS_A1 : 70 : out *
+NOTE PINS MS_A2 : 74 : out *
+NOTE PINS FEN_A : 59 : out *
+NOTE PINS FEN_B : 57 : out *
+NOTE PINS FEN_C : 58 : out *
+NOTE PINS JA_DIN : 64 : out *
+NOTE PINS JA_C1 : 67 : out *
+NOTE PINS JA_C2 : 65 : out *
+NOTE PINS JA_C3 : 63 : out *
+NOTE PINS JA_SCK : 60 : out *
+NOTE PINS JA_CS : 61 : out *
+NOTE PINS AZ_SW : 18 : out *
+NOTE PINS PW1 : 19 : out *
+NOTE PINS PW2 : 20 : out *
+NOTE PINS SU_A : 16 : out *
+NOTE PINS SU_B : 17 : out *
+NOTE PINS CLK_32M : 88 : in *
+NOTE PINS RESET : 39 : in *
+NOTE PINS AD_ADO : 41 : in *
+NOTE PINS COMP_IN : 51 : in *
+NOTE PINS UART_RX : 37 : in *
+NOTE PINS CON_START : 36 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

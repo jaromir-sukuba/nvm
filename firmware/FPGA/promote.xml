@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userSetting name="/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/promote.xml" version="Diamond (64-bit) 3.12.0.240.2" date="Sat May 14 00:54:45 2022" vendor="Lattice Semiconductor Corporation" >
+  <msg mid="35901116" type="Warning" />
+  <msg mid="35931002" type="Warning" />
+  <msg mid="35901209" type="Warning" />
+  <msg mid="35901171" type="Error" />
+  <msg mid="35901310" type="Info" />
+</userSetting>

@@ -1,0 +1,323 @@
+Source:,/home/jarin/storage/main/backup_mg/works/nvm/pcb/rnvm_homer/rnvm_homer.kicad_sch,,,,,,,
+Date:,Sat 14 May 2022 10:56:04 PM CEST,,,,,,,
+Tool:,Eeschema 6.0.5-a6ca702e91~116~ubuntu20.04.1,,,,,,,
+Generator:,/usr/share/kicad/plugins/bom_csv_grouped_by_value.py,,,,,,,
+Component Count:,238,,,,,,,
+,,,,,,,,
+Individual Components:,,,,,,,,
+,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,PN,comment,supplier
+,,C1,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C2,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C3,10u,Device:CP,Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B,T491B106K025AT,,TME
+,,C4,1u,Device:C,Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm,MKS2-1U/50,,TME
+,,C5,1u,Device:C,Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm,MKS2-1U/50,,TME
+,,C6,1n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,VJ0805A102JXACW1BC,,TME
+,,C7,1n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,VJ0805A102JXACW1BC,,TME
+,,C8,1u,Device:C,Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm,MKS2-1U/50,,TME
+,,C9,220u,Device:CP,Capacitor_THT:CP_Radial_D8.0mm_P2.50mm,ECE-A1AKS221,,MOUSER
+,,C10,220u,Device:CP,Capacitor_THT:CP_Radial_D8.0mm_P2.50mm,ECE-A1AKS221,,MOUSER
+,,C11,220u,Device:CP,Capacitor_THT:CP_Radial_D8.0mm_P2.50mm,ECE-A1AKS221,,MOUSER
+,,C12,220u,Device:CP,Capacitor_THT:CP_Radial_D8.0mm_P2.50mm,ECE-A1AKS221,,MOUSER
+,,C13,22u,Device:C_Polarized,Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder,T491C226K025AT,,TME
+,,C14,22u,Device:C_Polarized,Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder,T491C226K025AT,,TME
+,,C15,22u,Device:C_Polarized,Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder,T491C226K025AT,,TME
+,,C16,1u,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B105KAFNNNG,,TME
+,,C17,10u,Device:CP,Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B,T491B106K025AT,,TME
+,,C18,1u,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B105KAFNNNG,,TME
+,,C19,10u,Device:CP,Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B,T491B106K025AT,,TME
+,,C20,1u,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B105KAFNNNG,,TME
+,,C21,1u,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B105KAFNNNG,,TME
+,,C22,1u,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B105KAFNNNG,,TME
+,,C23,10u,Device:CP,Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B,T491B106K025AT,,TME
+,,C24,1u,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B105KAFNNNG,,TME
+,,C25,10u,Device:CP,Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B,T491B106K025AT,,TME
+,,C26,1u,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B105KAFNNNG,,TME
+,,C27,1u,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B105KAFNNNG,,TME
+,,C28,220p,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,VJ0805A221JXACW1BC,,TME
+,,C29,1n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,VJ0805A102JXACW1BC,,TME
+,,C30,DNP,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,,DNP,
+,,C31,220p,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,VJ0805A221JXACW1BC,,TME
+,,C32,1u,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B105KAFNNNG,,TME
+,,C33,1u,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B105KAFNNNG,,TME
+,,C34,10u,Device:CP,Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B,T491B106K025AT,,TME
+,,C35,2u2,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B225KPFNNNE,,TME
+,,C36,1u,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B105KAFNNNG,,TME
+,,C37,1u,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B105KAFNNNG,,TME
+,,C38,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C39,1u,Device:C,Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm,MKS2-1U/50,,TME
+,,C40,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C41,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C42,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C43,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C44,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C45,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C46,2u2,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B225KPFNNNE,,TME
+,,C47,2u2,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B225KPFNNNE,,TME
+,,C48,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C49,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C50,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C51,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C52,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,D1,LED,Device:LED,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,KP-2012YD,,TME
+,,D2,LL4148,Diode:LL4148,Diode_SMD:D_MiniMELF,LL4148-GS18,,TME
+,,D3,LL4148,Diode:LL4148,Diode_SMD:D_MiniMELF,LL4148-GS18,,TME
+,,D4,5V6,Device:D_Zener,Diode_SMD:D_MiniMELF,TZMB5V6-GS08,,TME
+,,D5,BAT42,Diode:BAT42W-V,Diode_SMD:D_SOD-123,BAT42W-7-F,,TME
+,,D6,5V6,Device:D_Zener,Diode_SMD:D_MiniMELF,TZMB5V6-GS08,,TME
+,,D7,5V6,Device:D_Zener,Diode_SMD:D_MiniMELF,TZMB5V6-GS08,,TME
+,,D8,LED,Device:LED,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,KP-2012YD,,TME
+,,D9,LED,Device:LED,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,KP-2012YD,,TME
+,,D10,LED,Device:LED,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,KP-2012YD,,TME
+,,FB1,Ferrite_Bead_Small,Device:Ferrite_Bead_Small,Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder,BLM31A260SPT,,TME
+,,FB2,Ferrite_Bead_Small,Device:Ferrite_Bead_Small,Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder,BLM31A260SPT,,TME
+,,FB3,Ferrite_Bead_Small,Device:Ferrite_Bead_Small,Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder,BLM31A260SPT,,TME
+,,FB4,Ferrite_Bead_Small,Device:Ferrite_Bead_Small,Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder,BLM31A260SPT,,TME
+,,FB5,Ferrite_Bead_Small,Device:Ferrite_Bead_Small,Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder,BLM31A260SPT,,TME
+,,FB6,Ferrite_Bead_Small,Device:Ferrite_Bead_Small,Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder,BLM31A260SPT,,TME
+,,FB7,Ferrite_Bead_Small,Device:Ferrite_Bead_Small,Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder,BLM31A260SPT,,TME
+,,H1,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,,DNP,
+,,H2,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,,DNP,
+,,H3,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,,DNP,
+,,H4,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,,DNP,
+,,H5,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,,DNP,
+,,H6,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,,DNP,
+,,H7,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,,DNP,
+,,H8,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,,DNP,
+,,H9,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,,DNP,
+,,H10,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,,DNP,
+,,H11,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.7mm_Pad,,DNP,
+,,H12,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.7mm_Pad,,DNP,
+,,H13,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,,DNP,
+,,H14,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,,DNP,
+,,J1,Conn_01x06_Male,Connector:Conn_01x06_Male,Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical,NS25-W6P,,TME
+,,J2,Conn_01x10_Male,Connector:Conn_01x10_Male,Connector_Molex:Molex_KK-254_AE-6410-10A_1x10_P2.54mm_Vertical,NS25-W10P,,TME
+,,J3,Conn_02x08_Odd_Even,Connector_Generic:Conn_02x08_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,ZL201-10G,,TME
+,,J4,Conn_01x08_Male,Connector:Conn_01x08_Male,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,ZL201-10G,,TME
+,,J5,Conn_01x08_Male,Connector:Conn_01x08_Male,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,ZL201-10G,,TME
+,,J6,Conn_01x04_Male,Connector:Conn_01x04_Male,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,ZL201-10G,,TME
+,,J7,Conn_02x03_Odd_Even,Connector_Generic:Conn_02x03_Odd_Even,Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical,75869-331LF,,TME
+,,LOGO1,logo_generic,j_lib:logo_generic,j_lib:logo_rpg7x9,,DNP,
+,,Q1,BCP56,Transistor_BJT:BCP56,Package_TO_SOT_SMD:SOT-223,BCP56-16.115,,TME
+,,Q2,BC847,Transistor_BJT:BC847,Package_TO_SOT_SMD:SOT-23,BC847.215,,TME
+,,Q3,BC847,Transistor_BJT:BC847,Package_TO_SOT_SMD:SOT-23,BC847.215,,TME
+,,Q4,BC857,Transistor_BJT:BC857,Package_TO_SOT_SMD:SOT-23,BC857.215,,TME
+,,Q5,BC857,Transistor_BJT:BC857,Package_TO_SOT_SMD:SOT-23,BC857.215,,TME
+,,Q6,BCP53,Transistor_BJT:BCP53,Package_TO_SOT_SMD:SOT-223,"BCP53-16,115",,TME
+,,Q7,BCP53,Transistor_BJT:BCP53,Package_TO_SOT_SMD:SOT-223,"BCP53-16,115",,TME
+,,Q8,BC847,Transistor_BJT:BC847,Package_TO_SOT_SMD:SOT-23,BC847.215,,TME
+,,Q9,BC847,Transistor_BJT:BC847,Package_TO_SOT_SMD:SOT-23,BC847.215,,TME
+,,Q10,BC857,Transistor_BJT:BC857,Package_TO_SOT_SMD:SOT-23,BC857.215,,TME
+,,R1,16k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,CSRV0204FTDG1602,,TME
+,,R2,16k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,CSRV0204FTDG1602,,TME
+,,R3,620R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C6200,,TME
+,,R4,16k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,CSRV0204FTDG1602,,TME
+,,R5,16k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,CSRV0204FTDG1602,,TME
+,,R6,12R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-12R,,TME
+,,R7,24k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C2402,,TME
+,,R8,12k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1202,,TME
+,,R9,120R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1200,,TME
+,,R10,12k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1202,,TME
+,,R11,120k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1203,,TME
+,,R12,120k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1203,,TME
+,,R13,12k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1202,,TME
+,,R14,120R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1200,,TME
+,,R15,12k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1202,,TME
+,,R16,24k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C2402,,TME
+,,R17,12R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-12R,,TME
+,,R18,12k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1202,,TME
+,,R19,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R20,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R21,2k4,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C2401,,TME
+,,R22,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R23,0R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-0R,,TME
+,,R24,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R25,12k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1202,,TME
+,,R26,1k2,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1201,,TME
+,,R27,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R28,1k2,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1201,,TME
+,,R29,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R30,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R31,12k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1202,,TME
+,,R32,0R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-0R,,TME
+,,R33,12k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1202,,TME
+,,R34,DNP,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,,DNP,
+,,R35,8k2,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C8201,,TME
+,,R36,0R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-0R,,TME
+,,R37,12k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1202,,TME
+,,R38,24k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C2402,,TME
+,,R39,300k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C3003,,TME
+,,R40,12k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1202,,TME
+,,R41,3k6,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C3601,,TME
+,,R42,3k6,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C3601,,TME
+,,R43,3k6,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C3601,,TME
+,,R44,3k6,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C3601,,TME
+,,R45,12k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1202,,TME
+,,R46,6k2,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C6201,,TME
+,,R47,12k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1202,,TME
+,,R48,12k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1202,,TME
+,,R49,2k49,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal,YR1B2K49CC,7k for LM399,MOUSER
+,,R50,12R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-12R,,TME
+,,R51,8k2,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C8201,,TME
+,,R52,0R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-0R,,TME
+,,R53,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R54,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R55,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R56,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R57,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R58,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R59,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R60,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R61,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R62,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R63,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R64,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R65,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R66,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R67,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R68,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R69,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R70,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R71,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R72,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R73,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R74,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R75,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R76,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R77,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R78,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R79,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R80,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R81,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R82,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R83,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R84,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R85,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R86,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R87,24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+,,R88,620R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C6200,,TME
+,,R89,620R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C6200,,TME
+,,R90,620R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C6200,,TME
+,,RN1,LT5400-2,jlib_1:LT5400,Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm,LT5400BIMS8E-1#PBF ,,MOUSER
+,,RN2,LT5400-2,jlib_1:LT5400,Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm,LT5400BIMS8E-1#PBF ,,MOUSER
+,,RN3,LT5400-1,jlib_1:LT5400,Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm,LT5400BIMS8E-2#PBF ,,MOUSER
+,,T_CM1,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,optional,,aliexpress
+,,T_INI1,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,optional,,aliexpress
+,,T_INO1,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,optional,,aliexpress
+,,T_LADC1,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,optional,,aliexpress
+,,T_V1,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,optional,,aliexpress
+,,TGNDA1,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,optional,,aliexpress
+,,TGNDS1,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,optional,,aliexpress
+,,TP1,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded,optional,,aliexpress
+,,TP2,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded,optional,,aliexpress
+,,TP3,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded,optional,,aliexpress
+,,TP4,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded,optional,,aliexpress
+,,TP5,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded,optional,,aliexpress
+,,TP6,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded,optional,,aliexpress
+,,TP7,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded,optional,,aliexpress
+,,TP8,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded,optional,,aliexpress
+,,TP9,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_1.5x1.5mm,,DNP,
+,,TP10,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_1.5x1.5mm,,DNP,
+,,TP11,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_1.5x1.5mm,,DNP,
+,,TP12,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_1.5x1.5mm,,DNP,
+,,TVR+1,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,optional,,aliexpress
+,,TVR-1,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,optional,,aliexpress
+,,U1,DG412xY,Analog_Switch:DG412xY,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,DG412DYZ,,TME
+,,U2,ISO7341C,Isolator:ISO7341C,Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm,ISO7341CDWR,,MOUSER
+,,U3,DG419xY,Analog_Switch:DG419xY,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,DG419DY-E3,,MOUSER
+,,U4,OPA140,Amplifier_Operational:TL081,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,OPA140AIDR,,MOUSER
+,,U5,TL071,Amplifier_Operational:TL081,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,TL071ACDR,,MOUSER
+,,U6,LM311,Comparator:LM311,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,LM311DR,,MOUSER
+,,U7,OPA140,Amplifier_Operational:OPA134,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,OPA140AIDR,,MOUSER
+,,U8,OPA140,Amplifier_Operational:OPA134,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,OPA140AIDR,,MOUSER
+,,U9,OPA192,Amplifier_Operational:OPA134,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,OPA192ID,,MOUSER
+,,U10,MCP3201,Analog_ADC:MCP3201,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,MCP3201-CI/SN,,MOUSER
+,,U11,LV4053,Analog_Switch:CD4053B,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,SN74LV4053AD,,MOUSER
+,,U12,DNP-MCP33151,jlib_1:MCP33151,Package_SO:MSOP-10_3x3mm_P0.5mm,,DNP,
+,,U13,MCP1700-33,Regulator_Linear:MCP1700-1202E_SOT23,Package_TO_SOT_SMD:SOT-23,MCP1700T-3302E,,MOUSER
+,,U14,DNP-MCP1700-18,Regulator_Linear:MCP1700-1202E_SOT23,Package_TO_SOT_SMD:SOT-23,,DNP,
+,,U15,OPA202,Amplifier_Operational:OPA134,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,OPA202IDR,,MOUSER
+,,U16,OPA202,Amplifier_Operational:OPA134,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,OPA202IDR,,MOUSER
+,,U17,OPA202,Amplifier_Operational:OPA134,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,OPA202IDR,,MOUSER
+,,U18,MCP1700-33,Regulator_Linear:MCP1700-1202E_SOT23,Package_TO_SOT_SMD:SOT-23,MCP1700T-3302E,,MOUSER
+,,U19,DNP-MCP1700-12,Regulator_Linear:MCP1700-1202E_SOT23,Package_TO_SOT_SMD:SOT-23,,DNP,
+,,U20,LCMXO2-1200xx-xTG100,Gekkio_FPGA_Lattice:LCMXO2-1200xx-xTG100,Package_QFP:TQFP-100_14x14mm_P0.5mm,XO21200HC4TG100C,,MOUSER
+,,U21,tc77-SOT23-5,jlib_1:tc77-SOT23-5,Package_TO_SOT_SMD:SOT-23-5_HandSoldering,TC77-3.3MCTTR,,MOUSER
+,,VR1,ADR1399,jlib_1:LM399,j_lib:LM399,ADR1399KHZ,Alternative: LM399 ,MOUSER
+,,X1,SG-5032CAN,Oscillator:SG-5032CAN,Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm,5032CAN320M,,MOUSER
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Collated Components:,,,,,,,,
+,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,PN,comment,supplier
+1,14,"C1, C2, C38, C40, C41, C42, C43, C44, C45, C48, C49, C50, C51, C52",100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+2,6,"C3, C17, C19, C23, C25, C34",10u,Device:CP,Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B,T491B106K025AT,,TME
+3,4,"C4, C5, C8, C39",1u,Device:C,Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm,MKS2-1U/50,,TME
+4,3,"C6, C7, C29",1n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,VJ0805A102JXACW1BC,,TME
+5,4,"C9, C10, C11, C12",220u,Device:CP,Capacitor_THT:CP_Radial_D8.0mm_P2.50mm,ECE-A1AKS221,,MOUSER
+6,3,"C13, C14, C15",22u,Device:C_Polarized,Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder,T491C226K025AT,,TME
+7,12,"C16, C18, C20, C21, C22, C24, C26, C27, C32, C33, C36, C37",1u,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B105KAFNNNG,,TME
+8,2,"C28, C31",220p,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,VJ0805A221JXACW1BC,,TME
+9,1,C30,DNP,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,,DNP,
+10,3,"C35, C46, C47",2u2,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B225KPFNNNE,,TME
+11,4,"D1, D8, D9, D10",LED,Device:LED,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,KP-2012YD,,TME
+12,2,"D2, D3",LL4148,Diode:LL4148,Diode_SMD:D_MiniMELF,LL4148-GS18,,TME
+13,3,"D4, D6, D7",5V6,Device:D_Zener,Diode_SMD:D_MiniMELF,TZMB5V6-GS08,,TME
+14,1,D5,BAT42,Diode:BAT42W-V,Diode_SMD:D_SOD-123,BAT42W-7-F,,TME
+15,7,"FB1, FB2, FB3, FB4, FB5, FB6, FB7",Ferrite_Bead_Small,Device:Ferrite_Bead_Small,Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder,BLM31A260SPT,,TME
+16,12,"H1, H2, H3, H4, H5, H6, H7, H8, H9, H10, H13, H14",MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,,DNP,
+17,2,"H11, H12",MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.7mm_Pad,,DNP,
+18,1,J1,Conn_01x06_Male,Connector:Conn_01x06_Male,Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical,NS25-W6P,,TME
+19,1,J2,Conn_01x10_Male,Connector:Conn_01x10_Male,Connector_Molex:Molex_KK-254_AE-6410-10A_1x10_P2.54mm_Vertical,NS25-W10P,,TME
+20,1,J3,Conn_02x08_Odd_Even,Connector_Generic:Conn_02x08_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,ZL201-10G,,TME
+21,2,"J4, J5",Conn_01x08_Male,Connector:Conn_01x08_Male,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,ZL201-10G,,TME
+22,1,J6,Conn_01x04_Male,Connector:Conn_01x04_Male,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,ZL201-10G,,TME
+23,1,J7,Conn_02x03_Odd_Even,Connector_Generic:Conn_02x03_Odd_Even,Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical,75869-331LF,,TME
+24,1,LOGO1,logo_generic,j_lib:logo_generic,j_lib:logo_rpg7x9,,DNP,
+25,1,Q1,BCP56,Transistor_BJT:BCP56,Package_TO_SOT_SMD:SOT-223,BCP56-16.115,,TME
+26,4,"Q2, Q3, Q8, Q9",BC847,Transistor_BJT:BC847,Package_TO_SOT_SMD:SOT-23,BC847.215,,TME
+27,3,"Q4, Q5, Q10",BC857,Transistor_BJT:BC857,Package_TO_SOT_SMD:SOT-23,BC857.215,,TME
+28,2,"Q6, Q7",BCP53,Transistor_BJT:BCP53,Package_TO_SOT_SMD:SOT-223,"BCP53-16,115",,TME
+29,4,"R1, R2, R4, R5",16k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,CSRV0204FTDG1602,,TME
+30,4,"R3, R88, R89, R90",620R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C6200,,TME
+31,3,"R6, R17, R50",12R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-12R,,TME
+32,3,"R7, R16, R38",24k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C2402,,TME
+33,13,"R8, R10, R13, R15, R18, R25, R31, R33, R37, R40, R45, R47, R48",12k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1202,,TME
+34,2,"R9, R14",120R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1200,,TME
+35,2,"R11, R12",120k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1203,,TME
+36,42,"R19, R20, R22, R24, R27, R29, R30, R53, R54, R55, R56, R57, R58, R59, R60, R61, R62, R63, R64, R65, R66, R67, R68, R69, R70, R71, R72, R73, R74, R75, R76, R77, R78, R79, R80, R81, R82, R83, R84, R85, R86, R87",24R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-24R,,TME
+37,1,R21,2k4,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C2401,,TME
+38,4,"R23, R32, R36, R52",0R,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-0R,,TME
+39,2,"R26, R28",1k2,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C1201,,TME
+40,1,R34,DNP,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,,DNP,
+41,2,"R35, R51",8k2,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C8201,,TME
+42,1,R39,300k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C3003,,TME
+43,4,"R41, R42, R43, R44",3k6,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C3601,,TME
+44,1,R46,6k2,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040C6201,,TME
+45,1,R49,2k49,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal,YR1B2K49CC,7k for LM399,MOUSER
+46,2,"RN1, RN2",LT5400-2,jlib_1:LT5400,Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm,LT5400BIMS8E-1#PBF ,,MOUSER
+47,1,RN3,LT5400-1,jlib_1:LT5400,Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm,LT5400BIMS8E-2#PBF ,,MOUSER
+48,9,"T_CM1, T_INI1, T_INO1, T_LADC1, T_V1, TGNDA1, TGNDS1, TVR+1, TVR-1",TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,optional,,aliexpress
+49,4,"TP1, TP2, TP3, TP4",TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded,optional,,aliexpress
+50,4,"TP5, TP6, TP7, TP8",TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded,optional,,aliexpress
+51,4,"TP9, TP10, TP11, TP12",TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_1.5x1.5mm,,DNP,
+52,1,U1,DG412xY,Analog_Switch:DG412xY,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,DG412DYZ,,TME
+53,1,U2,ISO7341C,Isolator:ISO7341C,Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm,ISO7341CDWR,,MOUSER
+54,1,U3,DG419xY,Analog_Switch:DG419xY,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,DG419DY-E3,,MOUSER
+55,1,U4,OPA140,Amplifier_Operational:TL081,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,OPA140AIDR,,MOUSER
+56,1,U5,TL071,Amplifier_Operational:TL081,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,TL071ACDR,,MOUSER
+57,1,U6,LM311,Comparator:LM311,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,LM311DR,,MOUSER
+58,2,"U7, U8",OPA140,Amplifier_Operational:OPA134,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,OPA140AIDR,,MOUSER
+59,1,U9,OPA192,Amplifier_Operational:OPA134,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,OPA192ID,,MOUSER
+60,1,U10,MCP3201,Analog_ADC:MCP3201,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,MCP3201-CI/SN,,MOUSER
+61,1,U11,LV4053,Analog_Switch:CD4053B,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,SN74LV4053AD,,MOUSER
+62,1,U12,DNP-MCP33151,jlib_1:MCP33151,Package_SO:MSOP-10_3x3mm_P0.5mm,,DNP,
+63,2,"U13, U18",MCP1700-33,Regulator_Linear:MCP1700-1202E_SOT23,Package_TO_SOT_SMD:SOT-23,MCP1700T-3302E,,MOUSER
+64,1,U14,DNP-MCP1700-18,Regulator_Linear:MCP1700-1202E_SOT23,Package_TO_SOT_SMD:SOT-23,,DNP,
+65,3,"U15, U16, U17",OPA202,Amplifier_Operational:OPA134,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,OPA202IDR,,MOUSER
+66,1,U19,DNP-MCP1700-12,Regulator_Linear:MCP1700-1202E_SOT23,Package_TO_SOT_SMD:SOT-23,,DNP,
+67,1,U20,LCMXO2-1200xx-xTG100,Gekkio_FPGA_Lattice:LCMXO2-1200xx-xTG100,Package_QFP:TQFP-100_14x14mm_P0.5mm,XO21200HC4TG100C,,MOUSER
+68,1,U21,tc77-SOT23-5,jlib_1:tc77-SOT23-5,Package_TO_SOT_SMD:SOT-23-5_HandSoldering,TC77-3.3MCTTR,,MOUSER
+69,1,VR1,ADR1399,jlib_1:LM399,j_lib:LM399,ADR1399KHZ,Alternative: LM399 ,MOUSER
+70,1,X1,SG-5032CAN,Oscillator:SG-5032CAN,Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm,5032CAN320M,,MOUSER

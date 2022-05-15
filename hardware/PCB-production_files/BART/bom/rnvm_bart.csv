@@ -1,0 +1,969 @@
+Source:,/home/jarin/storage/main/backup_mg/works/nvm/pcb/rnvm_bart/rnvm_bart.kicad_sch,,,,,,,
+Date:,Sat 14 May 2022 09:41:04 PM CEST,,,,,,,
+Tool:,Eeschema 6.0.5-a6ca702e91~116~ubuntu20.04.1,,,,,,,
+Generator:,/usr/share/kicad/plugins/bom_csv_grouped_by_value.py,,,,,,,
+Component Count:,883,,,,,,,
+,,,,,,,,
+Individual Components:,,,,,,,,
+,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,PN,comment,supplier
+,,C1,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C2,470p,Device:C,Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm,FKP2-470P/630-R,,TME
+,,C3,470p,Device:C,Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm,FKP2-470P/630-R,,TME
+,,C4,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C5,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C6,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C7,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C8,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C9,10u,Device:CP,Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder,293D106X9025C2TE3,,TME
+,,C10,10u,Device:CP,Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder,293D106X9025C2TE3,,TME
+,,C11,10u,Device:CP,Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder,293D106X9025C2TE3,,TME
+,,C12,10u,Device:CP,Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder,293D106X9025C2TE3,,TME
+,,C13,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C14,2u2,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B225KPFNNNE,,TME
+,,C15,10u,Device:CP,Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder,293D106X9025C2TE3,,TME
+,,C16,10u,Device:CP,Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder,293D106X9025C2TE3,,TME
+,,C17,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C18,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C19,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C20,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C21,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C22,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C23,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C24,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C25,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C26,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C27,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C28,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C29,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C30,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C31,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C32,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C33,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C34,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C35,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C36,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C37,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C38,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C39,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C40,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C41,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C42,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C43,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C44,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C45,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C46,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C47,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C48,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C49,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C50,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C51,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C52,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C53,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C54,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C55,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C56,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C57,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C58,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C59,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C60,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C61,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C62,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C63,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C64,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C65,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C66,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C67,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C68,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C69,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C70,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C71,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C72,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C73,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C74,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C75,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C76,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C77,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C78,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C79,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C80,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C81,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C82,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C83,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C84,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C85,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C86,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C87,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C88,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C89,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C90,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C91,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C92,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C93,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C94,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C95,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C96,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C97,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C98,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C99,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C100,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C101,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C102,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C103,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C104,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C105,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C106,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C107,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C108,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C109,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C110,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C111,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C112,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C113,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C114,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C115,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C116,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C117,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C118,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C119,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C120,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C121,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C122,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C123,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C124,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C125,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C126,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C127,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C128,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C129,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C130,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C131,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C132,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C133,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C134,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C135,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C136,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C137,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C138,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C139,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C140,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C141,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C142,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C143,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C144,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C145,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C146,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C147,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C148,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C149,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C150,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C151,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C152,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C153,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C154,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C155,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C156,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C157,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C158,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C159,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C160,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C161,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C162,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C163,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C164,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C165,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C166,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C167,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C168,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C169,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C170,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C171,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C172,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C173,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C174,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C175,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C176,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C177,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C178,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C179,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C180,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C181,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C182,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C183,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C184,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C185,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C186,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C187,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C188,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C189,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C190,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C191,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C192,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C193,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C194,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C195,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C196,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C197,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C198,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C199,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C200,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C201,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C202,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C203,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C204,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C205,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C206,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C207,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C208,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C209,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C210,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C211,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C212,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C213,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C214,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+,,C215,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C216,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C217,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C218,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C219,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C220,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C221,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C222,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C223,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C224,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C225,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C226,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C227,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C228,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C229,22n,Device:C,Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm,R82IC2220Z350K,,TME
+,,C230,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C231,1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+,,C232,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C233,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C234,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C235,33n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,VJ0805Y333KXACW1BC,,TME
+,,C236,1n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,VJ0805A102JXACW1BC,,TME
+,,C237,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C238,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C239,2u2,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B225KPFNNNE,,TME
+,,C240,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C241,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C242,DNP,Device:C,Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm,,DNP,
+,,C243,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C244,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C245,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C246,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,C247,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+,,D1,LL43,Diode:LL43,Diode_SMD:D_MiniMELF,LL43-GS08,,TME
+,,D2,SM6T6V8A,Diode:SM6T6V8A,Diode_SMD:D_SMB,SM6T6V8A,,TME
+,,FB1,Ferrite_Bead_Small,Device:Ferrite_Bead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,
+,,FB2,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB3,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB4,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB5,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB6,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB7,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB8,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB9,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB10,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB11,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB12,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB13,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB14,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB15,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB16,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB17,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB18,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB19,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB20,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB21,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB22,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB23,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB24,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB25,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB26,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB27,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB28,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB29,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB30,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB31,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB32,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB33,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB34,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB35,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB36,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB37,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB38,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB39,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB40,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB41,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB42,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB43,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB44,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB45,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB46,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB47,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB48,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB49,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB50,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB51,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB52,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB53,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB54,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB55,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB56,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB57,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB58,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB59,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB60,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB61,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB62,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB63,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB64,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB65,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB66,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB67,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB68,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB69,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB70,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB71,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB72,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB73,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB74,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB75,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB76,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB77,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB78,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB79,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB80,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB81,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB82,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB83,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB84,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB85,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB86,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB87,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB88,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB89,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB90,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB91,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB92,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB93,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB94,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB95,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB96,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB97,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB98,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB99,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB100,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,FB101,FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+,,H1,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,,DNP,
+,,H2,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,,DNP,
+,,H3,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,,DNP,
+,,H4,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.7mm,,DNP,
+,,H5,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.7mm,,DNP,
+,,H6,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.7mm,,DNP,
+,,J1,Conn_01x04_Male,Connector:Conn_01x04_Male,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,ZL262-8SG,,TME
+,,J2,Conn_01x08_Male,Connector:Conn_01x08_Male,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,ZL262-4SG,,TME
+,,J3,Conn_01x08_Male,Connector:Conn_01x08_Male,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,ZL262-4SG,,TME
+,,J4,Conn_02x08_Odd_Even,Connector_Generic:Conn_02x08_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,ZL262-8SG,,TME
+,,J5,Conn_01x04_Male,Connector:Conn_01x04_Male,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,ZL262-8SG,,TME
+,,K1,G6KU-2,Relay:G6KU-2,Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y,G6KU-2P-Y DC5 ,,MOUSER
+,,K2,G6KU-2,Relay:G6KU-2,Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y,G6KU-2P-Y DC5 ,,MOUSER
+,,K3,SILxx-1Axx-71x,Relay:SILxx-1Axx-71x,Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A,Pickering 107-1-A-5,Could be different type,Own stock
+,,K4,SILxx-1Axx-71x,Relay:SILxx-1Axx-71x,Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A,Pickering 107-1-A-5,Could be different type,Own stock
+,,LOGO1,logo_generic,j_lib:logo_generic,j_lib:logo_rpg7x9,,DNP,
+,,Q1,BC847,Transistor_BJT:BC847,Package_TO_SOT_SMD:SOT-23,BC847.215,,TME
+,,Q2,BC847,Transistor_BJT:BC847,Package_TO_SOT_SMD:SOT-23,BC847.215,,TME
+,,Q3,BC847,Transistor_BJT:BC847,Package_TO_SOT_SMD:SOT-23,BC847.215,,TME
+,,Q4,BC857,Transistor_BJT:BC857,Package_TO_SOT_SMD:SOT-23,BC857.215,,TME
+,,R1,12k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW080512K0,,TME
+,,R2,3k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08053K0,,TME
+,,R3,12k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW080512K0,,TME
+,,R4,3k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08053K0,,TME
+,,R5,24k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW080524K0,,TME
+,,R6,24k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW080524K0,,TME
+,,R7,620R,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW0805620R,,TME
+,,R8,620R,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW0805620R,,TME
+,,R9,15k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW080515K0,,TME
+,,R10,24R,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW080524R0,,TME
+,,R11,3k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08053K0,,TME
+,,R12,0R,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08050000,,TME
+,,R13,240R,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW0805240R,,TME
+,,R14,18k20,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,YR1B18K2CC,,MOUSER
+,,R15,20k00,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,PTF5620K000FZEB ,,MOUSER
+,,R16,3k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08053K0,,TME
+,,R17,18k20,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,YR1B18K2CC,,MOUSER
+,,R18,24R,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,CMF5523R200BEEK,,MOUSER
+,,R19,620R,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW0805620R,,TME
+,,R20,2k00,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,PTF562K0000BZEK,,MOUSER
+,,R21,5k,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,YR1B4K99CC,,MOUSER
+,,R22,12k1,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,YR1B12K1CC,,MOUSER
+,,R23,24R,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW080524R0,,TME
+,,R24,200R0,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,PTF56200R00FZEB,,MOUSER
+,,R25,3k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08053K0,,TME
+,,R26,5k,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,YR1B4K99CC,,MOUSER
+,,R27,3k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08053K0,,TME
+,,R28,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R29,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R30,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R31,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R32,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R33,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R34,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R35,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R36,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R37,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R38,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R39,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R40,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R41,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R42,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R43,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R44,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R45,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R46,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R47,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R48,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R49,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R50,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R51,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R52,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R53,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R54,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R55,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R56,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R57,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R58,40k,Device:R,Resistor_SMD:R_0805_2012Metric,279-RN73C2A40K2BTD ,,MOUSER
+,,R59,5k1,Device:R,Resistor_SMD:R_0805_2012Metric,RN73C2A5K11BTD,,MOUSER
+,,R60,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R61,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R62,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R63,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R64,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R65,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R66,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R67,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R68,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R69,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R70,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R71,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R72,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R73,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R74,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R75,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R76,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R77,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R78,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R79,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R80,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R81,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R82,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R83,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R84,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R85,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R86,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R87,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R88,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R89,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R90,40k,Device:R,Resistor_SMD:R_0805_2012Metric,279-RN73C2A40K2BTD ,,MOUSER
+,,R91,5k1,Device:R,Resistor_SMD:R_0805_2012Metric,RN73C2A5K11BTD,,MOUSER
+,,R92,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R93,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R94,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R95,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R96,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R97,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R98,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R99,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R100,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R101,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R102,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R103,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R104,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R105,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R106,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R107,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R108,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R109,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R110,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R111,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R112,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R113,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R114,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R115,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R116,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R117,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R118,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R119,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R120,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R121,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R122,40k,Device:R,Resistor_SMD:R_0805_2012Metric,279-RN73C2A40K2BTD ,,MOUSER
+,,R123,5k1,Device:R,Resistor_SMD:R_0805_2012Metric,RN73C2A5K11BTD,,MOUSER
+,,R124,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R125,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R126,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R127,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R128,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R129,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R130,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R131,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R132,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R133,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R134,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R135,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R136,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R137,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R138,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R139,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R140,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R141,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R142,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R143,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R144,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R145,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R146,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R147,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R148,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R149,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R150,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R151,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R152,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R153,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R154,40k,Device:R,Resistor_SMD:R_0805_2012Metric,279-RN73C2A40K2BTD ,,MOUSER
+,,R155,5k1,Device:R,Resistor_SMD:R_0805_2012Metric,RN73C2A5K11BTD,,MOUSER
+,,R156,40k,Device:R,Resistor_SMD:R_0805_2012Metric,279-RN73C2A40K2BTD ,,MOUSER
+,,R157,5k1,Device:R,Resistor_SMD:R_0805_2012Metric,RN73C2A5K11BTD,,MOUSER
+,,R158,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R159,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R160,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R161,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R162,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R163,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R164,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R165,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R166,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R167,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R168,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R169,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R170,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R171,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R172,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R173,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R174,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R175,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R176,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R177,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R178,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R179,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R180,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R181,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R182,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R183,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R184,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R185,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R186,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R187,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R188,40k,Device:R,Resistor_SMD:R_0805_2012Metric,279-RN73C2A40K2BTD ,,MOUSER
+,,R189,5k1,Device:R,Resistor_SMD:R_0805_2012Metric,RN73C2A5K11BTD,,MOUSER
+,,R190,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R191,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R192,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R193,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R194,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R195,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R196,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R197,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R198,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R199,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R200,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R201,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R202,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R203,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R204,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R205,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R206,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R207,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R208,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R209,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R210,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R211,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R212,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R213,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R214,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R215,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R216,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R217,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R218,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R219,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R220,40k,Device:R,Resistor_SMD:R_0805_2012Metric,279-RN73C2A40K2BTD ,,MOUSER
+,,R221,5k1,Device:R,Resistor_SMD:R_0805_2012Metric,RN73C2A5K11BTD,,MOUSER
+,,R222,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R223,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R224,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R225,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R226,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R227,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R228,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R229,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R230,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R231,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R232,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R233,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R234,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R235,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R236,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R237,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R238,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R239,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R240,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R241,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R242,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R243,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R244,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R245,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R246,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R247,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R248,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R249,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R250,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R251,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R252,40k,Device:R,Resistor_SMD:R_0805_2012Metric,279-RN73C2A40K2BTD ,,MOUSER
+,,R253,5k1,Device:R,Resistor_SMD:R_0805_2012Metric,RN73C2A5K11BTD,,MOUSER
+,,R254,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R255,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R256,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R257,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R258,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R259,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R260,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R261,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R262,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R263,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R264,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R265,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R266,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R267,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R268,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R269,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R270,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R271,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R272,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R273,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R274,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R275,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R276,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R277,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R278,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R279,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R280,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R281,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R282,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R283,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R284,40k,Device:R,Resistor_SMD:R_0805_2012Metric,279-RN73C2A40K2BTD ,,MOUSER
+,,R285,5k1,Device:R,Resistor_SMD:R_0805_2012Metric,RN73C2A5K11BTD,,MOUSER
+,,R286,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R287,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R288,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R289,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R290,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R291,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R292,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R293,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R294,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R295,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R296,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R297,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R298,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R299,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R300,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R301,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R302,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R303,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R304,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R305,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R306,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R307,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R308,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R309,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R310,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R311,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R312,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R313,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R314,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R315,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R316,40k,Device:R,Resistor_SMD:R_0805_2012Metric,279-RN73C2A40K2BTD ,,MOUSER
+,,R317,5k1,Device:R,Resistor_SMD:R_0805_2012Metric,RN73C2A5K11BTD,,MOUSER
+,,R318,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R319,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R320,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R321,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R322,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R323,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R324,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R325,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R326,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R327,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R328,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R329,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R330,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R331,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R332,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R333,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R334,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R335,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R336,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R337,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R338,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R339,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R340,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R341,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R342,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R343,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R344,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R345,20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+,,R346,100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+,,R347,10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+,,R348,12k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW080512K0,,TME
+,,R349,12k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW080512K0,,TME
+,,R350,1G,Device:R,Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P20.32mm_Horizontal,MOX-400231007FE ,,MOUSER
+,,R351,6M2,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08056M20,,TME
+,,R352,6k2,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08056K20,,TME
+,,R353,6M2,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08056M20,,TME
+,,R354,40k,Device:R,Resistor_SMD:R_0805_2012Metric,279-RN73C2A40K2BTD ,,MOUSER
+,,R355,6k2,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08056K20,,TME
+,,R356,5R6,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-5R6,,TME
+,,R357,40k,Device:R,Resistor_SMD:R_0805_2012Metric,279-RN73C2A40K2BTD ,,MOUSER
+,,R358,3k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08053K0,,TME
+,,R359,8M2,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08058M20,,TME
+,,R360,0R,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08050000,,TME
+,,R361,40k,Device:R,Resistor_SMD:R_0805_2012Metric,279-RN73C2A40K2BTD ,,MOUSER
+,,R362,3k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08053K0,,TME
+,,R363,40k,Device:R,Resistor_SMD:R_0805_2012Metric,279-RN73C2A40K2BTD ,,MOUSER
+,,R364,0R,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08050000,,TME
+,,R365,15k53,Device:R,Resistor_SMD:R_0805_2012Metric,RN73C2A15K4BTDF,,MOUSER
+,,R366,3k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08053K0,,TME
+,,R367,6k2,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08056K20,,TME
+,,R368,200k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040E2003BB300 ,,MOUSER
+,,R369,12k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW080512K0,,TME
+,,R370,19k8,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040E2002BB100,,MOUSER
+,,R371,24k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW080524K0,,TME
+,,R372,240R,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW0805240R,,TME
+,,R373,30k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW080530K0,,TME
+,,R374,2k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040E2001BB100,,MOUSER
+,,R375,24k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW080524K0,,TME
+,,R376,12k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW080512K0,,TME
+,,R377,30k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW080530K0,,TME
+,,R378,240R,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW0805240R,,TME
+,,R379,6k2,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08056K20,,TME
+,,TP1,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,,optional,aliexpress
+,,TP2,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,,optional,aliexpress
+,,TP3,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,,optional,aliexpress
+,,TP4,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,,optional,aliexpress
+,,TP5,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,,optional,aliexpress
+,,TP6,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,,optional,aliexpress
+,,U1,LM393,Comparator:LM393,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,LM393AD,,TME
+,,U2,OPA145,Amplifier_Operational:OPA188xxD,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,OPA145ID,,TME
+,,U3,DG408,j_lib:DG408,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,DG408DY-E3,,TME
+,,U4,74LVC125,74xx:74LS125,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,74LVC125AS14-13,Has to have 5V VDD limit!,MOUSER
+,,U5,OPA202,Amplifier_Operational:OPA188xxD,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,OPA202IDR,,MOUSER
+,,U6,OPA202,Amplifier_Operational:OPA188xxD,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,OPA202IDR,,MOUSER
+,,U7,TLV333,Amplifier_Operational:OPA188xxD,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,TLV333IDR,,MOUSER
+,,U8,MCP1700-33,Regulator_Linear:MCP1700-1202E_SOT23,Package_TO_SOT_SMD:SOT-23,MCP1700T-3302E,,TME
+,,U9,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U10,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U11,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U12,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U13,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U14,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U15,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U16,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U17,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U18,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U19,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U20,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U21,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U22,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U23,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U24,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U25,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U26,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U27,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U28,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U29,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U30,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U31,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U32,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U33,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U34,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U35,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U36,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U37,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U38,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U39,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U40,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U41,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U42,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U43,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U44,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U45,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U46,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U47,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U48,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U49,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U50,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U51,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U52,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U53,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U54,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U55,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U56,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U57,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U58,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U59,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U60,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U61,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U62,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U63,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U64,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U65,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U66,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U67,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U68,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U69,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U70,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U71,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U72,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U73,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U74,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U75,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U76,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U77,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U78,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U79,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U80,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U81,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U82,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U83,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U84,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U85,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U86,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U87,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U88,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U89,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U90,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U91,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U92,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U93,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U94,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U95,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U96,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U97,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U98,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U99,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U100,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U101,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U102,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U103,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U104,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U105,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U106,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U107,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U108,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U109,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U110,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U111,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U112,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U113,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U114,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U115,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U116,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U117,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U118,MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+,,U119,OPA2202,Amplifier_Operational:TL072,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,OPA2202IDR,,MOUSER
+,,U120,LTC1664IGN,Analog_DAC:LTC1664IGN,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,LTC1664IGN,,MOUSER
+,,U121,LM324A,Amplifier_Operational:LM324A,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,LM324AD,,TME
+,,U122,OPA202,Amplifier_Operational:OPA188xxD,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,OPA202IDR,,MOUSER
+,,U123,AD8628,Amplifier_Operational:OPA188xxD,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,AD8628ARZ,,MOUSER
+,,U124,TL061,Amplifier_Operational:OPA188xxD,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,TL061ID,,TME
+,,U125,DG442,Analog_Switch:DG412xJ,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,DG442DYZ,,MOUSER
+,,U126,TL431DBZ,Reference_Voltage:TL431DBZ,Package_TO_SOT_SMD:SOT-23,TL431ACDBZR,,TME
+,,U127,TL081H,Amplifier_Operational:OPA188xxD,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,TL081HIDR,,MOUSER
+,,U128,TL431DBZ,Reference_Voltage:TL431DBZ,Package_TO_SOT_SMD:SOT-23,TL431ACDBZR,,TME
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Collated Components:,,,,,,,,
+,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,PN,comment,supplier
+1,21,"C1, C4, C5, C6, C7, C8, C13, C227, C228, C232, C233, C234, C237, C238, C240, C241, C243, C244, C245, C246, C247",100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B104KBCNNNC,,TME
+2,2,"C2, C3",470p,Device:C,Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm,FKP2-470P/630-R,,TME
+3,6,"C9, C10, C11, C12, C15, C16",10u,Device:CP,Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder,293D106X9025C2TE3,,TME
+4,2,"C14, C239",2u2,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,CL21B225KPFNNNE,,TME
+5,122,"C17, C18, C19, C20, C21, C22, C23, C24, C25, C26, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45, C46, C47, C57, C58, C59, C60, C61, C62, C63, C64, C65, C66, C67, C68, C78, C79, C80, C81, C82, C83, C84, C85, C86, C87, C88, C89, C99, C100, C110, C111, C112, C113, C114, C115, C116, C117, C118, C119, C120, C121, C131, C132, C133, C134, C135, C136, C137, C138, C139, C140, C141, C142, C152, C153, C154, C155, C156, C157, C158, C159, C160, C161, C162, C163, C173, C174, C175, C176, C177, C178, C179, C180, C181, C182, C183, C184, C194, C195, C196, C197, C198, C199, C200, C201, C202, C203, C204, C205, C215, C216, C217, C218, C219, C220, C221, C222, C223, C224, C225, C226, C230, C231",1n,Device:C,Capacitor_SMD:C_0805_2012Metric,VJ0805A102JXACW1BC,,TME
+6,90,"C27, C28, C29, C30, C31, C32, C33, C34, C35, C48, C49, C50, C51, C52, C53, C54, C55, C56, C69, C70, C71, C72, C73, C74, C75, C76, C77, C90, C91, C92, C93, C94, C95, C96, C97, C98, C101, C102, C103, C104, C105, C106, C107, C108, C109, C122, C123, C124, C125, C126, C127, C128, C129, C130, C143, C144, C145, C146, C147, C148, C149, C150, C151, C164, C165, C166, C167, C168, C169, C170, C171, C172, C185, C186, C187, C188, C189, C190, C191, C192, C193, C206, C207, C208, C209, C210, C211, C212, C213, C214",100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B104KB8NNND,,TME
+7,1,C229,22n,Device:C,Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm,R82IC2220Z350K,,TME
+8,1,C235,33n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,VJ0805Y333KXACW1BC,,TME
+9,1,C236,1n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,VJ0805A102JXACW1BC,,TME
+10,1,C242,DNP,Device:C,Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm,,DNP,
+11,1,D1,LL43,Diode:LL43,Diode_SMD:D_MiniMELF,LL43-GS08,,TME
+12,1,D2,SM6T6V8A,Diode:SM6T6V8A,Diode_SMD:D_SMB,SM6T6V8A,,TME
+13,1,FB1,Ferrite_Bead_Small,Device:Ferrite_Bead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,
+14,100,"FB2, FB3, FB4, FB5, FB6, FB7, FB8, FB9, FB10, FB11, FB12, FB13, FB14, FB15, FB16, FB17, FB18, FB19, FB20, FB21, FB22, FB23, FB24, FB25, FB26, FB27, FB28, FB29, FB30, FB31, FB32, FB33, FB34, FB35, FB36, FB37, FB38, FB39, FB40, FB41, FB42, FB43, FB44, FB45, FB46, FB47, FB48, FB49, FB50, FB51, FB52, FB53, FB54, FB55, FB56, FB57, FB58, FB59, FB60, FB61, FB62, FB63, FB64, FB65, FB66, FB67, FB68, FB69, FB70, FB71, FB72, FB73, FB74, FB75, FB76, FB77, FB78, FB79, FB80, FB81, FB82, FB83, FB84, FB85, FB86, FB87, FB88, FB89, FB90, FB91, FB92, FB93, FB94, FB95, FB96, FB97, FB98, FB99, FB100, FB101",FerriteBead_Small,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,BLM18RK601SN1D,,TME
+15,3,"H1, H2, H3",MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,,DNP,
+16,3,"H4, H5, H6",MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.7mm,,DNP,
+17,2,"J1, J5",Conn_01x04_Male,Connector:Conn_01x04_Male,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,ZL262-8SG,,TME
+18,2,"J2, J3",Conn_01x08_Male,Connector:Conn_01x08_Male,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,ZL262-4SG,,TME
+19,1,J4,Conn_02x08_Odd_Even,Connector_Generic:Conn_02x08_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,ZL262-8SG,,TME
+20,2,"K1, K2",G6KU-2,Relay:G6KU-2,Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y,G6KU-2P-Y DC5 ,,MOUSER
+21,2,"K3, K4",SILxx-1Axx-71x,Relay:SILxx-1Axx-71x,Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A,Pickering 107-1-A-5,Could be different type,Own stock
+22,1,LOGO1,logo_generic,j_lib:logo_generic,j_lib:logo_rpg7x9,,DNP,
+23,3,"Q1, Q2, Q3",BC847,Transistor_BJT:BC847,Package_TO_SOT_SMD:SOT-23,BC847.215,,TME
+24,1,Q4,BC857,Transistor_BJT:BC857,Package_TO_SOT_SMD:SOT-23,BC857.215,,TME
+25,6,"R1, R3, R348, R349, R369, R376",12k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW080512K0,,TME
+26,9,"R2, R4, R11, R16, R25, R27, R358, R362, R366",3k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08053K0,,TME
+27,4,"R5, R6, R371, R375",24k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW080524K0,,TME
+28,3,"R7, R8, R19",620R,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW0805620R,,TME
+29,1,R9,15k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW080515K0,,TME
+30,2,"R10, R23",24R,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW080524R0,,TME
+31,3,"R12, R360, R364",0R,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08050000,,TME
+32,3,"R13, R372, R378",240R,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW0805240R,,TME
+33,2,"R14, R17",18k20,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,YR1B18K2CC,,MOUSER
+34,1,R15,20k00,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,PTF5620K000FZEB ,,MOUSER
+35,1,R18,24R,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,CMF5523R200BEEK,,MOUSER
+36,1,R20,2k00,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,PTF562K0000BZEK,,MOUSER
+37,2,"R21, R26",5k,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,YR1B4K99CC,,MOUSER
+38,1,R22,12k1,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,YR1B12K1CC,,MOUSER
+39,1,R24,200R0,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,PTF56200R00FZEB,,MOUSER
+40,100,"R28, R31, R34, R37, R40, R43, R46, R49, R52, R55, R60, R63, R66, R69, R72, R75, R78, R81, R84, R87, R92, R95, R98, R101, R104, R107, R110, R113, R116, R119, R124, R127, R130, R133, R136, R139, R142, R145, R148, R151, R158, R161, R164, R167, R170, R173, R176, R179, R182, R185, R190, R193, R196, R199, R202, R205, R208, R211, R214, R217, R222, R225, R228, R231, R234, R237, R240, R243, R246, R249, R254, R257, R260, R263, R266, R269, R272, R275, R278, R281, R286, R289, R292, R295, R298, R301, R304, R307, R310, R313, R318, R321, R324, R327, R330, R333, R336, R339, R342, R345",20k,Device:R,Resistor_SMD:R_0805_2012Metric,ERA-6AED203V ,,MOUSER
+41,100,"R29, R32, R35, R38, R41, R44, R47, R50, R53, R56, R61, R64, R67, R70, R73, R76, R79, R82, R85, R88, R93, R96, R99, R102, R105, R108, R111, R114, R117, R120, R125, R128, R131, R134, R137, R140, R143, R146, R149, R152, R159, R162, R165, R168, R171, R174, R177, R180, R183, R186, R191, R194, R197, R200, R203, R206, R209, R212, R215, R218, R223, R226, R229, R232, R235, R238, R241, R244, R247, R250, R255, R258, R261, R264, R267, R270, R273, R276, R279, R282, R287, R290, R293, R296, R299, R302, R305, R308, R311, R314, R319, R322, R325, R328, R331, R334, R337, R340, R343, R346",100R,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1000ELF,,MOUSER
+42,100,"R30, R33, R36, R39, R42, R45, R48, R51, R54, R57, R62, R65, R68, R71, R74, R77, R80, R83, R86, R89, R94, R97, R100, R103, R106, R109, R112, R115, R118, R121, R126, R129, R132, R135, R138, R141, R144, R147, R150, R153, R160, R163, R166, R169, R172, R175, R178, R181, R184, R187, R192, R195, R198, R201, R204, R207, R210, R213, R216, R219, R224, R227, R230, R233, R236, R239, R242, R245, R248, R251, R256, R259, R262, R265, R268, R271, R274, R277, R280, R283, R288, R291, R294, R297, R300, R303, R306, R309, R312, R315, R320, R323, R326, R329, R332, R335, R338, R341, R344, R347",10k,Device:R,Resistor_SMD:R_0805_2012Metric,CRT0805-FX-1002ELF,,MOUSER
+43,14,"R58, R90, R122, R154, R156, R188, R220, R252, R284, R316, R354, R357, R361, R363",40k,Device:R,Resistor_SMD:R_0805_2012Metric,279-RN73C2A40K2BTD ,,MOUSER
+44,10,"R59, R91, R123, R155, R157, R189, R221, R253, R285, R317",5k1,Device:R,Resistor_SMD:R_0805_2012Metric,RN73C2A5K11BTD,,MOUSER
+45,1,R350,1G,Device:R,Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P20.32mm_Horizontal,MOX-400231007FE ,,MOUSER
+46,2,"R351, R353",6M2,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08056M20,,TME
+47,4,"R352, R355, R367, R379",6k2,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08056K20,,TME
+48,1,R356,5R6,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,SMDMM0204-5R6,,TME
+49,1,R359,8M2,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW08058M20,,TME
+50,1,R365,15k53,Device:R,Resistor_SMD:R_0805_2012Metric,RN73C2A15K4BTDF,,MOUSER
+51,1,R368,200k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040E2003BB300 ,,MOUSER
+52,1,R370,19k8,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040E2002BB100,,MOUSER
+53,2,"R373, R377",30k,Device:R,Resistor_SMD:R_0805_2012Metric,CRCW080530K0,,TME
+54,1,R374,2k,Device:R,Resistor_SMD:R_MiniMELF_MMA-0204,MMA02040E2001BB100,,MOUSER
+55,6,"TP1, TP2, TP3, TP4, TP5, TP6",TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,,optional,aliexpress
+56,1,U1,LM393,Comparator:LM393,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,LM393AD,,TME
+57,1,U2,OPA145,Amplifier_Operational:OPA188xxD,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,OPA145ID,,TME
+58,1,U3,DG408,j_lib:DG408,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,DG408DY-E3,,TME
+59,1,U4,74LVC125,74xx:74LS125,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,74LVC125AS14-13,Has to have 5V VDD limit!,MOUSER
+60,3,"U5, U6, U122",OPA202,Amplifier_Operational:OPA188xxD,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,OPA202IDR,,MOUSER
+61,1,U7,TLV333,Amplifier_Operational:OPA188xxD,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,TLV333IDR,,MOUSER
+62,1,U8,MCP1700-33,Regulator_Linear:MCP1700-1202E_SOT23,Package_TO_SOT_SMD:SOT-23,MCP1700T-3302E,,TME
+63,110,"U9, U10, U11, U12, U13, U14, U15, U16, U17, U18, U19, U20, U21, U22, U23, U24, U25, U26, U27, U28, U29, U30, U31, U32, U33, U34, U35, U36, U37, U38, U39, U40, U41, U42, U43, U44, U45, U46, U47, U48, U49, U50, U51, U52, U53, U54, U55, U56, U57, U58, U59, U60, U61, U62, U63, U64, U65, U66, U67, U68, U69, U70, U71, U72, U73, U74, U75, U76, U77, U78, U79, U80, U81, U82, U83, U84, U85, U86, U87, U88, U89, U90, U91, U92, U93, U94, U95, U96, U97, U98, U99, U100, U101, U102, U103, U104, U105, U106, U107, U108, U109, U110, U111, U112, U113, U114, U115, U116, U117, U118",MCP6V51,Amplifier_Operational:MCP6L01x-xOT,Package_TO_SOT_SMD:SOT-23-5,MCP6V51T-E/OT,,MOUSER
+64,1,U119,OPA2202,Amplifier_Operational:TL072,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,OPA2202IDR,,MOUSER
+65,1,U120,LTC1664IGN,Analog_DAC:LTC1664IGN,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,LTC1664IGN,,MOUSER
+66,1,U121,LM324A,Amplifier_Operational:LM324A,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,LM324AD,,TME
+67,1,U123,AD8628,Amplifier_Operational:OPA188xxD,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,AD8628ARZ,,MOUSER
+68,1,U124,TL061,Amplifier_Operational:OPA188xxD,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,TL061ID,,TME
+69,1,U125,DG442,Analog_Switch:DG412xJ,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,DG442DYZ,,MOUSER
+70,2,"U126, U128",TL431DBZ,Reference_Voltage:TL431DBZ,Package_TO_SOT_SMD:SOT-23,TL431ACDBZR,,TME
+71,1,U127,TL081H,Amplifier_Operational:OPA188xxD,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,TL081HIDR,,MOUSER

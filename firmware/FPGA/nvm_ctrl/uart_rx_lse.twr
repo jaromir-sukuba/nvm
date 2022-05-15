@@ -1,0 +1,195 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Tue Mar 15 00:34:17 2022
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     uart_rx
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk0 [get_nets uart_rx_bclk_c]
+            1046 items scored, 768 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 4.875ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             uart_rx_cnt_234__i3  (from uart_rx_bclk_c +)
+   Destination:    FD1P3IX    SP             uart_rx_zero_cnt_230__i4  (to uart_rx_bclk_c +)
+
+   Delay:                   9.616ns  (27.5% logic, 72.5% route), 6 logic levels.
+
+ Constraint Details:
+
+      9.616ns data_path uart_rx_cnt_234__i3 to uart_rx_zero_cnt_230__i4 violates
+      5.000ns delay constraint less
+      0.259ns LCE_S requirement (totaling 4.741ns) by 4.875ns
+
+ Path Details: uart_rx_cnt_234__i3 to uart_rx_zero_cnt_230__i4
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              uart_rx_cnt_234__i3 (from uart_rx_bclk_c)
+Route         4   e 1.168                                  uart_rx_cnt[3]
+LUT4        ---     0.448              A to Z              i1_2_lut
+Route         3   e 1.051                                  n1587
+LUT4        ---     0.448              D to Z              i2_3_lut_4_lut
+Route         4   e 1.120                                  n804
+LUT4        ---     0.448              D to Z              i835_2_lut_rep_16_4_lut
+Route        13   e 1.506                                  n1694
+LUT4        ---     0.448              A to Z              i847_4_lut
+Route         2   e 0.954                                  n1294
+LUT4        ---     0.448              D to Z              i1171_3_lut_4_lut
+Route         5   e 1.174                                  uart_rx_bclk_c_enable_16
+                  --------
+                    9.616  (27.5% logic, 72.5% route), 6 logic levels.
+
+
+Error:  The following path violates requirements by 4.875ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             uart_rx_cnt_234__i3  (from uart_rx_bclk_c +)
+   Destination:    FD1P3IX    SP             uart_rx_zero_cnt_230__i3  (to uart_rx_bclk_c +)
+
+   Delay:                   9.616ns  (27.5% logic, 72.5% route), 6 logic levels.
+
+ Constraint Details:
+
+      9.616ns data_path uart_rx_cnt_234__i3 to uart_rx_zero_cnt_230__i3 violates
+      5.000ns delay constraint less
+      0.259ns LCE_S requirement (totaling 4.741ns) by 4.875ns
+
+ Path Details: uart_rx_cnt_234__i3 to uart_rx_zero_cnt_230__i3
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              uart_rx_cnt_234__i3 (from uart_rx_bclk_c)
+Route         4   e 1.168                                  uart_rx_cnt[3]
+LUT4        ---     0.448              A to Z              i1_2_lut
+Route         3   e 1.051                                  n1587
+LUT4        ---     0.448              D to Z              i2_3_lut_4_lut
+Route         4   e 1.120                                  n804
+LUT4        ---     0.448              D to Z              i835_2_lut_rep_16_4_lut
+Route        13   e 1.506                                  n1694
+LUT4        ---     0.448              A to Z              i847_4_lut
+Route         2   e 0.954                                  n1294
+LUT4        ---     0.448              D to Z              i1171_3_lut_4_lut
+Route         5   e 1.174                                  uart_rx_bclk_c_enable_16
+                  --------
+                    9.616  (27.5% logic, 72.5% route), 6 logic levels.
+
+
+Error:  The following path violates requirements by 4.875ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             uart_rx_cnt_234__i3  (from uart_rx_bclk_c +)
+   Destination:    FD1P3IX    SP             uart_rx_zero_cnt_230__i2  (to uart_rx_bclk_c +)
+
+   Delay:                   9.616ns  (27.5% logic, 72.5% route), 6 logic levels.
+
+ Constraint Details:
+
+      9.616ns data_path uart_rx_cnt_234__i3 to uart_rx_zero_cnt_230__i2 violates
+      5.000ns delay constraint less
+      0.259ns LCE_S requirement (totaling 4.741ns) by 4.875ns
+
+ Path Details: uart_rx_cnt_234__i3 to uart_rx_zero_cnt_230__i2
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              uart_rx_cnt_234__i3 (from uart_rx_bclk_c)
+Route         4   e 1.168                                  uart_rx_cnt[3]
+LUT4        ---     0.448              A to Z              i1_2_lut
+Route         3   e 1.051                                  n1587
+LUT4        ---     0.448              D to Z              i2_3_lut_4_lut
+Route         4   e 1.120                                  n804
+LUT4        ---     0.448              D to Z              i835_2_lut_rep_16_4_lut
+Route        13   e 1.506                                  n1694
+LUT4        ---     0.448              A to Z              i847_4_lut
+Route         2   e 0.954                                  n1294
+LUT4        ---     0.448              D to Z              i1171_3_lut_4_lut
+Route         5   e 1.174                                  uart_rx_bclk_c_enable_16
+                  --------
+                    9.616  (27.5% logic, 72.5% route), 6 logic levels.
+
+Warning: 9.875 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets uart_rx_bclk_c]          |     5.000 ns|     9.875 ns|     6 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+--------------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+--------------------------------------------------------------------------------
+n1695                                   |       9|     212|     27.60%
+                                        |        |        |
+n1694                                   |      13|     198|     25.78%
+                                        |        |        |
+n804                                    |       4|     185|     24.09%
+                                        |        |        |
+n1587                                   |       3|     176|     22.92%
+                                        |        |        |
+n1294                                   |       2|     170|     22.14%
+                                        |        |        |
+n946                                    |       5|     110|     14.32%
+                                        |        |        |
+uart_rx_bclk_c_enable_10                |       6|      99|     12.89%
+                                        |        |        |
+uart_rx_bclk_c_enable_16                |       5|      95|     12.37%
+                                        |        |        |
+uart_rx_cnt[3]                          |       4|      93|     12.11%
+                                        |        |        |
+uart_rx_cnt[4]                          |       3|      93|     12.11%
+                                        |        |        |
+uart_rx_cnt[1]                          |       8|      92|     11.98%
+                                        |        |        |
+uart_rx_cnt[2]                          |       7|      92|     11.98%
+                                        |        |        |
+uart_rx_state[2]                        |      15|      83|     10.81%
+                                        |        |        |
+n938                                    |       5|      80|     10.42%
+                                        |        |        |
+uart_rx_bclk_c_enable_23                |       5|      80|     10.42%
+                                        |        |        |
+uart_rx_cnt[0]                          |       9|      79|     10.29%
+                                        |        |        |
+uart_rx_state[0]                        |      15|      79|     10.29%
+                                        |        |        |
+uart_rx_state[1]                        |      16|      78|     10.16%
+                                        |        |        |
+--------------------------------------------------------------------------------
+
+
+Timing summary:
+---------------
+
+Timing errors: 768  Score: 1232281
+
+Constraints cover  1046 paths, 107 nets, and 384 connections (96.0% coverage)
+
+
+Peak memory: 182599680 bytes, TRCE: 1220608 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 

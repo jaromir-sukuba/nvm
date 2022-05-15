@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="nvm_ctrl" device="LCMXO2-1200HC-5TG100C" default_implementation="nvm_ctrl">
+    <Options/>
+    <Implementation title="nvm_ctrl" dir="nvm_ctrl" description="nvm_ctrl" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="nvm_ctrl"/>
+        <Source name="uart_tx.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="nvm_ctrl.v" type="Verilog" type_short="Verilog">
+            <Options top_module="nvm_ctrl"/>
+        </Source>
+        <Source name="uart_rx.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="nvm_ctrl.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="nvm_ctrl/nvm_ctrl.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="nvm_ctrl1.sty"/>
+</BaliProject>

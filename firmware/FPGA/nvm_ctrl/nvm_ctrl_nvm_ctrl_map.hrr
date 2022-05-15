@@ -1,0 +1,30 @@
+---------------------------------------------------
+Report for cell nvm_ctrl
+   Instance path: nvm_ctrl
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     266.00        100.0
+                                  LUT4	     338.00        100.0
+                                 IOBUF	         44        100.0
+                                PFUREG	        421        100.0
+                                RIPPLE	         88        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               uart_tx	          1         3.3
+                               uart_rx	          1        12.9
+---------------------------------------------------
+Report for cell uart_tx
+   Instance path: nvm_ctrl/uart_tx_a
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.75         3.3
+                                  LUT4	      19.00         5.6
+                                PFUREG	          8         1.9
+---------------------------------------------------
+Report for cell uart_rx
+   Instance path: nvm_ctrl/uart_rx_a
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      34.25        12.9
+                                  LUT4	      77.00        22.8
+                                PFUREG	         38         9.0

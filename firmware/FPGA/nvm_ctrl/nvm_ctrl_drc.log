@@ -1,0 +1,20 @@
+Results of NGD DRC are available in nvm_ctrl_drc.log.
+Loading NGL library '/usr/local/diamond/3.12/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library '/usr/local/diamond/3.12/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library '/usr/local/diamond/3.12/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library '/usr/local/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'JA_DOUT' has no load.
+WARNING - synthesis: input pad net 'JA_DOUT' has no legal load.
+WARNING - synthesis: logical net 'JA_COMP' has no load.
+WARNING - synthesis: input pad net 'JA_COMP' has no legal load.
+WARNING - synthesis: DRC complete with 4 warnings.
+
+Design Results:
+    902 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file nvm_ctrl_nvm_ctrl.ngd.

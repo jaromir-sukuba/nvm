@@ -1,0 +1,7 @@
+#Start recording tcl command: 5/1/2022 14:14:30
+#Project Location: /home/jarin/storage/main/backup_mg/works/nvm/fpga/2; Project name: nvm_ctrl
+prj_project open "/home/jarin/storage/main/backup_mg/works/nvm/fpga/2/nvm_ctrl.ldf"
+prj_run Export -impl nvm_ctrl -task Bitgen -forceAll
+rvl_project new
+rvl_project close -force
+#Stop recording: 5/1/2022 14:17:41

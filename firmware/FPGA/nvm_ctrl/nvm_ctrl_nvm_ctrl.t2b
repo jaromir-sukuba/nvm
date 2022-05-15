@@ -1,0 +1,5 @@
+
+
+-g RamCfg:Reset
+
+-path "/home/jarin/storage/main/backup_mg/works/nvm/fpga/2"  

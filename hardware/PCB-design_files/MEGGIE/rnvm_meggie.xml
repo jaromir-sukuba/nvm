@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/jarin/storage/main/backup_mg/works/nvm/pcb/rnvm_meggie/rnvm_meggie.kicad_sch</source>
+    <date>Sun 15 May 2022 01:10:51 AM CEST</date>
+    <tool>Eeschema 6.0.5-a6ca702e91~116~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Nanovoltmeter - MEGGIE</title>
+        <company/>
+        <rev>1</rev>
+        <date>2022-05-15</date>
+        <source>rnvm_meggie.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad</footprint>
+      <fields>
+        <field name="Comment">DNP</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Comment" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a15c6950-9462-4e8e-9913-1ff133826daf</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad</footprint>
+      <fields>
+        <field name="Comment">DNP</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Comment" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50bf00c7-c69d-47e9-8d7f-002d8001f5dd</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <fields>
+        <field name="Comment">DNP</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Comment" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4aee84d1-0859-48ac-a053-5a981ee1b24a</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <fields>
+        <field name="Comment">DNP</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Comment" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56a51644-b55f-492b-aa38-d2c3e210984a</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad</footprint>
+      <fields>
+        <field name="Comment">DNP</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Comment" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dfea10a7-1cbe-4c44-a951-08c8c82414b9</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad</footprint>
+      <fields>
+        <field name="Comment">DNP</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Comment" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f975b41-753d-48b2-a348-40509d63c622</tstamps>
+    </comp>
+    <comp ref="H7">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <fields>
+        <field name="Comment">DNP</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Comment" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07e949c9-5dcb-46f5-aaf7-f5997cc8a90a</tstamps>
+    </comp>
+    <comp ref="H8">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <fields>
+        <field name="Comment">DNP</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Comment" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16dd7632-1c5d-4f48-b1fe-004194c18703</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x08_Male</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-08A_1x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Comment">DNP</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Comment" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b55531b9-d62b-4026-98ea-f3b509fe11fa</tstamps>
+    </comp>
+    <comp ref="LOGO1">
+      <value>logo_generic</value>
+      <footprint>j_lib:logo_rpg7x9</footprint>
+      <fields>
+        <field name="Comment">DNP</field>
+      </fields>
+      <libsource lib="j_lib" part="logo_generic" description=""/>
+      <property name="Comment" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7cd39db-931a-4d86-96b8-57e6b39f58f9</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>j_lib:MQ_6450</footprint>
+      <fields>
+        <field name="PN">6450</field>
+        <field name="SUPPLIER">TME</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="PN" value="6450"/>
+      <property name="SUPPLIER" value="TME"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>199124ca-dd64-45cf-a063-97cc545cbea7</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>j_lib:MQ_6450</footprint>
+      <fields>
+        <field name="PN">6450</field>
+        <field name="SUPPLIER">TME</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="PN" value="6450"/>
+      <property name="SUPPLIER" value="TME"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8530ead-dfd3-493b-9a95-dadf905bde55</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>j_lib:MQ_6450</footprint>
+      <fields>
+        <field name="PN">6450</field>
+        <field name="SUPPLIER">TME</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="PN" value="6450"/>
+      <property name="SUPPLIER" value="TME"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98f621bd-392a-4c02-bdb2-60d66a436c13</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push</value>
+      <footprint>j_lib:MQ_6450</footprint>
+      <fields>
+        <field name="PN">6450</field>
+        <field name="SUPPLIER">TME</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="PN" value="6450"/>
+      <property name="SUPPLIER" value="TME"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebbeccf7-f23b-4bee-953c-d4b710f5df00</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_Push</value>
+      <footprint>j_lib:MQ_6450</footprint>
+      <fields>
+        <field name="PN">6450</field>
+        <field name="SUPPLIER">TME</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="PN" value="6450"/>
+      <property name="SUPPLIER" value="TME"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a429a36-ac9b-491e-a32b-6377c5f30555</tstamps>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_Push</value>
+      <footprint>j_lib:MQ_6450</footprint>
+      <fields>
+        <field name="PN">6450</field>
+        <field name="SUPPLIER">TME</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="PN" value="6450"/>
+      <property name="SUPPLIER" value="TME"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40bd0573-3c41-4804-a39b-2ef5d2f9e69e</tstamps>
+    </comp>
+    <comp ref="SW7">
+      <value>SW_Push</value>
+      <footprint>j_lib:MQ_6450</footprint>
+      <fields>
+        <field name="PN">6450</field>
+        <field name="SUPPLIER">TME</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="PN" value="6450"/>
+      <property name="SUPPLIER" value="TME"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>003b23e1-9f8f-44e1-8bbd-edccb11ef6b9</tstamps>
+    </comp>
+    <comp ref="SW8">
+      <value>SW_Push</value>
+      <footprint>j_lib:MQ_6450</footprint>
+      <fields>
+        <field name="PN">6450</field>
+        <field name="SUPPLIER">TME</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="PN" value="6450"/>
+      <property name="SUPPLIER" value="TME"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e895bde-8d5a-40b7-9647-75bc017e128c</tstamps>
+    </comp>
+    <comp ref="SW9">
+      <value>SW_Push</value>
+      <footprint>j_lib:MQ_6450</footprint>
+      <fields>
+        <field name="PN">6450</field>
+        <field name="SUPPLIER">TME</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="PN" value="6450"/>
+      <property name="SUPPLIER" value="TME"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>871784c6-10d1-4698-80e4-c571e86d0b8f</tstamps>
+    </comp>
+    <comp ref="SW10">
+      <value>SW_Push</value>
+      <footprint>j_lib:MQ_6450</footprint>
+      <fields>
+        <field name="PN">6450</field>
+        <field name="SUPPLIER">TME</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="PN" value="6450"/>
+      <property name="SUPPLIER" value="TME"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f7d5f52-567b-4f40-aee2-ea5bf6b2be0c</tstamps>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_Push</value>
+      <footprint>j_lib:MQ_6450</footprint>
+      <fields>
+        <field name="PN">6450</field>
+        <field name="SUPPLIER">TME</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="PN" value="6450"/>
+      <property name="SUPPLIER" value="TME"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88ac9789-8ce6-4dfc-afc8-c57f0bf12e81</tstamps>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_Push</value>
+      <footprint>j_lib:MQ_6450</footprint>
+      <fields>
+        <field name="PN">6450</field>
+        <field name="SUPPLIER">TME</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="PN" value="6450"/>
+      <property name="SUPPLIER" value="TME"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09118278-a3fb-4e56-92ba-18a4cf132197</tstamps>
+    </comp>
+    <comp ref="SW13">
+      <value>SW_Push</value>
+      <footprint>j_lib:MQ_6450</footprint>
+      <fields>
+        <field name="PN">6450</field>
+        <field name="SUPPLIER">TME</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="PN" value="6450"/>
+      <property name="SUPPLIER" value="TME"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rnvm_meggie.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ab77ef4-2eec-4503-9f2d-dc666e8bfdf3</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x08_Male">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="j_lib" part="logo_generic">
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Value">logo_generic</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="j_lib">
+      <uri>/home/jarin/kicad/jlib_1.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/KC1">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/KC2">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="SW10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/KC3">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="SW11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/KC4">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="SW12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/KR1">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/KR2">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW8" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/KR3">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="SW10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW9" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/KR4">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="SW13" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+  </nets>
+</export>

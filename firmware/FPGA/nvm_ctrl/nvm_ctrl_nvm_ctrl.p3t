@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "nvm_ctrl_nvm_ctrl.log"
+-o "nvm_ctrl_nvm_ctrl.csv"
+-pr "nvm_ctrl_nvm_ctrl.prf"
