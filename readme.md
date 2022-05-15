@@ -13,5 +13,5 @@ On the other hand, I spent a few days researching online sources and studying se
 
 
 
-![Block diagram!](https://github.com/jaromir-sukuba/nvm/blob/master/media/block.png)
+![Block diagram](/media/block.png?raw=true)
 dfsdasdf
