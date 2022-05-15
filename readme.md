@@ -13,4 +13,5 @@ On the other hand, I spent a few days researching online sources and studying se
 
 
 
-![](https://github.com/jaromir-sukuba/nvm/blob/master/media/block.png)
+![Block diagram!](https://github.com/jaromir-sukuba/nvm/blob/master/media/block.png)
+dfsdasdf
