@@ -76,4 +76,34 @@ Whole upper portion of the circuit is held behing isolation barrier in order to 
 
 Designing such as instrument, especially on DIY base is a lot of pingponging between mechanical and eletrical design. I kind of could imagine how large the thing is going to be (say A4 page size as footprint) and I knew I had to cram everything inside. Optiong for larger enclosure would give me much more freedom and other benefits (like easier dissipation of device heat, helping to fight with TEMF), but would be impractically large. Finding appropriate enclosure wasn't easy - at first I thought of using G756 I used before in my [DIY SMU](https://github.com/jaromir-sukuba/J-SMU), but I preferred metal enclosures here - because of shielding of electrical interference, and with steel enclosure even a bit of magnetic interference. Finally I settled down on 1EP802825 from Modushop.
 That was the right time to take a look at electrical domain. The Earthy and floating parts (separated by isolation barrier) have to be physically separated in sub-enclosures (that calls for two PCBs as minimum) and in order to have easier debugging and modifications of the circuit, I decided to separate the floating part into two PCBs. One would hold FPGA control, reference and ADC, another one would consist of both amplifiers and ACAL circuits. Since the enclosure is 80mm tall, there is no problem to stack at least two PCBs on top of each other, via pinheaders and metric spacers.
-So, two PCBs for floating part, one for earthy part, but the backside connectors have to be mounted somehow - here I added another PCB and front panel pushbuttons also needed PCB for mechanical reasons, that resulted in total count of 5 PCBs.
+So, two PCBs for floating part, one for earthy part, but the backside connectors have to be mounted somehow - here I added another PCB and front panel pushbuttons also needed PCB for mechanical reasons, that resulted in total count of 5 PCBs. I named the PCBs with human names and gave them functionality:
+
+Bart - I felt like this one will be tricky and there will be problems with this one. Contains LNA, main amplifier, ACAL dividers and MUXes.
+Homer - largest PCB, contains FPGA, ADC, references. Closely related to Bart.
+Lisa - communication board, back panel PCB
+Meggie - simplest PCB, just to hold buttons
+Marge - contains PSU to feed all other PCBs, plus digital circuits.
+
+With electronics roughly separated into basic blocks, I returned back to mechanical design. By the time finished first sketches of the schematics files, I received the eclosure, so I could start with more practical details. It's much easier to visualize potential problems having the real enclosure in hands comapred to studying 3D files (if any, right). For circuit separation I opted for two sheet metal sub-enclosures.
+![Internal metal parts](/media/mparts.png?raw=true). The smaller portion on right holding analog circuitry, the left portion to ohold earthy circuits - it's somehow shorter, to make room for backpanel PCB.
+I prepared bunch of holes into the enclosures to allow mounting PCBs via metric spacers and now having physical constraints I jumped back to PCB design.
+
+## NVM design, part 3 - more detailed circuit description
+TODO
+
+## NVM measured performance
+In this section I'll discuss performance of this instrument
+#### Noise
+The main criteria of this project was to achieve low noise at lowest voltage range. In order to assess this, I logged 20 seconds of shorted input results at 100uV range, with no autozero, 2NPLC (integration time 40ms) and 10Hz analog filter on.
+![Noise graph](/media/noise.png?raw=true)
+The noise is below 25nV p-p.
+#### Stability
+I recorded roughly 9 hours worth of results with shorted input, while logging ambient temperature too. Meter set to 10NPLC, autozero on, analog filter on. I separated the data into 64 seconds long chunks, averaged it and used as data points. I tried to control the room temperature to obtain some variation.
+![Longer noise graph](/media/lnoise.png?raw=true)
+There is no clear temperature dependancy. I read the data as sensitivity to temperature changes is perhaps more prominent than the tempco of the instrument.
+#### Linearity
+At first I measured INL of ADC itself, against Solartron 7081 as reference. 0-10V voltage sweep was provided by DIY precision voltage source (LTZ1000A reference, AD5791B DAC). Measured INL graph:
+![ADC INL graph](/media/lina.png?raw=true)
+Then I measured the same INL with Bart PCB, this time with Keithley2010 as reference meter.
+![NVM INL graph](/media/linn.png?raw=true)
+There are differences, but I believe it lies within acceptable margin for 6,5 digit meter.
