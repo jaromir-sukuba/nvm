@@ -91,19 +91,77 @@ I prepared bunch of holes into the enclosures to allow mounting PCBs via metric 
 ## NVM design, part 3 - more detailed circuit description
 TODO
 
-## NVM measured performance
-In this section I'll discuss performance of this instrument
+## NVM usage
+TODO
+
+## NVM project goals
+In this section I'll discuss performance of this instrument and project goals 
 #### Noise
-The main criteria of this project was to achieve low noise at lowest voltage range. In order to assess this, I logged 20 seconds of shorted input results at 100uV range, with no autozero, 2NPLC (integration time 40ms) and 10Hz analog filter on.
+The main criteria of this project was to achieve low noise at lowest voltage range. In order to assess this, I logged 20 seconds of shorted input measurements at 100uV range, with no autozero, 2NPLC (integration time 40ms) and 10Hz analog filter on.
 ![Noise graph](/media/noise.png?raw=true)
 The noise is below 25nV p-p.
 #### Stability
-I recorded roughly 9 hours worth of results with shorted input, while logging ambient temperature too. Meter set to 10NPLC, autozero on, analog filter on. I separated the data into 64 seconds long chunks, averaged it and used as data points. I tried to control the room temperature to obtain some variation.
+I recorded roughly 9 hours worth of data with shorted input, while logging ambient temperature too. Meter set to 10NPLC, autozero on, analog filter on. I separated the data into 64 seconds long chunks, averaged it and used as data points. I tried to control the room temperature to obtain some variation.
 ![Longer noise graph](/media/lnoise.png?raw=true)
 There is no clear temperature dependancy. I read the data as sensitivity to temperature changes is perhaps more prominent than the tempco of the instrument.
 #### Linearity
 At first I measured INL of ADC itself, against Solartron 7081 as reference. 0-10V voltage sweep was provided by DIY precision voltage source (LTZ1000A reference, AD5791B DAC). Measured INL graph:
 ![ADC INL graph](/media/lina.png?raw=true)
-Then I measured the same INL with Bart PCB, this time with Keithley2010 as reference meter.
+Then I measured the same INL with Bart PCB, this time with Keithley 2010 as reference meter.
 ![NVM INL graph](/media/linn.png?raw=true)
 There are differences, but I believe it lies within acceptable margin for 6,5 digit meter.
+#### Bandwidth and normal mode rejection
+I measured ADC transfer function for sine input with 1Vp-p amplitude, stepped from 1Hz to 80Hz. Meter was set to 2NPLC, no autozero, analog filter on, 10V range.
+![Frequency response graph](/media/freq.png?raw=true)
+Resulting bandwidth for -3B is between 9 and 10Hz, normal mode rejection for 25, 50 and 75Hz is around -90dB
+
+Now returning back to contest call:
+
+> Have local onboard power regulation. Single common DC (+9 to +24 VDC) or 110/220VAC mains input jack is expected.
+
+Yes, it works on both DC 12V and 230VAC sources.
+
+> Provide DC Voltage measurement ranges ±100 µV or below and include ±1V and ±10VDC range.
+
+Yes, input ranges are bipolar 100uV, 1mV, 10mV, 100mV, 1V and 10V.
+
+> Have at least two user-accessible input channels for signal to be measured.
+> Have low-thermal connection interface to minimize thermal EMF parasitic errors.
+
+Yes, two inputs with reasonably low TEMF LEMO connector.
+
+> Provide at least 5½-digit resolution for each reading.
+
+6,5digit provided.
+
+> Ability to digitize input DC signal with resolution at least 10 nV and noise better than 30 nV peak to peak over at least 0.1-10 Hz bandwidth.
+
+On lowest range and 6,5 digit readout the resolution is 100pV and noise in 10Hz badwidth is ~22nV p-p.
+
+> Have autozero functionality to correct for static offsets.
+
+Yes, autozero and autocalibration provided.
+
+> Have galvanic isolated analog front end, with isolation resistance to earth/chassis better than 10 GΩ.
+
+Analog portion is isolated. Common mode current is below 100nA p-p.
+
+> Device should have ADC (any type) integrated.
+
+I used my own integrating multislope ADC design.
+
+> Have good long-term stability and use ovenized DC voltage reference (LM399, LTZ1000 or LTFLU with oven).
+
+I used ADR1399. Can't assess long-term stability by now.
+
+> Provide RJ45 Ethernet and/or IEEE-488 GPIB interface for communications with external world / external equipment.
+
+RJ45 Ethernet provided, hardware ready for GPIB, too. Apart from that, USB interface is on board.
+
+> 40W total input power budget (friendly to battery operation for sensitive experiments)
+
+Current draw is 12W.
+
+> Device should be fully operational as standalone device (e.g. no debuggers or external equipment attached to make it work).
+
+No external equipment needed for the meter to operate.
