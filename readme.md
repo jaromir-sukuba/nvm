@@ -7,7 +7,7 @@ Well, nanovoltmeter is voltmeter that has sensitity, noise and stability good en
 Measurement of such as low voltages is useful for many applications, for example resolving small voltage differences in various differential and bridge circuits, measurement of very small resistances - with appropriate current source.
 Commercial nanovoltmeters do exist, like Keithley model 2182A or Keysight 34420a, but with hefty price tag, so DIY design definitely has its place.
 
-## XDEVS challenge
+## xDevs challenge
 While I was tinkering with DIY test and measurement tools for a while now, I never had impulse to discover nanovolt world. Such as trigger happened on September 2nd, 2021, when TiN from xdevs site launched [nanovolt challenge](https://xdevs.com/article/nvm_comp/). In nutshell, it called for design of opensourced nanovoltmeter, with parameters comparable to commercial designs and timeframe of 256 days. That is nontrivial task, in my case it was even more so, because I not only never designed low signal circuits before, but I never even operated any nanovoltmeter. That is unfavorable starting position and jumping into deep end rather than dipping my toes into the problematics. To ease my mind, I waited a few days to see how others reacted at [eevblog forum](https://www.eevblog.com/forum/metrology/nanovolt-design-challenge-build-and-show-your-own-nv-meter-in-256-days/?all). I can't say that it encouraged me.
 On the other hand, I spent a few days researching online sources and studying service manuals of proven test gear of reputable vendors. Too bad they stopped supplying us with schematics in early 90's of last century; but even that material was very helpful in understanding both what are the requirements for such as meter, as well as means to achieve it.
 
@@ -135,7 +135,7 @@ The amount of influence on the readings was suprising to me. Here are two graphs
 ![LNA cover graph](/media/lnacover_graph.PNG?raw=true)
 
 #### Side PCB
-Original Modushop enclosure fitted the outer enclosure panel by screwing to side meal sheets by swlf tapping screws. I didn't like this, so I drilled the original holes for self-tappers into 3,5mm diameter and mounted dedicated mechanical PCB with nothing than holes and copper plane to solder M3 nuts. This PCB keeps the internal chassis and outer shields in single piece.
+Original Modushop enclosure fitted the outer enclosure panel by screwing to side meal sheets by swlf tapping screws. I didn't like this, so I drilled the original holes for self-tappers into 3,5mm diameter and mounted dedicated mechanical PCB with nothing than holes and copper plane to solder M3 nuts. This PCB keeps the internal chassis and outer shields in single piece. I think this part would be somehow better made out of >3mm thick aluminium board of the same size, with drilled and tapped holes, but PCB seems to work fine, for now.
 ![Side PCB](/media/bok2.jpg?raw=true)
 
 #### Push button rod
@@ -147,7 +147,7 @@ Display cover is epoxied into the front panel cutout, display is bolted to Meggi
 TODO picture of perspex cutout
 ![Enclosure with metal parts](/media/frontpcb.jpg?raw=true)
 
-#### Inernal construction details
+#### Internal construction details
 ![Enclosure with metal parts](/media/enc_1.jpg?raw=true)
 Complete internal construction without top cover
 ![Covers](/media/covers.jpg?raw=true)
