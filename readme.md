@@ -92,7 +92,33 @@ I prepared bunch of holes into the enclosures to allow mounting PCBs via metric 
 TODO
 
 ## NVM usage
-TODO
+#### Local interface
+![Front panel](/media/fpanel.png?raw=true)
+13 keys are provided for instrument operation, plus 2-line by 20 characters vacuum flourescent display.
+After startup the meter enters default (measurement) mode, with settings read from EEPROM. Typical display layout:
+![Display example](/media/disp.png?raw=true)
+The first line displays measured voltage and range in obvious way.
+Second line in this example indicates following states:
+CH1 - selected channel 1. Could be either 1 or 2.
+Z0 - zero function (see below) is not active on this range. Could be either 0 or 1.
+10NPLC - ADC integration time in powerline cycle multiplies. Could be either 1, 2, 5, 10 or 20.
+ETH1 - Ethernet is connected and IP address provided via DHCP. Could be either 0 or 1.
+
+Buttons functions:
+INPUT - by clicking this button, instruments toggles between Input 1 and Input 2 on the 4-pin LEMO connector.
+ZERO - this function enables zeroing measured value (by subtracting constant voltage offset measured at the instant of enabling the function). Each range has it's offset value and is independent of other ranges. Zeroing is disabled by second button press.
+FILT - pressing this button displays analog filter, digital filter and NPLC settings. Each hit of the button moves focus to next setting (value is changed by pressing UP/DOWN controls), third hit returns to default measurement display.
+ACAL - pressing this button starts ACAL procedure and saves the calibration constans into EEPROM memory.
+TRIG - not used in this firmware revision.
+STORE - not used in this firmware revision.
+RECALL - not used in this firmware revision.
+MENU - enables menu. Moving across menu items is done by pressing UP and DOWN keys. Enter enables editing the item value - editation is performed using UP and DOWN keys. Escaping from the menu is possible via ESC button, saving and escaping via MENU button.
+AUTO - not used in this firmware revision.
+ENTER - apart from function in menu function, pressing ENTER in default mode displays IP address of the instrument (if attached to ethernet). Pressing ENTER again returns back to default state.
+UP/DOWN - in menu or filter editing it serves function described above, in default mode it selects higher or lower measurement range.
+
+#### Remote interface
+
 
 ## NVM project goals
 In this section I'll discuss performance of this instrument and project goals 
