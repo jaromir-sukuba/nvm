@@ -299,4 +299,17 @@ There is a few features the meter hardware is supposedy able to do, but are not 
 
 
 ## Files contained in this repository
-TODO
+
+- firmware
+ - FPGA - FPGA design entry files, Lattice Diamond project
+ - STM32 - STM32 on Marge board firmware, part of a workspace of STM32CubeIDE
+- hardware
+ - PCB-design_files - design files, one directory per board, each board is single Kicad v6 project
+ - PCB-production_files - gerber and BOM data, one directory per board
+ - Schematics_pdf - easy to read schematics in PDF format, one directory per board, plus top level interconnection diagram
+- media - pictures and photos for this readme file.
+- mechanical
+ - 3DP_back_panel_pcb_holder - component to keep Lisa board on back panel. Designed as single part, needs to be printed twice, one copy mirrored. Freecad design file and STL
+ - 3DP_LNA_cover - cover to keep LNA out of air turbulences. Designed as single part, needs to be printed twice, one copy mirrored. Freecad design file and STL
+ - 3DP_pushbutton_assembly - transfers front panel button to mains switch actuator. Three parts, each is needed once, contains freecad design file and STL files.
+ - 
