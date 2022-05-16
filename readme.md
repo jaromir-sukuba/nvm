@@ -167,6 +167,7 @@ I measured ADC transfer function for sine input with 1Vp-p amplitude, stepped fr
 ![Frequency response graph](/media/freq.png?raw=true)
 Resulting bandwidth for -3B is between 9 and 10Hz, normal mode rejection for 25, 50 and 75Hz is around -90dB
 
+#### Contest goals accomplishment
 Now returning back to contest call:
 
 > Have local onboard power regulation. Single common DC (+9 to +24 VDC) or 110/220VAC mains input jack is expected.
@@ -217,3 +218,9 @@ Current draw is 12W.
 > Device should be fully operational as standalone device (e.g. no debuggers or external equipment attached to make it work).
 
 No external equipment needed for the meter to operate.
+
+#### Cost and component availability/repairablity
+TODO
+
+## Files contained in this repository
+TODO
