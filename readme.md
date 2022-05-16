@@ -74,7 +74,7 @@ Whole upper portion of the circuit is held behing isolation barrier in order to 
 
 ## NVM design, part 2 - divide and conquer
 
-Designing such as instrument, especially on DIY base is a lot of pingponging between mechanical and eletrical design. I kind of could imagine how large the thing is going to be (say A4 page size as footprint) and I knew I had to cram everything inside. Optiong for larger enclosure would give me much more freedom and other benefits (like easier dissipation of device heat, helping to fight with TEMF), but would be impractically large. Finding appropriate enclosure wasn't easy - at first I thought of using G756 I used before in my [DIY SMU](https://github.com/jaromir-sukuba/J-SMU), but I preferred metal enclosures here - because of shielding of electrical interference, and with steel enclosure even a bit of magnetic interference. Finally I settled down on 1EP802825 from Modushop.
+Designing such as instrument, especially on DIY base is a lot of pingponging between mechanical and eletrical design. I kind of could imagine how large the thing is going to be (say A4 page size as footprint) and I knew I had to cram everything inside. Optiong for larger enclosure would give me much more freedom and other benefits (like easier dissipation of device heat, helping to fight with TEMF), but would be impractically large. Finding appropriate enclosure wasn't easy - at first I thought of using G756 I used before in my [DIY SMU](https://github.com/jaromir-sukuba/J-SMU), but I preferred metal enclosures here - because of shielding of electrical interference, and with steel enclosure even a bit of magnetic interference. Metal also helps with heat dissipation. Finally I settled down on 1EP802825 from Modushop.
 That was the right time to take a look at electrical domain. The Earthy and floating parts (separated by isolation barrier) have to be physically separated in sub-enclosures (that calls for two PCBs as minimum) and in order to have easier debugging and modifications of the circuit, I decided to separate the floating part into two PCBs. One would hold FPGA control, reference and ADC, another one would consist of both amplifiers and ACAL circuits. Since the enclosure is 80mm tall, there is no problem to stack at least two PCBs on top of each other, via pinheaders and metric spacers.
 So, two PCBs for floating part, one for earthy part, but the backside connectors have to be mounted somehow - here I added another PCB and front panel pushbuttons also needed PCB for mechanical reasons, that resulted in total count of 5 PCBs. I named the PCBs with human names and gave them functionality:
 
@@ -133,6 +133,8 @@ CALibration:SAVe - if access to calibration EEPROM is unlocked, this command sav
 CALibration:ACAL - starts ACAL procedure  
 SENSe:CHANnel - single integer parameter, sets channel 1 or 2  
 SENSe:CHANnel? - returns actual channel number  
+SENSe:RANGe - single integer parameter, sets range 1 (100uV) to 6 (10V)  
+SENSe:RANGe? - returns actual range number  
 SENSe:DFILter - single integer parameter, sets digital filter to 1, 2, 4, 8, 16, 32 or 64 samples  
 SENSe:DFILter? - returns digital filter setting  
 SENSe:AFILter - single integer parameter, sets analog filter off (0) or on (1)  
@@ -166,6 +168,15 @@ There are differences, but I believe it lies within acceptable margin for 6,5 di
 I measured ADC transfer function for sine input with 1Vp-p amplitude, stepped from 1Hz to 80Hz. Meter was set to 2NPLC, no autozero, analog filter on, 10V range.
 ![Frequency response graph](/media/freq.png?raw=true)
 Resulting bandwidth for -3B is between 9 and 10Hz, normal mode rejection for 25, 50 and 75Hz is around -90dB
+#### Stepping the input with various voltages from Keithley 260 voltage source
+Meter set to 20NPLC, autozero on, analog filter on, 100uV range. Stepping by 10uV steps. The source has undergone massive repair and is out of calibration - but served well as test source to assess linearity and stability of NVM.
+![10uV steps graph](/media/steps10uv.png?raw=true)
+And similarly for 1uV steps. Note that 10uV step is missing, due to bad step on Keithley 260 source.
+![10uV steps graph](/media/steps1uv.png?raw=true)
+#### Response to 10uV input step with various digital filter settings
+Meter set to 20NPLC, autozero on, analog filter on, 100uV range. K260 induces 10uV step on input terminals, response time with various digital filter settings is observed.
+![10uV steps graph](/media/dfilter.png?raw=true)
+Response is very typical for boxcar average used as digital filter here.
 
 #### Contest goals accomplishment
 Now returning back to contest call:
@@ -189,7 +200,7 @@ Yes, two inputs with reasonably low TEMF LEMO connector.
 
 > Ability to digitize input DC signal with resolution at least 10 nV and noise better than 30 nV peak to peak over at least 0.1-10 Hz bandwidth.
 
-On lowest range and 6,5 digit readout the resolution is 100pV and noise in 10Hz badwidth is ~22nV p-p.
+On lowest range and 6,5 digit readout the resolution is 100pV and noise in 10Hz bandwidth is ~20-25nV p-p.
 
 > Have autozero functionality to correct for static offsets.
 
@@ -220,7 +231,8 @@ Current draw is 12W.
 No external equipment needed for the meter to operate.
 
 #### Cost and component availability/repairablity
-TODO
+Total cost of the instrument components is around 400EUR. All parts I used are off-the-shelf components or are easy to order, with the exception of power transformer. This is DIY-ed, but I believe many custom transformers manufacturers are able to deliver such as transformer.
+Apart from that, I tried to use components with most generic footprints - like SOT23 or SOIC8 for opamps, SOT23 for transistors, most of resistors do have universal footprint able to accomodate for MiniMELF (which I used becuase I wanted to), 1206 or 0805 resistor sizes, used common display interface and so on. This is to help with laternative components sourcing, topic so hot in 2022, when component crisis is so much influencing both professional as well as hobby electronics development and production. Despite my efforts, it's likely that some components in the BOM lists will be unavailable at usual vendors and it's hard to make future-proof designs in this respect.
 
 ## Files contained in this repository
 TODO
