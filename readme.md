@@ -78,17 +78,17 @@ Designing such as instrument, especially on DIY base is a lot of pingponging bet
 That was the right time to take a look at electrical domain. The Earthy and floating parts (separated by isolation barrier) have to be physically separated in sub-enclosures (that calls for two PCBs as minimum) and in order to have easier debugging and modifications of the circuit, I decided to separate the floating part into two PCBs. One would hold FPGA control, reference and ADC, another one would consist of both amplifiers and ACAL circuits. Since the enclosure is 80mm tall, there is no problem to stack at least two PCBs on top of each other, via pinheaders and metric spacers.
 So, two PCBs for floating part, one for earthy part, but the backside connectors have to be mounted somehow - here I added another PCB and front panel pushbuttons also needed PCB for mechanical reasons, that resulted in total count of 5 PCBs. I named the PCBs with human names and gave them functionality:
 
-Bart - I felt like this one will be tricky and there will be problems with this one. Contains LNA, main amplifier, ACAL dividers and MUXes.
-Homer - largest PCB, contains FPGA, ADC, references. Closely related to Bart.
-Lisa - communication board, back panel PCB
-Meggie - simplest PCB, just to hold buttons
-Marge - contains PSU to feed all other PCBs, plus digital circuits.
+Bart - I felt like this one will be tricky and there will be problems with this one. Contains LNA, main amplifier, ACAL dividers and MUXes.  
+Homer - largest PCB, contains FPGA, ADC, references. Closely related to Bart.  
+Lisa - communication board, back panel PCB  
+Meggie - simplest PCB, just to hold buttons  
+Marge - contains PSU to feed all other PCBs, plus digital circuits.  
 
 With electronics roughly separated into basic blocks, I returned back to mechanical design. By the time finished first sketches of the schematics files, I received the eclosure, so I could start with more practical details. It's much easier to visualize potential problems having the real enclosure in hands comapred to studying 3D files (if any, right). For circuit separation I opted for two sheet metal sub-enclosures.
 ![Internal metal parts](/media/mparts.png?raw=true). The smaller portion on right holding analog circuitry, the left portion to ohold earthy circuits - it's somehow shorter, to make room for backpanel PCB.
 I prepared bunch of holes into the enclosures to allow mounting PCBs via metric spacers and now having physical constraints I jumped back to PCB design.
 
-## NVM design, part 3 - more detailed circuit description
+## NVM design, part 3 - selected details of circuit operation
 TODO
 
 ## NVM usage
