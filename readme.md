@@ -167,6 +167,8 @@ SENSe:AZero? - return ADC autozero setting
 SYSTem:BEEPer - single integer parameter, sets beeper off (0) or on (1)  
 SYSTem:BEEPer? - return beeper state  
 
+NVM is fully calibrated by ACAL feature. For this it needs to have its reference voltage setup in calibration memory before running ACAL function. The value is accesible only through remote interface and its CALibration:VREF command. If the reference value in calibration memory is outside 6,95-7,3V range, default value 7,05V is assumed. At the moment, individual range calibration isn't supported, but probably will be in future firmware revisions.
+
 ## NVM project goals
 In this section I'll discuss performance of this instrument and project goals 
 #### Noise
@@ -188,7 +190,7 @@ Resulting bandwidth for -3B is between 9 and 10Hz, normal mode rejection for 25,
 #### Stepping the input with various voltages from Keithley 260 voltage source
 Meter set to 20NPLC, autozero on, analog filter on, digital filter=2, 100uV range. Stepping by 10uV steps. The source has undergone massive repair and is out of calibration - but served well as test source to assess linearity and stability of NVM.
 ![10uV steps graph](/media/steps10uv.PNG?raw=true)
-And similarly for 1uV steps. Note that 10uV step is missing, due to bad step on Keithley 260 source.
+And similarly for 1uV steps. Note that 10uV step is missing, due to bad contact or resistor on Keithley 260 source.
 ![10uV steps graph](/media/steps1uv.PNG?raw=true)
 #### Response to 10uV input step with various digital filter settings
 Meter set to 20NPLC, autozero on, analog filter on, 100uV range. K260 induces 10uV step on input terminals, response time with various digital filter settings is observed.
@@ -252,7 +254,14 @@ Total cost of the instrument components is around 400EUR. All parts I used are o
 Apart from that, I tried to use components with most generic footprints - like SOT23 or SOIC8 for opamps, SOT23 for transistors, most of resistors do have universal footprint able to accomodate for MiniMELF (which I used becuase I wanted to), 1206 or 0805 resistor sizes, used common display interface and so on. This is to help with laternative components sourcing, topic so hot in 2022, when component crisis is so much influencing both professional as well as hobby electronics development and production. Despite my efforts, it's likely that some components in the BOM lists will be unavailable at usual vendors and it's hard to make future-proof designs in this respect.
 
 ## Future plans
-TODO
+There is a few features the meter hardware is supposedy able to do, but are not implemented at the moment and I consider this as TODO list for future work on this project.
+- implement main frequency synchronous measurements. Zero-cross detector is already fitted on Marge board and ADC supports triggering by external signal, so it should be matter of firmware support.
+- implement input current compensation. All parts except of large value resistor are already on the board, so after fitting it this feature should be again matter of firmware.
+- polish the SCPI commands implementation, add more commands and full manual calibration features.
+- do more exporation and testing of the ACAL feature. As it is, works fine, but I think it could do with better repeatability.
+- find lower power opamps types - this could decrase current consumption, which is always welcome in test gear.
+- provide support for GPIB. Not that I need GPIB that much, but I think exploration of GPIB could be interesting project.
+
 
 ## Files contained in this repository
 TODO
