@@ -88,7 +88,7 @@ Marge - contains PSU to feed all other PCBs, plus digital circuits.
 With electronics roughly separated into basic blocks, I returned back to mechanical design. By the time finished first sketches of the schematics files, I received the eclosure, so I could start with more practical details. It's much easier to visualize potential problems having the real enclosure in hands comapred to studying 3D files (if any, right). For circuit separation I opted for two sheet metal sub-enclosures.
 ![Internal metal parts](/media/mparts.png?raw=true). The smaller portion on right holding analog circuitry, the left portion to ohold earthy circuits - it's somehow shorter, to make room for backpanel PCB.
 I designed bunch of holes into the enclosures to allow mounting PCBs via metric spacers and now having physical constraints I jumped back to PCB design.
-![Enclosure with metal parts](/media/enc_1.jpg?raw=true)
+
 
 ## NVM design, part 3 - selected details of circuit operation
 In this section I'll discuss a few selected design choices of this instrument.
@@ -138,9 +138,10 @@ Original Modushop enclosure fitted the outer enclosure panel by screwing to side
 ![Side PCB](/media/bok2.jpg?raw=true)
 
 #### Push button rod
-This is three piece 3D printed component to extend main switch shaft to front panel.
+This is three piece 3D printed component to extend main switch shaft to front panel.  
 TODO pictures.
 
+![Enclosure with metal parts](/media/enc_1.jpg?raw=true)
 Complete internal construction without top cover
 ![Covers](/media/covers.jpg?raw=true)
 
