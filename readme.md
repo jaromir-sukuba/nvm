@@ -21,7 +21,7 @@ This one calls for either DC or AC power, but it could be combined by having PSU
 
 > Provide DC Voltage measurement ranges ±100 µV or below and include ±1V and ±10VDC range.
 
-This one looks innocent, but having both 10V and 100uV input on the same jacks implies either switching input amlpifiers, or inserting voltage divider into the signal path, preferable by relay.
+This one looks innocent, but having both 10V and 100uV input on the same jacks implies either switching input amplifiers, or inserting voltage divider into the signal path, preferable by relay. Some older nanovoltmeters (Keithley model 181) had two different inputs - one for higher ranges, another one with low TEMF connector for sensitive ranges.
 
 > Have at least two user-accessible input channels for signal to be measured.
 
@@ -173,9 +173,9 @@ Buttons functions:
 
 #### Remote interface
 Instrument could be controlled remotely via ethernet interface, by issuing SCPI-compatible commands.  
-'*IDN?' - returns instrument identification  
-'*RST' - resets instrument  
-'*CLS' - clear status  
+\*IDN? - returns instrument identification  
+\*RST - resets instrument  
+\*CLS - clear status  
 SYSTem:ERRor[:NEXT] - lists system error  
 SYSTem:ERRor:COUNt? - return amount of system errors  
 SYSTem:VERSion? - returns instrument version string  
@@ -292,6 +292,7 @@ Apart from that, I tried to use components with most generic footprints - like S
 There is a few features the meter hardware is supposedy able to do, but are not implemented at the moment and I consider this as TODO list for future work on this project.
 - implement main frequency synchronous measurements. Zero-cross detector is already fitted on Marge board and ADC supports triggering by external signal, so it should be matter of firmware support.
 - implement input current compensation. All parts except of large value resistor are already on the board, so after fitting it this feature should be again matter of firmware.
+- polish front panel user interface
 - polish the SCPI commands implementation, add more commands and full manual calibration features.
 - do more elaborate triggering, along with recording data into memory, to utilize all front panel buttons. 
 - do more exporation and testing of the ACAL feature. As it is, works fine, but I think it could do with better repeatability.
