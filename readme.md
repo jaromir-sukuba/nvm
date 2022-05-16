@@ -106,7 +106,7 @@ ETH1 - Ethernet is connected and IP address provided via DHCP. Could be either 0
 
 Buttons functions:  
 INPUT - by clicking this button, instruments toggles between Input 1 and Input 2 on the 4-pin LEMO connector.  
-ZERO - this function enables zeroing measured value (by subtracting constant voltage offset measured at the instant of enabling the function). Each range has it's offset value and is independent of other ranges. Zeroing is disabled by second button press.  
+ZERO - this function enables zeroing measured value (by subtracting constant voltage offset measured at the instant of enabling the function). Each range has it's offset value and is independent of other ranges. Zeroing for given range is disabled by second button press.  
 FILT - pressing this button displays analog filter, digital filter and NPLC settings. Each hit of the button moves focus to next setting (value is changed by pressing UP/DOWN controls), third hit returns to default measurement display.  
 ACAL - pressing this button starts ACAL procedure and saves the calibration constans into EEPROM memory.  
 TRIG - not used in this firmware revision.  
@@ -118,7 +118,33 @@ ENTER - apart from function in menu function, pressing ENTER in default mode dis
 UP/DOWN - in menu or filter editing it serves function described above, in default mode it selects higher or lower measurement range.  
 
 #### Remote interface
-
+Instrument could be controlled remotely via ethernet interface, by issuing SCPI-compatible commands.
+* IDN? - returns instrument identification  
+* RST - resets instrument  
+* CLS - clear status  
+SYSTem:ERRor[:NEXT] - lists system error  
+SYSTem:ERRor:COUNt? - return amount of system errors  
+SYSTem:VERSion? - returns instrument version string  
+MEASure:VOLTage? - returns value of measured voltage  
+CALibration:VREF - single float parameter, sets value of 7V reference voltage (the only input for ACAL procedure)  
+CALibration:VREF? - returns value of 7V reference voltage  
+CALibration:UNLock - single integer parameter, locks (0) or unlocks (1) access to calibration EEPROM  
+CALibration:SAVe - if access to calibration EEPROM is unlocked, this command saves actual calibration into EEPROM  
+CALibration:ACAL - starts ACAL procedure  
+SENSe:CHANnel - single integer parameter, sets channel 1 or 2  
+SENSe:CHANnel? - returns actual channel number  
+SENSe:DFILter - single integer parameter, sets digital filter to 1, 2, 4, 8, 16, 32 or 64 samples  
+SENSe:DFILter? - returns digital filter setting  
+SENSe:AFILter - single integer parameter, sets analog filter off (0) or on (1)  
+SENSe:AFILter? - returns analog filter setting  
+SENSe:DIGits - single integer parameter, sets nubmer of displayed digits - 3 to 6  
+SENSe:DIGits? - returns nubmer of displayed digits  
+SENSe:NPLC - single integer parameter, sets ADC integration period in NPLC cycles to 1NPLC (0), or 2NPLC (1), or 5NPLC (2), or 10NPLC (3), or 20NPLC (4)  
+SENSe:NPLC? - returns ADC integration period  
+SENSe:AZero - single integer parameter, sets ADC autozero off (0) or on (1)  
+SENSe:AZero? - return ADC autozero setting  
+SYSTem:BEEPer - single integer parameter, sets beeper off (0) or on (1)  
+SYSTem:BEEPer? - return beeper state  
 
 ## NVM project goals
 In this section I'll discuss performance of this instrument and project goals 
