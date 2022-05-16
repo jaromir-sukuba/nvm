@@ -113,6 +113,10 @@ My first idea for PSU was to use two back-to-back 50Hz transformers. One would p
 I measured ground leakage from the isolated PSU section and its efficiency as function of driving frequency.
 ![PSU graph](/media/psu-freq.PNG?raw=true)
 As per expectations, lower frequency also brings lower leakage current, but going too low causes efficiency to plummet at some point. I opted for 48Hz, where I measured leakage well below 200nA p-p. At this level leakage measurement is very sensitive to nearby electric fields and conducted interference. After enclosing the test setup into shielded box the measured leakage fell to 40nA p-p, indicating the previous measurement was too pessimistic. I believe even the 40nA figure is pessimistic still and influenced by shielding setup and the oscilloscope I used. For proper test results I'd need larger shielded cage and battery powered oscilloscope, but I didn't want to goo that far.
+The PSU design brought interesting detail to the game. In case of overload, TPS3116 will turn off the load drive. That sounds innocent, but may be problemtic in this case - because after powerup the heated reference is cold, so he heater is taking significant amount of current during powerup. To add insult to injury, at the same time all decoupling/bulk capacitors are discharged, even more increasing the powerup current spike. The spike causes TPS3116 to shut down for a moment, then it tries to restart the load, ending up in the same large spike, repeating again and again.
+To mitigate this issue, two fixes were made:
+ - PSU driving starts from higher freqency, slowly (over course of a few seconds) it descends to final 48Hz value. Voltage on isolated secondary ramps up much slower, allowing circuits to power up smoothly.  
+ - Voltage reference heating current (large current spike when left untreated) and LNA power supply voltage is held off until 10 seconds after FPGA power gets stable, at which point heater current is enbled, and LNA power turns on two seconds later.
 
 ## Mechanical parts
 While the enclosure is centered around Modushop enclosure, few more mechanical parts were needed.
@@ -151,6 +155,7 @@ TODO picture of perspex cutout
 ![Enclosure with metal parts](/media/enc_1.jpg?raw=true)
 Complete internal construction without top cover
 ![Covers](/media/covers.jpg?raw=true)
+Dump of construction photographs is in imgur gallery [here](https://imgur.com/a/fnK1Evj)
 
 ## NVM usage
 #### Local interface
@@ -308,7 +313,6 @@ There is a few features the meter hardware is supposedly able to do, but are not
 
 
 ## Files contained in this repository
-
 - **firmware**
 	- **FPGA** - FPGA design entry files, Lattice Diamond project
 	- **STM32** - STM32 on Marge board firmware, part of a workspace of STM32CubeIDE
