@@ -109,13 +109,29 @@ I measured INL of ADC itself, against Solartron 7081 as reference. 0-10V voltage
 The INL of this magnitude may not be obviously needed for this application, but I wanted to employ ACAL functionality, where voltage transfer between ranges is expects good INL of the ADC, so I was after good linearity and spent some time honing it.
 
 #### PSU (Marge board)
-My first idea for PSU was to use two back-to-back 50Hz transformers. One would provide few volts (providing first isolation barrier and ground reference) and second would step it up to the level appropriate for +-16V and 5V DC outputs. Later I expended this idea by using audio frequency amplifier circuit to feed the second transformer and omitting the first transformer. Using AF amplifier (fed by appropriate oscilaltor) to drive transformer has a few advantages - the whole circuit could be powered from single DC voltage and oscillation frequency can be adjusted to find good compromise between leakage and efficiency. Using classic linear amplifiers would bring way too much thermal dissipation into the enclosure, so I opted for cheap and plentiful TPS3116 D-class amplifier. Oscillator signal - either from local single opamp multivibrator or amplified singal provided by MCU - is shaped by series of lowpass filter, so that amplifier is fed by low harmonic content signal. Transformer secondary is brought to fairly standard set of regulators with LM317/337 and 7805.
+My first idea for PSU was to use two back-to-back 50Hz transformers. One would provide few volts (providing first isolation barrier and ground reference) and second would step it up to the level appropriate for +-16V and 5V DC outputs. Later I expended this idea by using audio frequency amplifier circuit to feed the second transformer and omitting the first transformer. Using AF amplifier (fed by appropriate oscilaltor) to drive transformer has a few advantages - the whole circuit could be powered from single DC voltage and oscillation frequency can be adjusted to find good compromise between leakage and efficiency. Using classic linear amplifiers would bring way too much thermal dissipation into the enclosure, so I opted for cheap and plentiful TPS3116 D-class amplifier. Oscillator signal - either from local single opamp multivibrator or amplified singal provided by MCU - is shaped by series of lowpass filters, so that amplifier is fed by low harmonic content signal. Transformer secondary is brought to fairly standard set of regulators with LM317/337 and 7805.
 I measured ground leakage from the isolated PSU section and its efficiency as function of driving frequency.
 ![PSU graph](/media/psu-freq.PNG?raw=true)
-As per expectations, lower frequency also brings lower leakage current, but going too low causes efficiency to plummet at some point. I opted for 48Hz, where I measured leakage well below 200nA p-p. At this level leakage measurement is very sensitive to nearby electric fields and conducted interference. After enclosing the test setup into shielded box the measured leakage fell to 40nA p-p, indicating the previous measurement was too pessimistic. I believe even the 40nA figure is pessimistic still and influenced by shielding setup and the oscilloscope I used. For proper test results I'd need larger shielded cage and battery powered oscilloscope, but I didn't want to goo that deep.
+As per expectations, lower frequency also brings lower leakage current, but going too low causes efficiency to plummet at some point. I opted for 48Hz, where I measured leakage well below 200nA p-p. At this level leakage measurement is very sensitive to nearby electric fields and conducted interference. After enclosing the test setup into shielded box the measured leakage fell to 40nA p-p, indicating the previous measurement was too pessimistic. I believe even the 40nA figure is pessimistic still and influenced by shielding setup and the oscilloscope I used. For proper test results I'd need larger shielded cage and battery powered oscilloscope, but I didn't want to goo that far.
 
 ## Mechanical parts
-TODO
+While the enclosure is centered around Modushop enclosure, few more parts were needed.
+
+#### Reference cover
+This two-part 3D printed component prevents airflows around ADR1399 reference, decreasing its noise somehow.
+![Ref cover](/media/refcover.jpg?raw=true)
+![Ref cover](/media/refcover2.jpg?raw=true)
+
+#### Lisa board holder
+This 3D printed component keeps Lisa board in its place on back panel.
+![Back holder](/media/backpcb.jpg?raw=true)
+
+#### LNA cover
+This 3D printed component provides insulation of LNA board area from airflows.
+![LNA cover](/media/lnacover.jpg?raw=true)
+![LNA cover 2](/media/lnacover2.jpg?raw=true)
+The amount of influence on the readings was suprising to me. Here are two graphs of the shorted input measurement, one with cover, one without, the RMS noise voltage is nearly twofold for naked LNA.
+![LNA cover graph](/media/lnacover_graph.PNG?raw=true)
 
 ## NVM usage
 #### Local interface
