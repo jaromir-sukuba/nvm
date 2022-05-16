@@ -79,11 +79,11 @@ Designing such as instrument, especially on DIY base is a lot of pingponging bet
 That was the right time to take a look at electrical domain. The Earthy and floating parts (separated by isolation barrier) have to be physically separated in sub-enclosures (that calls for two PCBs as minimum) and in order to have easier debugging and modifications of the circuit, I decided to separate the floating part into two PCBs. One would hold FPGA control, reference and ADC, another one would consist of both amplifiers and ACAL circuits. Since the enclosure is 80mm tall, there is no problem to stack at least two PCBs on top of each other, via pinheaders and metric spacers.
 So, two PCBs for floating part, one for earthy part, but the backside connectors have to be mounted somehow - here I added another PCB and front panel pushbuttons also needed PCB for mechanical reasons, that resulted in total count of 5 PCBs. I named the PCBs with human names and gave them functionality:
 
-Bart - I felt like this one will be tricky and there will be problems with this one. Contains LNA, main amplifier, ACAL dividers and MUXes.  
-Homer - largest PCB, contains FPGA, ADC, references. Closely related to Bart.  
-Lisa - communication board, back panel PCB  
-Meggie - simplest PCB, just to hold buttons  
-Marge - contains PSU to feed all other PCBs, plus digital circuits.  
+**Bart** - I felt like this one will be tricky and there will be problems with this one. Contains LNA, main amplifier, ACAL dividers and MUXes.  
+**Homer** - largest PCB, contains FPGA, ADC, references. Closely related to Bart.  
+**Lisa** - communication board, back panel PCB  
+**Meggie** - simplest PCB, just to hold buttons  
+**Marge** - contains PSU to feed all other PCBs, plus digital circuits.  
 
 With electronics roughly separated into basic blocks, I returned back to mechanical design. By the time finished first sketches of the schematics files, I received the eclosure, so I could start with more practical details. It's much easier to visualize potential problems having the real enclosure in hands comapred to studying 3D files (if any, right). For circuit separation I opted for two sheet metal sub-enclosures.
 ![Internal metal parts](/media/mparts.png?raw=true). The smaller portion on right holding analog circuitry, the left portion to ohold earthy circuits - it's somehow shorter, to make room for backpanel PCB.
@@ -159,17 +159,17 @@ Z0 - zero function (see below) is not active on this range. Could be either 0 or
 ETH1 - Ethernet is connected and IP address provided via DHCP. Could be either 0 or 1.  
 
 Buttons functions:  
-INPUT - by clicking this button, instruments toggles between Input 1 and Input 2 on the 4-pin LEMO connector.  
-ZERO - this function enables zeroing measured value (by subtracting constant voltage offset measured at the instant of enabling the function). Each range has it's offset value and is independent of other ranges. Zeroing for given range is disabled by second button press.  
-FILT - pressing this button displays analog filter, digital filter and NPLC settings. Each hit of the button moves focus to next setting (value is changed by pressing UP/DOWN controls), third hit returns to default measurement display.  
-ACAL - pressing this button starts ACAL procedure and saves the calibration constans into EEPROM memory.  
-TRIG - not used in this firmware revision.  
-STORE - not used in this firmware revision.  
-RECALL - not used in this firmware revision.  
-MENU - enables menu. Moving across menu items is done by pressing UP and DOWN keys. Enter enables editing the item value - editation is performed using UP and DOWN keys. Escaping from the menu is possible via ESC button, saving and escaping via MENU button.  
-AUTO - not used in this firmware revision.  
-ENTER - apart from function in menu function, pressing ENTER in default mode displays IP address of the instrument (if attached to ethernet). Pressing ENTER again returns back to default state.  
-UP/DOWN - in menu or filter editing it serves function described above, in default mode it selects higher or lower measurement range.  
+**INPUT** - by clicking this button, instruments toggles between Input 1 and Input 2 on the 4-pin LEMO connector.  
+**ZERO** - this function enables zeroing measured value (by subtracting constant voltage offset measured at the instant of enabling the function). Each range has it's offset value and is independent of other ranges. Zeroing for given range is disabled by second button press.  
+**FILT** - pressing this button displays analog filter, digital filter and NPLC settings. Each hit of the button moves focus to next setting (value is changed by pressing UP/DOWN controls), third hit returns to default measurement display.  
+**ACAL** - pressing this button starts ACAL procedure and saves the calibration constans into EEPROM memory.  
+**TRIG** - not used in this firmware revision.  
+**STORE** - not used in this firmware revision.  
+**RECALL** - not used in this firmware revision.  
+**MENU** - enables menu. Moving across menu items is done by pressing UP and DOWN keys. Enter enables editing the item value - editation is performed using UP and DOWN keys. Escaping from the menu is possible via ESC button, saving and escaping via MENU button.  
+**AUTO** - not used in this firmware revision.  
+**ENTER** - apart from function in menu function, pressing ENTER in default mode displays IP address of the instrument (if attached to ethernet). Pressing ENTER again returns back to default state.  
+**UP/DOWN** - in menu or filter editing it serves function described above, in default mode it selects higher or lower measurement range.  
 
 #### Remote interface
 Instrument could be controlled remotely via ethernet interface, by issuing SCPI-compatible commands.  
@@ -293,6 +293,7 @@ There is a few features the meter hardware is supposedy able to do, but are not 
 - implement main frequency synchronous measurements. Zero-cross detector is already fitted on Marge board and ADC supports triggering by external signal, so it should be matter of firmware support.
 - implement input current compensation. All parts except of large value resistor are already on the board, so after fitting it this feature should be again matter of firmware.
 - polish the SCPI commands implementation, add more commands and full manual calibration features.
+- do more elaborate triggering, along with recording data into memory, to utilize all front panel buttons. 
 - do more exporation and testing of the ACAL feature. As it is, works fine, but I think it could do with better repeatability.
 - find lower power opamps types - this could decrase current consumption, which is always welcome in test gear.
 - provide support for GPIB. Not that I need GPIB that much, but I think exploration of GPIB could be interesting project.
@@ -300,24 +301,24 @@ There is a few features the meter hardware is supposedy able to do, but are not 
 
 ## Files contained in this repository
 
-- firmware
-	- FPGA - FPGA design entry files, Lattice Diamond project
-	- STM32 - STM32 on Marge board firmware, part of a workspace of STM32CubeIDE
-- hardware
-	- PCB-design_files - design files, one directory per board, each board is single Kicad v6 project
-	- PCB-production_files - gerber and BOM data, one directory per board
-	- Schematics_pdf - easy to read schematics in PDF format, one directory per board, plus top level interconnection diagram
-- media - pictures and photos for this readme file.
-- mechanical
-	- 3DP_back_panel_pcb_holder - component to keep Lisa board on back panel. Designed as single part, needs to be printed twice, one copy mirrored. Freecad design file and STL
-	- 3DP_LNA_cover - cover to keep LNA out of air turbulences. Designed as single part, needs to be printed twice, one copy mirrored. Freecad design file and STL
-	- 3DP_pushbutton_assembly - transfers front panel button to mains switch actuator. Three parts, each is needed once, contains freecad design file and STL files.
-	- 3DP_reference_cover - keeps votlage reference out of air turbulences. Two pars, each is needed once, contains freecad design file and STL files.
-	- acryllic_display_cover - frame of display cover to be cut from gray acryllic.
-	- metal_parts_internal - design files and manufacturing files for internal metal parts of the enclosure. 5 parts: four sheet metal (1mm thickness) components, one 2mm aluminium flat part. Each one is needed once.
-	- PCB_back_panel - back panel, designed as PCB in Kicad. I let them to manufacture it out of FR4, but alumium boards are option, too.
-	- PCB_front_panel - front panel, designed as PCB in Kicad. I let them to manufacture it out of FR4, but alumium boards are option, too.
-	- PCB_side_panel - side panel, designed as PCB in Kicad. FR4 material works, aluminium would probably too, if reflowed. Two pieces needed for enclosure.
+- **firmware**
+	- **FPGA** - FPGA design entry files, Lattice Diamond project
+	- **STM32** - STM32 on Marge board firmware, part of a workspace of STM32CubeIDE
+- **hardware**
+	- **PCB-design_files** - design files, one directory per board, each board is single Kicad v6 project
+	- **PCB-production_files** - gerber and BOM data, one directory per board
+	- **Schematics_pdf** - easy to read schematics in PDF format, one directory per board, plus top level interconnection diagram
+- **media** - pictures and photos for this readme file.
+- **mechanical**
+	- **3DP_back_panel_pcb_holder** - component to keep Lisa board on back panel. Designed as single part, needs to be printed twice, one copy mirrored. Freecad design file and STL
+	- **3DP_LNA_cover** - cover to keep LNA out of air turbulences. Designed as single part, needs to be printed twice, one copy mirrored. Freecad design file and STL
+	- **3DP_pushbutton_assembly** - transfers front panel button to mains switch actuator. Three parts, each is needed once, contains freecad design file and STL files.
+	- **3DP_reference_cover** - keeps votlage reference out of air turbulences. Two pars, each is needed once, contains freecad design file and STL files.
+	- **acryllic_display_cover** - frame of display cover to be cut from gray acryllic.
+	- **metal_parts_internal** - design files and manufacturing files for internal metal parts of the enclosure. 5 parts: four sheet metal (1mm thickness) components, one 2mm aluminium flat part. Each one is needed once.
+	- **PCB_back_panel** - back panel, designed as PCB in Kicad. I let them to manufacture it out of FR4, but alumium boards are option, too.
+	- **PCB_front_panel** - front panel, designed as PCB in Kicad. I let them to manufacture it out of FR4, but alumium boards are option, too.
+	- **PCB_side_panel** - side panel, designed as PCB in Kicad. FR4 material works, aluminium would probably too, if reflowed. Two pieces needed for enclosure.
 	
 ## Resume
 This project was much of fun and exploration, with side effect of gaining nanovoltmeter. I tried to do it as good as possible within hobby budget, at the expense of not very cheap nor easy circuit. That gave me idea of cherrypicking the good parts of this instrument, relaxing the design criteria somehow and making new project with significantly shorter and cheaper BOM. But that is subject of a different project.
