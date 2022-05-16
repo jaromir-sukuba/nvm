@@ -119,9 +119,9 @@ UP/DOWN - in menu or filter editing it serves function described above, in defau
 
 #### Remote interface
 Instrument could be controlled remotely via ethernet interface, by issuing SCPI-compatible commands.
-* IDN? - returns instrument identification  
-* RST - resets instrument  
-* CLS - clear status  
+IDN? - returns instrument identification  
+RST - resets instrument  
+CLS - clear status  
 SYSTem:ERRor[:NEXT] - lists system error  
 SYSTem:ERRor:COUNt? - return amount of system errors  
 SYSTem:VERSion? - returns instrument version string  
