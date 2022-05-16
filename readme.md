@@ -96,8 +96,19 @@ I went through a few design iterations of LNA and it took me roughly half of the
 Each 10 first stage amplifiers in noninverting configuration is brought to second stage summing amplifier, and all 10 second stage amplifiers are summed in third stage amplifier. Overall gain of the LNA is 1000.
 Last stage summing amplifier is also used to inject voltage to null offset voltage of LNA. Bart board has DAC and its amplifiers (U119 and U120) for this reason. Second channel of DAC is designed to compensate input current - by injecting current of opposite sign into LNA input. I measured the uncompensated current to be around 2nA and in my current hardware the injection resistor isn't fitted on board. By using this feature, I expect the current all well below 100pA.
 LNA injects ground current into ground net of the circuit, and the current is dependant on LNA input voltage (and therefore LNA output voltage, too). Ground current may cause unwanted votlage shifts between ground potentials of the circuit, especially at high gain operation. To counteract this ground current, amplifier with U121 is setup to source current of opposite polarityinto the ground, at areas where LNA resides.
-Bart board is 4-layer, with internal layers being ground nets. That is for both electrical and thermal reasons.
+Bart board is 4-layer, with internal layers being ground nets, for both electrical and thermal reasons.
 
+#### ADC (Homer board)
+The ADC is integrating, charge balance type with no rundown and residual integrator voltage reading. SN74LV4053 is used for integrator current steering, integrator is of classic two opamp composite type. The FPGA does multiple jobs here, apart from orchestrating actions around the ADC, it also provides interface between isolated serial link and multiple digital outputs used to switch relays, multiplexer and analog filter and does startup timing for smooth PSU startup.
+I measured INL of ADC itself, against Solartron 7081 as reference. 0-10V voltage sweep was provided by DIY precision voltage source (LTZ1000A reference, AD5791B DAC). Measured INL graph:
+![ADC INL graph](/media/lina.png?raw=true)
+The INL of this magnitude may not be obviously needed for this application, but I wanted to employ ACAL functionality, where voltage transfer between ranges is expects good INL of the ADC, so I was after good linearity and spent some time honing it.
+
+#### PSU (Marge board)
+My first idea for PSU was to use two back-to-back 50Hz transformers. One would provide few volts (providing first isolation barrier and ground reference) and second would step it up to the level appropriate for +-16V and 5V DC outputs. Later I expended this idea by using audio frequency amplifier circuit to feed the second transformer and omitting the first transformer. Using AF amplifier (fed by appropriate oscilaltor) to drive transformer has a few advantages - the whole circuit could be powered from single DC voltage and oscillation frequency can be adjusted to find good compromise between leakage and efficiency. Using classic linear amplifiers would bring way too much thermal dissipation into the enclosure, so I opted for cheap and plentiful TPS3116 D-class amplifier. Oscillator signal - either from local single opamp multivibrator or amplified singal provided by MCU - is shaped by series of lowpass filter, so that amplifier is fed by low harmonic content signal. Transformer secondary is brought to fairly standard set of regulators with LM317/337 and 7805.
+I measured ground leakage from the isolated PSU section and its efficiency as function of driving frequency.
+![PSU graph](/media/psu-freq.PNG?raw=true)
+As per expectations, lower frequency also brings lower leakage current, but going too low causes efficiency to plummet at some point. I opted for 48Hz, where I measured leakage well below 200nA p-p. At this level leakage measurement is very sensitive to nearby electric fields and conducted interference. After enclosing the test setup into shielded box the measured leakage fell to 40nA p-p, indicating the previous measurement was too pessimistic. I believe even the 40nA figure is pessimistic still and influenced by shielding setup and the oscilloscope I used. For proper test results I'd need larger shielded cage and battery powered oscilloscope, but I didn't want to goo that deep.
 
 ## NVM usage
 #### Local interface
@@ -167,11 +178,9 @@ I recorded roughly 9 hours worth of data with shorted input, while logging ambie
 ![Longer noise graph](/media/lnoise.png?raw=true)
 There is no clear temperature dependancy. I read the data as sensitivity to temperature changes is perhaps more prominent than the tempco of the instrument.
 #### Linearity
-At first I measured INL of ADC itself, against Solartron 7081 as reference. 0-10V voltage sweep was provided by DIY precision voltage source (LTZ1000A reference, AD5791B DAC). Measured INL graph:
-![ADC INL graph](/media/lina.png?raw=true)
-Then I measured the same INL with Bart PCB, this time with Keithley 2010 as reference meter.
+I measured the same INL of the NVM against Keithley 2010 as reference meter.
 ![NVM INL graph](/media/linn.png?raw=true)
-There are differences, but I believe it lies within acceptable margin for 6,5 digit meter.
+I believe it lies within acceptable margin for 6,5 digit meter.
 #### Bandwidth and normal mode rejection
 I measured ADC transfer function for sine input with 1Vp-p amplitude, stepped from 1Hz to 80Hz. Meter was set to 2NPLC, no autozero, analog filter on, 10V range.
 ![Frequency response graph](/media/freq.png?raw=true)
@@ -241,6 +250,9 @@ No external equipment needed for the meter to operate.
 #### Cost and component availability/repairablity
 Total cost of the instrument components is around 400EUR. All parts I used are off-the-shelf components or are easy to order, with the exception of power transformer. This is DIY-ed, but I believe many custom transformers manufacturers are able to deliver such as transformer.
 Apart from that, I tried to use components with most generic footprints - like SOT23 or SOIC8 for opamps, SOT23 for transistors, most of resistors do have universal footprint able to accomodate for MiniMELF (which I used becuase I wanted to), 1206 or 0805 resistor sizes, used common display interface and so on. This is to help with laternative components sourcing, topic so hot in 2022, when component crisis is so much influencing both professional as well as hobby electronics development and production. Despite my efforts, it's likely that some components in the BOM lists will be unavailable at usual vendors and it's hard to make future-proof designs in this respect.
+
+## Future plans
+TODO
 
 ## Files contained in this repository
 TODO
