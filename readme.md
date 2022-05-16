@@ -262,7 +262,7 @@ Yes, autozero and autocalibration provided.
 
 > Have galvanic isolated analog front end, with isolation resistance to earth/chassis better than 10 GΩ.
 
-Analog portion is isolated. Common mode current is below 100nA p-p.
+Analog portion is isolated. Common mode current is apparently below 100nA p-p.
 
 > Device should have ADC (any type) integrated.
 
@@ -312,4 +312,12 @@ There is a few features the meter hardware is supposedy able to do, but are not 
 	- 3DP_back_panel_pcb_holder - component to keep Lisa board on back panel. Designed as single part, needs to be printed twice, one copy mirrored. Freecad design file and STL
 	- 3DP_LNA_cover - cover to keep LNA out of air turbulences. Designed as single part, needs to be printed twice, one copy mirrored. Freecad design file and STL
 	- 3DP_pushbutton_assembly - transfers front panel button to mains switch actuator. Three parts, each is needed once, contains freecad design file and STL files.
- - 
+	- 3DP_reference_cover - keeps votlage reference out of air turbulences. Two pars, each is needed once, contains freecad design file and STL files.
+	- acryllic_display_cover - frame of display cover to be cut from gray acryllic.
+	- metal_parts_internal - design files and manufacturing files for internal metal parts of the enclosure. 5 parts: four sheet metal (1mm thickness) components, one 2mm aluminium flat part. Each one is needed once.
+	- PCB_back_panel - back panel, designed as PCB in Kicad. I let them to manufacture it out of FR4, but alumium boards are option, too.
+	- PCB_front_panel - front panel, designed as PCB in Kicad. I let them to manufacture it out of FR4, but alumium boards are option, too.
+	- PCB_side_panel - side panel, designed as PCB in Kicad. FR4 material works, aluminium would probably too, if reflowed. Two pieces needed for enclosure.
+	
+## Resume
+This project was much of fun and exploration, with side effect of gaining nanovoltmeter. I tried to do it as good as possible within hobby budget, at the expense of not very cheap nor easy circuit. That gave me idea of cherrypicking the good parts of this instrument, relaxing the design criteria somehow and making new project with significantly shorter and cheaper BOM. But that is subject of a different project.
