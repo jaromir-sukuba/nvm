@@ -186,7 +186,7 @@ I measured ADC transfer function for sine input with 1Vp-p amplitude, stepped fr
 ![Frequency response graph](/media/freq.png?raw=true)
 Resulting bandwidth for -3B is between 9 and 10Hz, normal mode rejection for 25, 50 and 75Hz is around -90dB
 #### Stepping the input with various voltages from Keithley 260 voltage source
-Meter set to 20NPLC, autozero on, analog filter on, 100uV range. Stepping by 10uV steps. The source has undergone massive repair and is out of calibration - but served well as test source to assess linearity and stability of NVM.
+Meter set to 20NPLC, autozero on, analog filter on, digital filter=2, 100uV range. Stepping by 10uV steps. The source has undergone massive repair and is out of calibration - but served well as test source to assess linearity and stability of NVM.
 ![10uV steps graph](/media/steps10uv.PNG?raw=true)
 And similarly for 1uV steps. Note that 10uV step is missing, due to bad step on Keithley 260 source.
 ![10uV steps graph](/media/steps1uv.PNG?raw=true)
