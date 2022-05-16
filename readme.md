@@ -115,7 +115,7 @@ I measured ground leakage from the isolated PSU section and its efficiency as fu
 As per expectations, lower frequency also brings lower leakage current, but going too low causes efficiency to plummet at some point. I opted for 48Hz, where I measured leakage well below 200nA p-p. At this level leakage measurement is very sensitive to nearby electric fields and conducted interference. After enclosing the test setup into shielded box the measured leakage fell to 40nA p-p, indicating the previous measurement was too pessimistic. I believe even the 40nA figure is pessimistic still and influenced by shielding setup and the oscilloscope I used. For proper test results I'd need larger shielded cage and battery powered oscilloscope, but I didn't want to goo that far.
 
 ## Mechanical parts
-While the enclosure is centered around Modushop enclosure, few more parts were needed.
+While the enclosure is centered around Modushop enclosure, few more mechanical parts were needed.
 
 #### Reference cover
 This two-part 3D printed component prevents airflows around ADR1399 reference, decreasing its noise somehow.
@@ -132,6 +132,17 @@ This 3D printed component provides insulation of LNA board area from airflows.
 ![LNA cover 2](/media/lnacover2.jpg?raw=true)
 The amount of influence on the readings was suprising to me. Here are two graphs of the shorted input measurement, one with cover, one without, the RMS noise voltage is nearly twofold for naked LNA.
 ![LNA cover graph](/media/lnacover_graph.PNG?raw=true)
+
+#### Side PCB
+Original Modushop enclosure fitted the outer enclosure panel by screwing to side meal sheets by swlf tapping screws. I didn't like this, so I drilled the original holes for self-tappers into 3,5mm diameter and mounted dedicated mechanical PCB with nothing than holes and copper plane to solder M3 nuts. This PCB keeps the internal chassis and outer shields in single piece.
+![Side PCB](/media/bok2.jpg?raw=true)
+
+#### Push button rod
+This is three piece 3D printed component to extend main switch shaft to front panel.
+TODO pictures.
+
+Complete internal construction without top cover
+![Covers](/media/covers.jpg?raw=true)
 
 ## NVM usage
 #### Local interface
@@ -262,7 +273,7 @@ I used ADR1399. Can't assess long-term stability by now.
 
 > Provide RJ45 Ethernet and/or IEEE-488 GPIB interface for communications with external world / external equipment.
 
-RJ45 Ethernet provided, hardware ready for GPIB, too. Apart from that, USB interface is on board.
+RJ45 Ethernet provided, hardware ready for GPIB, too. Apart from that, USB interface is available on board.
 
 > 40W total input power budget (friendly to battery operation for sensitive experiments)
 
