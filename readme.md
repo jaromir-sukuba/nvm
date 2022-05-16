@@ -3,7 +3,7 @@ Here are complete set of design files, manufacturing data, source files, test re
 ![Outside view](/media/IMG_0002_.jpg?raw=true)
 
 ## What is nanovoltmeter and what is it good for?
-Well, nanovoltmeter is voltmeter that has sensitity, noise and stability good enough to resolve voltages expressed in nanovolts. While many multimeters do have quite sensitive low voltage ranges, the resolution (least significant digit) is usually in order of hundreds of nanovolts - and value of this last digit is often diminished by noise and nonlinearity of the meter. So, for proper low signal measurements having higher sensitivity is mandatory.
+Well, nanovoltmeter is voltmeter that has sensitivity, noise and stability good enough to resolve voltages expressed in nanovolts. While many multimeters do have quite sensitive low voltage ranges, the resolution (least significant digit) is usually in order of hundreds of nanovolts - and value of this last digit is often diminished by noise and nonlinearity of the meter. So, for proper low signal measurements having higher sensitivity is mandatory.
 Measurement of such as low voltages is useful for many applications, for example resolving small voltage differences in various differential and bridge circuits, measurement of very small resistances - with appropriate current source.
 Commercial nanovoltmeters do exist, like Keithley model 2182A or Keysight 34420a, but with hefty price tag, so DIY design definitely has its place.
 
@@ -33,7 +33,7 @@ TEMF again, I told you so.
   
 > Provide at least 5½-digit resolution for each reading.
 
-Sounds reasonable. I've done long-scale ADC projects like [voltmeter](https://www.eevblog.com/forum/metrology/diy-6-5-digit-voltmeter/) and [voltohmmeter](https://www.eevblog.com/forum/metrology/diy-6-digit-handheld-volohmmeter/msg2978912/#msg2978912) so perhaps I could both recycle soemthing and also bring something new on the table. I think commercial sigma-delta AD converters would do the job too, but DIY ADC has definitely more to it.
+Sounds reasonable. I've done long-scale ADC projects like [voltmeter](https://www.eevblog.com/forum/metrology/diy-6-5-digit-voltmeter/) and [voltohmmeter](https://www.eevblog.com/forum/metrology/diy-6-digit-handheld-volohmmeter/msg2978912/#msg2978912) so perhaps I could both recycle something and also bring something new on the table. I think commercial sigma-delta AD converters would do the job too, but DIY ADC has definitely more to it.
 
 > Ability to digitize input DC signal with resolution at least 10 nV and noise better than 30 nV peak to peak over at least 0.1-10 Hz bandwidth.
 
@@ -71,11 +71,11 @@ After a bit of optimization, I came up with this block diagram.
 ![Block diagram](/media/block.png?raw=true)
 It's basically done to fit the requirements above, with a few spicy parts I added for extra fun.
 Input from either input connection is selected via input multiplexor. There is also third input, to be discussed later. This MUX passes selected channel to low noise amplifier (LNA) to be amplified and then routed via another MUX into next, main amplifier. Output of the amplifier is brought to ADC. This ADC has nominal 10V input range, so that basic range with LNA is 10mV (10mV x 1000 = 10V). In order to have even more sensitive ranges, main amplifier has option to switch to x1 (pass-through), x10 and x100 gain, combined into additional 1mV and 100uV ranges. When LNA is bypassed, input signal is brought directly to main amplifier, allowing for 10V, 1V and 100mV ranges, seamlessly covering 100uV to 10V input range. That would make nanovoltmeter already, but I added two more blocks - first is easy, low-pass filter (also known as LPF) to cut down noise, especially on sensitive ranges. Another one is auto-calibration block, which serves to decide gain of both amplifiers. In ideal case, the meter needs only to know its onboard 7V reference voltage and can derive lower ranges automatically without calibration/adjustment and keep it precise after resistors in dividers and amplifiers drift due to age or temperature.
-Whole upper portion of the circuit is held behing isolation barrier in order to keep input terminals separated from power supply potential - either external DC or mains voltage. Bottom portion is consisting mainly from PSU circuit and digital circuitry, including user IO and communication channels, like ethernet and USB. For added fun factor I also included GPIB as low priority subproject.
+Whole upper portion of the circuit is held behind isolation barrier in order to keep input terminals separated from power supply potential - either external DC or mains voltage. Bottom portion is consisting mainly from PSU circuit and digital circuitry, including user IO and communication channels, like ethernet and USB. For added fun factor I also included GPIB as low priority subproject.
 
 ## NVM design, part 2 - divide and conquer
 
-Designing such as instrument, especially on DIY base is a lot of pingponging between mechanical and eletrical design. I kind of could imagine how large the thing is going to be (say A4 page size as footprint) and I knew I had to cram everything inside. Optiong for larger enclosure would give me much more freedom and other benefits (like easier dissipation of device heat, helping to fight with TEMF), but would be impractically large. Finding appropriate enclosure wasn't easy - at first I thought of using G756 I used before in my [DIY SMU](https://github.com/jaromir-sukuba/J-SMU), but I preferred metal enclosures here - because of shielding of electrical interference, and with steel enclosure even a bit of magnetic interference. Metal also helps with heat dissipation. Finally I settled down on 1EP802825 from Modushop.
+Designing such as instrument, especially on DIY base is a lot of pingponging between mechanical and eletrical design. I kind of could imagine how large the thing is going to be (say A4 page size as footprint) and I knew I had to cram everything inside. Choosing for larger enclosure would give me much more freedom and other benefits (like easier dissipation of device heat, helping to fight with TEMF), but would be impractically large. Finding appropriate enclosure wasn't easy - at first I thought of using G756 I used before in my [DIY SMU](https://github.com/jaromir-sukuba/J-SMU), but I preferred metal enclosures here - because of shielding of electrical interference, and with steel enclosure even a bit of magnetic interference. Metal also helps with heat dissipation. Finally I settled down on 1EP802825 from Modushop.
 That was the right time to take a look at electrical domain. The Earthy and floating parts (separated by isolation barrier) have to be physically separated in sub-enclosures (that calls for two PCBs as minimum) and in order to have easier debugging and modifications of the circuit, I decided to separate the floating part into two PCBs. One would hold FPGA control, reference and ADC, another one would consist of both amplifiers and ACAL circuits. Since the enclosure is 80mm tall, there is no problem to stack at least two PCBs on top of each other, via pinheaders and metric spacers.
 So, two PCBs for floating part, one for earthy part, but the backside connectors have to be mounted somehow - here I added another PCB and front panel pushbuttons also needed PCB for mechanical reasons, that resulted in total count of 5 PCBs. I named the PCBs with human names and gave them functionality:
 
@@ -85,8 +85,8 @@ So, two PCBs for floating part, one for earthy part, but the backside connectors
 **Meggie** - simplest PCB, just to hold buttons  
 **Marge** - contains PSU to feed all other PCBs, plus digital circuits.  
 
-With electronics roughly separated into basic blocks, I returned back to mechanical design. By the time finished first sketches of the schematics files, I received the eclosure, so I could start with more practical details. It's much easier to visualize potential problems having the real enclosure in hands comapred to studying 3D files (if any, right). For circuit separation I opted for two sheet metal sub-enclosures.
-![Internal metal parts](/media/mparts.png?raw=true). The smaller portion on right holding analog circuitry, the left portion to ohold earthy circuits - it's somehow shorter, to make room for backpanel PCB.
+With electronics roughly separated into basic blocks, I returned back to mechanical design. By the time finished first sketches of the schematics files, I received the enclosure, so I could start with more practical details. It's much easier to visualize potential problems having the real enclosure in hands compared to studying 3D files (if any, right). For circuit separation I opted for two sheet metal sub-enclosures.
+![Internal metal parts](/media/mparts.png?raw=true). The smaller portion on right holding analog circuitry, the left portion to hold earthy circuits - it's somehow shorter, to make room for backpanel PCB.
 I designed bunch of holes into the enclosures to allow mounting PCBs via metric spacers and now having physical constraints I jumped back to PCB design.
 
 
@@ -99,7 +99,7 @@ The noise parameters were in good agreement with datasheet values, that gave me 
 ![LNA diagram](/media/amp.PNG?raw=true)
 Each 10 first stage amplifiers in noninverting configuration is brought to second stage summing amplifier, and all 10 second stage amplifiers are summed in third stage amplifier. Overall gain of the LNA is 1000.
 Last stage summing amplifier is also used to inject voltage to null offset voltage of LNA. Bart board has DAC and its amplifiers (U119 and U120) for this reason. Second channel of DAC is designed to compensate input current - by injecting current of opposite sign into LNA input. I measured the uncompensated current to be around 2nA and in my current hardware the injection resistor isn't fitted on board. By using this feature, I expect the current all well below 100pA.
-LNA injects ground current into ground net of the circuit, and the current is dependant on LNA input voltage (and therefore LNA output voltage, too). Ground current may cause unwanted votlage shifts between ground potentials of the circuit, especially at high gain operation. To counteract this ground current, amplifier with U121 is setup to source current of opposite polarityinto the ground, at areas where LNA resides.
+LNA injects ground current into ground net of the circuit, and the current is dependent on LNA input voltage (and therefore LNA output voltage, too). Ground current may cause unwanted voltage shifts between ground potentials of the circuit, especially at high gain operation. To counteract this ground current, amplifier with U121 is setup to source current of opposite polarity into the ground, into areas where LNA resides.
 Bart board is 4-layer, with internal layers being ground nets, for both electrical and thermal reasons.
 
 #### ADC (Homer board)
@@ -109,7 +109,7 @@ I measured INL of ADC itself, against Solartron 7081 as reference. 0-10V voltage
 The INL of this magnitude may not be obviously needed for this application, but I wanted to employ ACAL functionality, where voltage transfer between ranges is expects good INL of the ADC, so I was after good linearity and spent some time honing it.
 
 #### PSU (Marge board)
-My first idea for PSU was to use two back-to-back 50Hz transformers. One would provide few volts (providing first isolation barrier and ground reference) and second would step it up to the level appropriate for +-16V and 5V DC outputs. Later I expended this idea by using audio frequency amplifier circuit to feed the second transformer and omitting the first transformer. Using AF amplifier (fed by appropriate oscilaltor) to drive transformer has a few advantages - the whole circuit could be powered from single DC voltage and oscillation frequency can be adjusted to find good compromise between leakage and efficiency. Using classic linear amplifiers would bring way too much thermal dissipation into the enclosure, so I opted for cheap and plentiful TPS3116 D-class amplifier. Oscillator signal - either from local single opamp multivibrator or amplified singal provided by MCU - is shaped by series of lowpass filters, so that amplifier is fed by low harmonic content signal. Transformer secondary is brought to fairly standard set of regulators with LM317/337 and 7805.
+My first idea for PSU was to use two back-to-back 50Hz transformers. One would provide few volts (providing first isolation barrier and ground reference) and second would step it up to the level appropriate for +-16V and 5V DC outputs. Later I expended this idea by using audio frequency amplifier circuit to feed the second transformer and omitting the first transformer. Using AF amplifier (fed by appropriate oscillator) to drive transformer has a few advantages - the whole circuit could be powered from single DC voltage and oscillation frequency can be adjusted to find good compromise between leakage and efficiency. Using classic linear amplifiers would bring way too much thermal dissipation into the enclosure, so I opted for cheap and plentiful TPS3116 D-class amplifier. Oscillator signal - either from local single opamp multivibrator or amplified signal provided by MCU - is shaped by series of lowpass filters, so that amplifier is fed by low harmonic content signal. Transformer secondary is brought to fairly standard set of regulators with LM317/337 and 7805.
 I measured ground leakage from the isolated PSU section and its efficiency as function of driving frequency.
 ![PSU graph](/media/psu-freq.PNG?raw=true)
 As per expectations, lower frequency also brings lower leakage current, but going too low causes efficiency to plummet at some point. I opted for 48Hz, where I measured leakage well below 200nA p-p. At this level leakage measurement is very sensitive to nearby electric fields and conducted interference. After enclosing the test setup into shielded box the measured leakage fell to 40nA p-p, indicating the previous measurement was too pessimistic. I believe even the 40nA figure is pessimistic still and influenced by shielding setup and the oscilloscope I used. For proper test results I'd need larger shielded cage and battery powered oscilloscope, but I didn't want to goo that far.
@@ -135,7 +135,7 @@ The amount of influence on the readings was suprising to me. Here are two graphs
 ![LNA cover graph](/media/lnacover_graph.PNG?raw=true)
 
 #### Side PCB
-Original Modushop enclosure fitted the outer enclosure panel by screwing to side meal sheets by swlf tapping screws. I didn't like this, so I drilled the original holes for self-tappers into 3,5mm diameter and mounted dedicated mechanical PCB with nothing than holes and copper plane to solder M3 nuts. This PCB keeps the internal chassis and outer shields in single piece. I think this part would be somehow better made out of >3mm thick aluminium board of the same size, with drilled and tapped holes, but PCB seems to work fine, for now.
+Original Modushop enclosure fitted the outer enclosure panel by screwing to side meal sheets by self tapping screws. I didn't like this, so I drilled the original holes for self-tappers into 3,5mm diameter and mounted dedicated mechanical PCB with nothing than holes and copper plane to solder M3 nuts. This PCB keeps the internal chassis and outer shields in single piece. I think this part would be somehow better made out of >3mm thick aluminium board of the same size, with drilled and tapped holes, but PCB seems to work fine, for now.
 ![Side PCB](/media/bok2.jpg?raw=true)
 
 #### Push button rod
@@ -155,7 +155,7 @@ Complete internal construction without top cover
 ## NVM usage
 #### Local interface
 ![Front panel](/media/fpanel.png?raw=true)
-13 keys are provided for instrument operation, plus 2-line by 20 characters vacuum flourescent display.
+13 keys are provided for instrument operation, plus 2-line by 20 characters vacuum fluorescent display.
 After startup the meter enters default (measurement) mode, with settings read from EEPROM. Typical display layout:
 ![Display example](/media/disp.png?raw=true)
 The first line displays measured voltage and range in obvious way.  
@@ -169,11 +169,11 @@ Buttons functions:
 **INPUT** - by clicking this button, instruments toggles between Input 1 and Input 2 on the 4-pin LEMO connector.  
 **ZERO** - this function enables zeroing measured value (by subtracting constant voltage offset measured at the instant of enabling the function). Each range has it's offset value and is independent of other ranges. Zeroing for given range is disabled by second button press.  
 **FILT** - pressing this button displays analog filter, digital filter and NPLC settings. Each hit of the button moves focus to next setting (value is changed by pressing UP/DOWN controls), third hit returns to default measurement display.  
-**ACAL** - pressing this button starts ACAL procedure and saves the calibration constans into EEPROM memory.  
+**ACAL** - pressing this button starts ACAL procedure and saves the calibration constants into EEPROM memory.  
 **TRIG** - not used in this firmware revision.  
 **STORE** - not used in this firmware revision.  
 **RECALL** - not used in this firmware revision.  
-**MENU** - enables menu. Moving across menu items is done by pressing UP and DOWN keys. Enter enables editing the item value - editation is performed using UP and DOWN keys. Escaping from the menu is possible via ESC button, saving and escaping via MENU button.  
+**MENU** - enables menu. Moving across menu items is done by pressing UP and DOWN keys. Enter enables editing the item value - editing is performed using UP and DOWN keys. Escaping from the menu is possible via ESC button, saving and escaping via MENU button.  
 **AUTO** - not used in this firmware revision.  
 **ENTER** - apart from function in menu function, pressing ENTER in default mode displays IP address of the instrument (if attached to ethernet). Pressing ENTER again returns back to default state.  
 **UP/DOWN** - in menu or filter editing it serves function described above, in default mode it selects higher or lower measurement range.  
@@ -209,7 +209,7 @@ SENSe:AZero? - return ADC autozero setting
 SYSTem:BEEPer - single integer parameter, sets beeper off (0) or on (1)  
 SYSTem:BEEPer? - return beeper state  
 
-NVM is fully calibrated by ACAL feature. For this it needs to have its reference voltage setup in calibration memory before running ACAL function. The value is accesible only through remote interface and its CALibration:VREF command. If the reference value in calibration memory is outside 6,95-7,3V range, default value 7,05V is assumed. At the moment, individual range calibration isn't supported, but probably will be in future firmware revisions.
+NVM is fully calibrated by ACAL feature. For this it needs to have its reference voltage setup in calibration memory before running ACAL function. The value is accessible only through remote interface and its CALibration:VREF command. If the reference value in calibration memory is outside 6,95-7,3V range, default value 7,05V is assumed. At the moment, individual range calibration isn't supported, but probably will be in future firmware revisions.
 
 ## NVM project goals
 In this section I'll discuss performance of this instrument and project goals 
@@ -220,7 +220,7 @@ The noise is below 25nV p-p.
 #### Stability
 I recorded roughly 9 hours worth of data with shorted input, while logging ambient temperature too. Meter set to 10NPLC, autozero on, analog filter on. I separated the data into 64 seconds long chunks, averaged it and used as data points. I tried to control the room temperature to obtain some variation.
 ![Longer noise graph](/media/lnoise.png?raw=true)
-There is no clear temperature dependancy. I read the data as sensitivity to temperature changes is perhaps more prominent than the tempco of the instrument.
+There is no clear temperature dependency. I read the data as sensitivity to temperature changes is perhaps more prominent than the tempco of the instrument.
 #### Linearity
 I measured the same INL of the NVM against Keithley 2010 as reference meter.
 ![NVM INL graph](/media/linn.png?raw=true)
@@ -291,19 +291,19 @@ Current draw is 12W.
 
 No external equipment needed for the meter to operate.
 
-#### Cost and component availability/repairablity
+#### Cost and component availability/repairability
 Total cost of the instrument components is around 400EUR. All parts I used are off-the-shelf components or are easy to order, with the exception of power transformer. This is DIY-ed, but I believe many custom transformers manufacturers are able to deliver such as transformer.
-Apart from that, I tried to use components with most generic footprints - like SOT23 or SOIC8 for opamps, SOT23 for transistors, most of resistors do have universal footprint able to accomodate for MiniMELF (which I used becuase I wanted to), 1206 or 0805 resistor sizes, used common display interface and so on. This is to help with laternative components sourcing, topic so hot in 2022, when component crisis is so much influencing both professional as well as hobby electronics development and production. Despite my efforts, it's likely that some components in the BOM lists will be unavailable at usual vendors and it's hard to make future-proof designs in this respect.
+Apart from that, I tried to use components with most generic footprints - like SOT23 or SOIC8 for opamps, SOT23 for transistors, most of resistors do have universal footprint able to accommodate for MiniMELF (which I used because I wanted to), 1206 or 0805 resistor sizes, used common display interface and so on. This is to help with alternative components sourcing, topic so hot in 2022, when component crisis is so much influencing both professional as well as hobby electronics development and production. Despite my efforts, it's likely that some components in the BOM lists will be unavailable at usual vendors and it's hard to make future-proof designs in this respect.
 
 ## Future plans
-There is a few features the meter hardware is supposedy able to do, but are not implemented at the moment and I consider this as TODO list for future work on this project.
+There is a few features the meter hardware is supposedly able to do, but are not implemented at the moment and I consider this as TODO list for future work on this project.
 - implement main frequency synchronous measurements. Zero-cross detector is already fitted on Marge board and ADC supports triggering by external signal, so it should be matter of firmware support.
 - implement input current compensation. All parts except of large value resistor are already on the board, so after fitting it this feature should be again matter of firmware.
 - polish front panel user interface
 - polish the SCPI commands implementation, add more commands and full manual calibration features.
 - do more elaborate triggering, along with recording data into memory, to utilize all front panel buttons. 
-- do more exporation and testing of the ACAL feature. As it is, works fine, but I think it could do with better repeatability.
-- find lower power opamps types - this could decrase current consumption, which is always welcome in test gear.
+- do more exploration and testing of the ACAL feature. As it is, works fine, but I think it could do with better repeatability.
+- find lower power opamps types - this could decrease current consumption, which is always welcome in test gear.
 - provide support for GPIB. Not that I need GPIB that much, but I think exploration of GPIB could be interesting project.
 
 
@@ -321,7 +321,7 @@ There is a few features the meter hardware is supposedy able to do, but are not 
 	- **3DP_back_panel_pcb_holder** - component to keep Lisa board on back panel. Designed as single part, needs to be printed twice, one copy mirrored. Freecad design file and STL
 	- **3DP_LNA_cover** - cover to keep LNA out of air turbulences. Designed as single part, needs to be printed twice, one copy mirrored. Freecad design file and STL
 	- **3DP_pushbutton_assembly** - transfers front panel button to mains switch actuator. Three parts, each is needed once, contains freecad design file and STL files.
-	- **3DP_reference_cover** - keeps votlage reference out of air turbulences. Two pars, each is needed once, contains freecad design file and STL files.
+	- **3DP_reference_cover** - keeps voltage reference out of air turbulences. Two pars, each is needed once, contains freecad design file and STL files.
 	- **acryllic_display_cover** - frame of display cover to be cut from gray acryllic.
 	- **metal_parts_internal** - design files and manufacturing files for internal metal parts of the enclosure. 5 parts: four sheet metal (1mm thickness) components, one 2mm aluminium flat part. Each one is needed once.
 	- **PCB_back_panel** - back panel, designed as PCB in Kicad. I let them to manufacture it out of FR4, but alumium boards are option, too.
