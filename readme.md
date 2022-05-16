@@ -125,6 +125,7 @@ This two-part 3D printed component prevents airflows around ADR1399 reference, d
 #### Lisa board holder
 This 3D printed component keeps Lisa board in its place on back panel.
 ![Back holder](/media/backpcb.jpg?raw=true)
+![Back panel](/media/backpanel.jpg?raw=true)
 
 #### LNA cover
 This 3D printed component provides insulation of LNA board area from airflows.
@@ -141,6 +142,12 @@ Original Modushop enclosure fitted the outer enclosure panel by screwing to side
 This is three piece 3D printed component to extend main switch shaft to front panel.  
 TODO pictures.
 
+#### Front panel construction
+Display cover is epoxied into the front panel cutout, display is bolted to Meggie board and this board is bolted to font panel.
+TODO picture of perspex cutout
+![Enclosure with metal parts](/media/frontpcb.jpg?raw=true)
+
+#### Inernal construction details
 ![Enclosure with metal parts](/media/enc_1.jpg?raw=true)
 Complete internal construction without top cover
 ![Covers](/media/covers.jpg?raw=true)
