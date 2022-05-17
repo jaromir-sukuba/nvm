@@ -37,7 +37,7 @@ Sounds reasonable. I've done long-scale ADC projects like [voltmeter](https://ww
 
 > Ability to digitize input DC signal with resolution at least 10 nV and noise better than 30 nV peak to peak over at least 0.1-10 Hz bandwidth.
 
-More numeric requirements, nice. 30nVp-p in 10Hz bandwidth is not very relaxed requirement - older meters like Keithley model 181 would cut it, current models so-so.
+More numeric requirements, nice. 30nVp-p in 10Hz bandwidth is not very relaxed requirement - older meters like Keithley model 181 would not cut it, current models so-so.
 
 > Have autozero functionality to correct for static offsets.
 
