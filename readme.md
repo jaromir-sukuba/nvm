@@ -325,7 +325,7 @@ There is a few features the meter hardware is supposedly able to do, but are not
 	- **3DP_back_panel_pcb_holder** - component to keep Lisa board on back panel. Designed as single part, needs to be printed twice, one copy mirrored. Freecad design file and STL
 	- **3DP_LNA_cover** - cover to keep LNA out of air turbulences. Designed as single part, needs to be printed twice, one copy mirrored. Freecad design file and STL
 	- **3DP_pushbutton_assembly** - transfers front panel button to mains switch actuator. Three parts, each is needed once, contains freecad design file and STL files.
-	- **3DP_reference_cover** - keeps voltage reference out of air turbulences. Two pars, each is needed once, contains freecad design file and STL files.
+	- **3DP_reference_cover** - keeps voltage reference out of air turbulences. Two parts, each is needed once, contains freecad design file and STL files.
 	- **acryllic_display_cover** - frame of display cover to be cut from gray acryllic.
 	- **metal_parts_internal** - design files and manufacturing files for internal metal parts of the enclosure. 5 parts: four sheet metal (1mm thickness) components, one 2mm aluminium flat part. Each one is needed once.
 	- **PCB_back_panel** - back panel, designed as PCB in Kicad. I let them to manufacture it out of FR4, but alumium boards are option, too.
