@@ -1,9 +1,9 @@
 ## What is in this repository?
-Here are the complete set of design files, manufacturing data, source files, test results and other resources that I used in the process of building a nanovoltmeter. This process was not a coincidence, but a response to the nanovoltmeter challenge by TiN on [his website](https://xdevs.com/article/nvm_comp/)
+Here is the complete set of design files, manufacturing data, source files, test results and other resources that I used in the process of building a nanovoltmeter. This process was not a coincidence, but a response to the nanovoltmeter challenge by TiN on [his website](https://xdevs.com/article/nvm_comp/)
 ![Outside view](/media/IMG_0002_.jpg?raw=true)
 
 ## What is a nanovoltmeter and what is it good for?
-Well, a nanovoltmeter is a voltmeter that has the sensitivity, noise and stability to resolve voltages down to the nanovolts. While many multimeters do have quite sensitive low voltage ranges, the resolution (least significant digit) is usually in the order of hundreds of nanovolts - and value of this last digit is often diminished by the noise and nonlinearity of the meter. So, for proper low signal measurements, having a higher sensitivity is mandatory.
+Well, a nanovoltmeter is a voltmeter that has the sensitivity, noise and stability to resolve voltages down to the nanovolt. While many multimeters do have quite sensitive low voltage ranges, the resolution (least significant digit) is usually in the order of hundreds of nanovolts - and value of this last digit is often diminished by the noise and nonlinearity of the meter. So, for proper low signal measurements, having a higher sensitivity is mandatory.
 Measurement of such low voltages is useful for many applications, for example resolving small voltage differences in various differential and bridge circuits and the measurement of very small resistances - with an appropriate current source.
 Commercial nanovoltmeters do exist, like the Keithley model 2182A or Keysight 34420A, but with a hefty price tag, so a DIY design definitely has its place.
 
@@ -21,7 +21,7 @@ This one calls for either DC or AC power, but it could be combined by having a P
 
 > Provide DC Voltage measurement ranges ±100 µV or below and include ±1V and ±10VDC range.
 
-This one looks innocent, but having both 10V and 100uV input on the same jacks implies either switching input amplifiers, or inserting a voltage divider into the signal path, preferable through a relay. Some older nanovoltmeters (Keithley model 181) had two different inputs - one for higher ranges, another one with low TEMF connector for sensitive ranges.
+This one looks innocent, but having both 10V and 100uV input on the same jacks implies either switching input amplifiers, or inserting a voltage divider into the signal path, preferably through a relay. Some older nanovoltmeters (Keithley model 181) had two different inputs - one for higher ranges, another one with low TEMF connector for sensitive ranges.
 
 > Have at least two user-accessible input channels for signal to be measured.
 
@@ -41,7 +41,7 @@ More numeric requirements, nice. 30nVp-p in 10Hz bandwidth is not a very relaxed
 
 > Have autozero functionality to correct for static offsets.
 
-That is a logical requirement. I put in some more effort and introduce autocalibration.
+That is a logical requirement. I will put in some more effort by introducing autocalibration.
 
 > Have galvanic isolated analog front end, with isolation resistance to earth/chassis better than 10 GΩ.
 
@@ -75,7 +75,7 @@ The entire upper portion of the circuit is held behind an isolation barrier in o
 
 ## NVM design, part 2 - divide and conquer
 
-Designing such an instrument, especially on a DIY base, is a lot of pingponging between mechanical and eletrical design. I could imagine how large the thing would be (say, an A4 page size as a footprint) and I knew I had to cram everything inside. Choosing a larger enclosure would give me much more freedom and other benefits (like easier dissipation of device heat, helping fight TEMF), but would be impractically large. Finding an appropriate enclosure wasn't easy - at first I thought of using G756 I used before in my [DIY SMU](https://github.com/jaromir-sukuba/J-SMU), but I preferred metal enclosures here - because of shielding from electrical interference, and with a steel enclosure even a bit of sheilding from magnetic interference. Metal also helps with heat dissipation. Finally I settled on the 1EP802825 from Modushop.
+Designing such an instrument, especially on a DIY base, is a lot of pingponging between mechanical and eletrical design. I could imagine how large the thing would be (say, an A4 page size as a footprint) and I knew I had to cram everything inside. Choosing a larger enclosure would give me much more freedom and other benefits (like easier dissipation of device heat, helping fight TEMF), but would be impractically large. Finding an appropriate enclosure wasn't easy - at first I thought of using G756 I used before in my [DIY SMU](https://github.com/jaromir-sukuba/J-SMU), but I preferred metal enclosures here - because of shielding from electrical interference, and with a steel enclosure even a bit of shielding from magnetic interference. Metal also helps with heat dissipation. Finally I settled on the 1EP802825 from Modushop.
 That was the right time to take a look at the electrical domain. The Earthy and floating parts (separated by an isolation barrier) have to be physically separated in sub-enclosures (that calls for two PCBs minimum) and in order to have easier debugging and modification of the circuit, I decided to separate the floating part into two PCBs. One would hold FPGA control, the reference and ADC, while another one would consist of both amplifiers and ACAL circuits. Since the enclosure is 80mm tall, there is no problem stacking at least two PCBs on top of each other, via pin headers and metric spacers.
 So, two PCBs for the floating part, one for the earthy part. The backside connectors have to be mounted somehow - here I added another PCB. The front panel pushbuttons also needed a PCB for mechanical reasons, that resulted in a total count of 5 PCBs. I named the PCBs with human names and gave them functionality:
 
@@ -97,7 +97,7 @@ I went through a few design iterations of the LNA and it took me roughly half of
 ![Amp35](/media/amp_t1.jpg?raw=true)
 The noise parameters were in good agreement with the datasheet values, that gave me confidence to go this way. As calculated, I need at least 50 MCP6V51s to get under 30nV p-p criteria, so I opted for 100 pieces, in 10x10 matrix, as per the schematic below
 ![LNA diagram](/media/amp.PNG?raw=true)
-Each of the first 10 stage amplifiers in noninverting configuration is brought to a second stage summing amplifier, and all 10 second stage amplifiers are summed into a third stage amplifier. Overall gain of the LNA is 1000.
+Each of the first stage gain blocks (with 10 amplifiers in parallel noninverting configuration) is brought to a second stage summing amplifier, and all 10 of the second stage amplifiers are summed into a third, and final, amplifier, with an overall gain of 1000.
 The last stage summing amplifier is also used to inject a voltage to null the offset voltage of LNA. The Bart board has a DAC and its amplifiers (U119 and U120) for this reason. The DAC's second channel is designed to compensate for input current - by injecting a current of opposite sign into the LNA input. I measured the uncompensated current to be around 2nA and in my current hardware the injection resistor isn't fitted on the board. By using this feature, I expect a current well below 100pA.
 The LNA injects ground current into the ground net of the circuit, and the current is dependent on input voltage (and therefore output voltage, too). Ground current may cause unwanted voltage shifts between ground potentials of the circuit, especially at high gains. To counteract this ground current, amplifier with U121 is set up to source current of opposite polarity into the ground, into areas where the LNA resides.
 The Bart board is 4-layer, with internal layers being ground nets, for both electrical and thermal reasons.
