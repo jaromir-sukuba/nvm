@@ -1,6 +1,10 @@
+***Please note this nanovoltmeter design was superseded by a new and better design, which will go public in [this Github repository](https://github.com/jaromir-sukuba/nvm2). Soon(TM)***
+
+
 ## What is in this repository?
 Here is the complete set of design files, manufacturing data, source files, test results and other resources that I used in the process of building a nanovoltmeter. This process was not a coincidence, but a response to the nanovoltmeter challenge by TiN on [his website](https://xdevs.com/article/nvm_comp/)
 ![Outside view](/media/IMG_0002_.jpg?raw=true)
+
 
 ## What is a nanovoltmeter and what is it good for?
 Well, a nanovoltmeter is a voltmeter that has the sensitivity, noise and stability to resolve voltages down to the nanovolt. While many multimeters do have quite sensitive low voltage ranges, the resolution (least significant digit) is usually in the order of hundreds of nanovolts - and value of this last digit is often diminished by the noise and nonlinearity of the meter. So, for proper low signal measurements, having a higher sensitivity is mandatory.
